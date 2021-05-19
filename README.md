@@ -1,4 +1,4 @@
-# Stay Vertical Pole Studio #
+# Stay Vertical Pole Studio 
 Based on a fictional business offering pole dancing lessons, this website was built for assignment purposes for Code Insitute's Full Stack Development diploma. This is a fully responsive website that was built with user-centric principles in mind, using HTML and CSS. 
 
 # Table of contents
@@ -21,3 +21,65 @@ Based on a fictional business offering pole dancing lessons, this website was bu
 * [Deployment](https://github.com/lmw95/polestudioproject#deployment)
 * [Credits & Acknowledgements](https://github.com/lmw95/polestudioproject#credits--Acknowledgements)
 
+---
+
+# UX 
+## Strategy 
+Stay Vertical is a fictional pole studio based in Lowestoft Suffolk which is the only one of its kind in the town, set up by a former adult entertainer is fully insured, and has qualifications and certifications in teaching pole dancing and health and safety. 
+
+The studio is relatively new, but is looking to expand their customer base and their local pole community through social media.
+
+Due to the recent increase in customers, Stay Vertical is looking for a modern, responsive website that boosts their online presence and welcomes users from their very first visit.
+
+## Goals
+### Business Goals 
+By having a new website, the business owner wants to:
+* Create and grow an online and in-person community
+* Expand customer base
+* Promote inclusivity and accessibility
+* Advertise classes to customers, both new to pole and existing pole dancers
+
+### User Goals
+When visiting the website, the user wants to:
+* Access website across a range of devices
+* See the range of classes and bookings (prices, ability levels and lesson types)
+* To access the owners contact information
+* Check where company is located (locality)
+* To feel comfortable attending classes without fear of discrimination or self-conscious
+
+## User Stories 
+### First-time users
+As a first-time user:
+* I want the website to work on all devices
+* I want to be inspired by the studio as soon as I enter the page
+* I want to feel comfortable that I will be welcome here
+* I want the website to be easy to navigate
+* I want to know where the company is located 
+* I want the owners contact details so that I can ask any questions 
+* It is important to know what to wear and bring to my first lesson with this studio
+* It is important that the information is not cluttered on the page
+* I want to know about the instructors to feel at ease
+* I want to see the class sizes so that I can judge my comfort levels and feel comfortable with the number of students at one time
+* I want to know about COVID-19 precautions so I know I will be safe during my time at the studio
+
+### Returning users:
+As a returning user:
+* I want to be able to submit an enquiry quickly through the website as I am now familiar with the owners
+* I expect the social media links to work and open in another tab so that I can join the local community
+* I want to know more about the instructors credentials so that I can recommend them to my friends
+* I want a clear and simple booking system that I can use quickly
+* I want to see further reviews so that I can recommend to my friends
+* I want to see class sizes so that I can plan for future classes
+* I want to know about COVID-19 precautions so I know I will be safe during my lessons
+
+### Business owner:
+As the business owner:
+* I want a to create an online presence that stands out from the competition
+* I want to provide clear navigation of the website to advertise classes and prices
+* I want to emphasise inclusivity and accessibility in my studio
+* I want to feature my and my instructors' backstories so customers can feel at ease when they first visit 
+* I want to to encourage users to get in touch so that I can answer any questions they have
+* I want to provide links to our social media accounts to grow my online community and retain returning customers
+* I want to emphasise the saftey (in terms of COVID-19 and physical safety) of my staff and customers due to the nature of the services that my company provides
+
+## Design 
