@@ -71,10 +71,15 @@ header {
 
 @media (min-width: 480px) and (max-width: 798px) {
     
+    #header-background {
+        height: 500px;
+    }
+
     #navbar {
         position: absolute;
         bottom: 0;
         height: 200px;
+        width: 100%;
     }
     
     #nav-menu {
@@ -85,7 +90,7 @@ header {
 
 @media (min-width: 798px) and (max-width: 1024px) {
     header {
-        height: 400px;
+        height: 700px;
     }
     
     #navbar {
