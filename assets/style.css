@@ -13,3 +13,8 @@ body {
     overflow-x: hidden;
 }
 
+/*-------------Header-------------*/
+
+header {
+    height: 600px;
+}
