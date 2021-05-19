@@ -116,28 +116,40 @@ header h1 {
 
 @media (min-width: 480px) and (max-width: 798px) {
     
+    /*Header*/
     #header-background {
-        height: 500px;
+        height: 300px;
     }
 
     header h1 {
         display: none;
     }
 
+    /*Navigation*/
     #navbar {
-        position: absolute;
-        bottom: 0;
-        height: 200px;
+        position: relative;
+        height: 240px;
         width: 100%;
     }
     
     #nav-menu {
         flex-direction: column;
     }
+
+    /*About*/ 
+    #about h1 {
+        font-size: 3em;
+    }
+
+    #about h2 {
+        font-size: 0.8em; 
+        line-height: 20px;
+    }
 }
 
 @media (min-width: 798px) and (max-width: 1024px) {
     
+    /*Header*/
     header {
         height: 700px;
     }
@@ -146,7 +158,22 @@ header h1 {
         margin-left: 100px;
     }
 
+    /*Navigation*/
     #navbar {
         width: 100%;
+    }
+
+    /*About*/
+    #about {
+        width: 100%;
+        position: relative;
+    }
+
+    #about h1 {
+        letter-spacing: 4px;
+    }
+
+    #about h2 {
+        font-size: 1.1em;
     }
 }
