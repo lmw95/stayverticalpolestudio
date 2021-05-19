@@ -309,7 +309,7 @@ button a {
 
     /*About*/
     #about {
-        height: 1700px;
+        height: 2100px;
         width: 100%;
         position: relative;
     }
@@ -323,7 +323,7 @@ button a {
     }
 
     #about-container {
-        height: 1100px;
+        height: 1600px;
         flex-direction: column;
     }
 
@@ -333,12 +333,11 @@ button a {
     }
 
     #about-container h3 {
-        margin-top: 40px;
         font-size: 2em;
     }
 
     #about-container p {
-        font-size: 1.2em;
+        font-size: 1.7em;
     }
 
     #about-right ul {
@@ -350,5 +349,15 @@ button a {
         display: inline-block;
         margin-left: -50px;
         width: 50px;
+    }
+
+    #about-button {
+        margin-top: 60px;
+    }
+
+    #about-button button {
+        width: 500px;
+        padding: 30px;
+        font-size: 1.5em;
     }
 }
