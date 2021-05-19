@@ -87,6 +87,10 @@ As the business owner:
 
 ## Wireframes
 ### [Desktop wireframe](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/desktop-wireframe.png)
+### [Tablet wireframe part 1](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/tablet-wireframe.png)
+### [Tablet wireframe part 2](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/tablet-wireframe(part%202).png)
+### [Mobile wireframe part 1](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/mobile-wireframe.png)
+### [Mobile wireframe part 2](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/mobile-wireframe(part2).png)
 
 ## Design 
 ### Colour scheme
