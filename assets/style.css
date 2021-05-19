@@ -67,6 +67,16 @@ header {
     text-transform: uppercase;
 }
 
+/*-------------About-------------*/
+
+#about {
+    height: 700px;
+    z-index: 1;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #C1121F;
+}
+
 /*-------------Media Queries-------------*/
 
 @media (min-width: 480px) and (max-width: 798px) {
