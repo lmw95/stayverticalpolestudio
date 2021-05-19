@@ -7,8 +7,8 @@ Based on a fictional business offering pole dancing lessons, this website was bu
     * [Goals](https://github.com/lmw95/polestudioproject#goals)
     * [User Stories](https://github.com/lmw95/polestudioproject#user-stories)
     * [Expectations](https://github.com/lmw95/polestudioproject#expectations)
+    * [Wireframes](https://github.com/lmw95/polestudioproject#wireframes)
     * [Design](https://github.com/lmw95/polestudioproject#design)
-* [Wireframes](https://github.com/lmw95/polestudioproject#wireframes)
 * [Features](https://github.com/lmw95/polestudioproject#features)
     * [Current Features](https://github.com/lmw95/polestudioproject#current-features)
     * [Features for Future Implementation](https://github.com/lmw95/polestudioproject#features-for-future-implementation)
@@ -83,3 +83,8 @@ As the business owner:
 * I want to emphasise the saftey (in terms of COVID-19 and physical safety) of my staff and customers due to the nature of the services that my company provides
 
 ## Design 
+### Colour scheme
+### Icons
+### Fonts
+### Structure
+### 
