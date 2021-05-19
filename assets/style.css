@@ -41,17 +41,21 @@ header {
     align-items: center;
 }
 
-.nav-item {
-    width: 15%; 
-}
-
-#nav-menu a {
-    color: #FFF3B0;
-    text-decoration: none;
+.nav-item a {
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     font-weight: 500;
+    color: #FFF3B0;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 /*-------------Media Queries-------------*/
+
+@media (min-width: 480px) and (max-width: 798px) {
+    
+}
+
+@media (min-width: 798px) and (max-width: 1024px) {
+
+}
