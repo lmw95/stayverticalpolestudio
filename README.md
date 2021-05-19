@@ -95,6 +95,8 @@ Due to length restrictions on Mockup Plus Classic, the mobile and tablet wirefra
 
 ## Design 
 ### Colours
+My colours were chosen to be gender neutral, with a contrast that is both bold yet inviting. I used [Coolors](https://coolors.co/) to help me choose my palette:
+![Colour palette](/documentation/screenshots/my-colours.png)
 ### Icons
 ### Fonts
 ### Structure
