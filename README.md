@@ -94,7 +94,7 @@ Due to length restrictions on Mockup Plus Classic, the mobile and tablet wirefra
 ### [Mobile wireframe part 2](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/mobile-wireframe(part2).png)
 
 ## Design 
-### Colour scheme
+### Colours
 ### Icons
 ### Fonts
 ### Structure
