@@ -96,7 +96,15 @@ Due to length restrictions on Mockup Plus Classic, the mobile and tablet wirefra
 ## Design 
 ### Colours
 My colours were chosen to be gender neutral, with a contrast that is both bold yet inviting. I used [Coolors](https://coolors.co/) to help me choose my palette:
+
 ![Colour palette](/documentation/screenshots/my-colours.png)
+
+* #191919 is an off-black which is used for the header and footer, and the text colour on lighter backgrounds
+* #FFF380 is a warm cream which us used for text on dark backgrounds
+* E09F3E is a golden colour which is used for the colour of buttons and links when hovered over
+* 9A5526 is a light brown will is used as the background colour for some sections 
+* C1121F is a bold crimson which will be used as the background colour for some sections
+
 ### Icons
 ### Fonts
 ### Structure
