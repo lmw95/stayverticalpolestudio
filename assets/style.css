@@ -21,6 +21,7 @@ header {
     background-size: cover;
 }
 
+
 /*-------------Navbar-------------*/
 
 #navbar {
@@ -54,6 +55,16 @@ header {
 
 @media (min-width: 480px) and (max-width: 798px) {
     
+    #navbar {
+        position: absolute;
+        bottom: 0;
+        height: 180px;
+    }
+    
+    #nav-menu {
+        flex-direction: column;
+    
+    }
 }
 
 @media (min-width: 798px) and (max-width: 1024px) {
