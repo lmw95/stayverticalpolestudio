@@ -106,6 +106,8 @@ My colours were chosen to be gender neutral, with a contrast that is both bold y
 * C1121F is a bold crimson which will be used as the background colour for some sections
 
 ### Icons
+
 ### Fonts
+The fonts I have used are all from [Google Fonts](https://fonts.google.com/). I wanted to ensure readability, so used sans-serif fonts [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) for the main text and [Homemade Apple](https://fonts.google.com/specimen/Homemade+Apple?category=Handwriting#standard-styles) for the slogan for an almost-handwritten aesthetic.
 ### Structure
 ### 
