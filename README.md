@@ -72,6 +72,7 @@ As a returning user:
 * I want to see class sizes so that I can plan for future classes
 * I want to know about COVID-19 precautions so I know I will be safe during my lessons
 * I want to be able to buy merchandise so that I can represent the pole studio when in public
+* I want to see that there is a refund and cancellation policy so that I can get my money back if I miss a class
 
 ### Business owner:
 As the business owner:
@@ -85,7 +86,6 @@ As the business owner:
 * I want to showcase my merchandise so that I can advertise my studio through my students when in public
 
 ## Wireframes
-
 
 
 ## Design 
