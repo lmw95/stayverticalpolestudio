@@ -17,7 +17,7 @@ body {
 
 header {
     height: 600px;
-    background: url(/documentation/images/pole-dancer2.jpg) no-repeat center center;
+    background: url(/documentation/images/pole-dancer.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -50,4 +50,8 @@ header {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
+
+/*-------------Media Queries-------------*/
