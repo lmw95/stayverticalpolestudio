@@ -16,11 +16,26 @@ body {
 /*-------------Header-------------*/
 
 header {
+    height: 100%;
+    width: 100%;
+}
+
+#header-background {
     height: 600px;
     background: url(/documentation/images/pole-dancer.jpg) no-repeat center center;
     background-size: cover;
+    animation: bg-zoom 6s forwards;
 }
 
+@keyframes bg-zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
 
 /*-------------Navbar-------------*/
 
@@ -31,6 +46,7 @@ header {
     flex-direction: row;
     background-color: #191919;
     position: sticky;
+    z-index: 1;
 }
 
 #nav-menu {
