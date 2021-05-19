@@ -21,7 +21,7 @@ header {
 }
 
 #header-background {
-    height: 600px;
+    height: 700px;
     background: url(/documentation/images/pole-dancer.jpg) no-repeat center center;
     background-size: cover;
     animation: bg-zoom 6s forwards;
@@ -33,7 +33,7 @@ header {
     }
 
     100% {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
 
@@ -45,7 +45,7 @@ header {
     display: flex;
     flex-direction: row;
     background-color: #191919;
-    position: sticky;
+    position: fixed;
     z-index: 1;
 }
 
@@ -74,7 +74,7 @@ header {
     #navbar {
         position: absolute;
         bottom: 0;
-        height: 180px;
+        height: 200px;
     }
     
     #nav-menu {
@@ -84,5 +84,11 @@ header {
 }
 
 @media (min-width: 798px) and (max-width: 1024px) {
-
+    header {
+        height: 400px;
+    }
+    
+    #navbar {
+        width: 100%;
+    }
 }
