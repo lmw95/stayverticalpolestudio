@@ -130,6 +130,20 @@ header h1 {
     letter-spacing: 4px;
 }
 
+#about-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pole-studio {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: url(/documentation/images/pole-studio.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 
 /*-------------Media Queries-------------*/
 
