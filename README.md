@@ -86,6 +86,7 @@ As the business owner:
 * I want to showcase my merchandise so that I can advertise my studio through my students when in public
 
 ## Wireframes
+Due to length restrictions on Mockup Plus Classic, the mobile and tablet wireframes are split in two parts
 ### [Desktop wireframe](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/desktop-wireframe.png)
 ### [Tablet wireframe part 1](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/tablet-wireframe.png)
 ### [Tablet wireframe part 2](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/tablet-wireframe(part%202).png)
