@@ -80,7 +80,7 @@ header h1 {
 /*-------------About-------------*/
 
 #about {
-    height: 650px;
+    height: 800px;
     position: relative;
     background-color: #C1121F;
 }
@@ -111,7 +111,7 @@ header h1 {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 300px;
+    height: 450px;
     margin-top: 80px;
 }
 
@@ -180,6 +180,19 @@ header h1 {
     display: inline-block;
     margin-left: -35px;
     width: 35px;
+}
+
+#about-button {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-button button {
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
 }
 
 
