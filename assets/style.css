@@ -67,11 +67,20 @@ header {
     text-transform: uppercase;
 }
 
+header h1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 500px;
+    margin-left: 500px;
+    font-size: 4em;
+    font-family: 'Homemade Apple', cursive;
+    text-transform: lowercase;
+}
+
 /*-------------About-------------*/
 
 #about {
     height: 700px;
-    z-index: 1;
     position: relative;
     box-sizing: border-box;
     background-color: #C1121F;
