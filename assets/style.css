@@ -169,9 +169,14 @@ header h1 {
         flex-direction: column;
     }
 
-    /*About*/ 
+    /*About*/
+    #about {
+        height: 1400px;
+    }
+    
     #about h1 {
-        font-size: 3em;
+        font-size: 5em;
+        line-height: 90px;
     }
 
     #about h2 {
@@ -181,11 +186,21 @@ header h1 {
 
     #about-container {
         flex-direction: column;
+        height: 1000px;
     }
 
     #about-container .third {
         height: 33.3%;
         width: 100%;
+    }
+
+    #pole-studio {
+        height: 240px;
+        width: 240px;
+    }
+
+    #about-right h3 {
+        margin-top: 60px;
     }
 }
 
@@ -207,6 +222,7 @@ header h1 {
 
     /*About*/
     #about {
+        height: 1400px;
         width: 100%;
         position: relative;
     }
@@ -220,11 +236,16 @@ header h1 {
     }
 
     #about-container {
+        height: 1100px;
         flex-direction: column;
     }
 
     #about-container .third {
         height: 33.3%;
         width: 100%;
+    }
+
+    #about-right h3 {
+        margin-top: 40px;
     }
 }
