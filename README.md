@@ -86,7 +86,7 @@ As the business owner:
 * I want to showcase my merchandise so that I can advertise my studio through my students when in public
 
 ## Wireframes
-
+### [Desktop wireframe](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/desktop-wireframe.png)
 
 ## Design 
 ### Colour scheme
