@@ -71,6 +71,7 @@ As a returning user:
 * I want to see further reviews so that I can recommend to my friends
 * I want to see class sizes so that I can plan for future classes
 * I want to know about COVID-19 precautions so I know I will be safe during my lessons
+* I want to be able to buy merchandise so that I can represent the pole studio when in public
 
 ### Business owner:
 As the business owner:
@@ -81,6 +82,11 @@ As the business owner:
 * I want to to encourage users to get in touch so that I can answer any questions they have
 * I want to provide links to our social media accounts to grow my online community and retain returning customers
 * I want to emphasise the saftey (in terms of COVID-19 and physical safety) of my staff and customers due to the nature of the services that my company provides
+* I want to showcase my merchandise so that I can advertise my studio through my students when in public
+
+## Wireframes
+
+
 
 ## Design 
 ### Colour scheme
