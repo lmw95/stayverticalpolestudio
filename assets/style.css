@@ -17,6 +17,8 @@ body {
 
 header {
     height: 600px;
+    background: url(/documentation/images/pole-dancer2.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 /*-------------Navbar-------------*/
