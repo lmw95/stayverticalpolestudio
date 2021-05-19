@@ -24,7 +24,7 @@ header {
     height: 700px;
     background: url(/documentation/images/pole-dancer.jpg) no-repeat center center;
     background-size: cover;
-    animation: bg-zoom 6s forwards;
+    animation: bg-zoom 3s forwards;
 }
 
 @keyframes bg-zoom {
@@ -33,7 +33,7 @@ header {
     }
 
     100% {
-        transform: scale(1.05);
+        transform: scale(1.1);
     }
 }
 
@@ -191,9 +191,23 @@ header h1 {
 
 #about-button button {
     padding: 20px;
-    width: 200px;
+    width: 300px;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    background-color: #9A5526;
+    outline: none;
+    border: none;
 }
+
+
+button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.3em;
+    color: #FFF3B0;
+}
+
 
 
 /*-------------Media Queries-------------*/
@@ -222,7 +236,7 @@ header h1 {
 
     /*About*/
     #about {
-        height: 1600px;
+        height: 1725px;
     }
     
     #about h1 {
@@ -237,7 +251,7 @@ header h1 {
 
     #about-container {
         flex-direction: column;
-        height: 1000px;
+        height: 1300px;
     }
 
     #about-container .third {
@@ -245,14 +259,15 @@ header h1 {
         width: 100%;
     }
 
-    #pole-studio {
-        height: 240px;
-        width: 240px;
+    #about-left p {
+        font-size: 1.2em;
     }
 
-    #about-right h3 {
-        margin-top: 40px;
+    #pole-studio {
+        height: 280px;
+        width: 280px;
     }
+
 
     #about ul {
         width: 80%;
@@ -264,6 +279,15 @@ header h1 {
         display: inline-block;
         margin-left: -50px;
         width: 50px;
+    }
+
+    #about-button {
+        margin-top: 42px;
+        width: 100%;
+    }
+
+    #about-button button {
+        width: 100%;
     }
 }
 
