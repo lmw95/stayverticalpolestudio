@@ -26,6 +26,8 @@ header {
     height: 60px;
     display: flex;
     flex-direction: row;
+    background-color: #191919;
+    position: sticky;
 }
 
 .nav-half {
