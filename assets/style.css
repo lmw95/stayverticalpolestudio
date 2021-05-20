@@ -561,17 +561,7 @@ button a {
 }
 
 .instr-img div:hover {
-    animation: fade 0.3s infinite;
-}
-
-@keyframes fade {
-    0% {
-        background-color: rgba(25, 25, 25, 0.8);
-    }
     
-    100% {
-        background-color: rgba(25, 25, 25, 0.8);
-    }
 }
 
 .instr-img:nth-of-type(1) {
