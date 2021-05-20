@@ -13,6 +13,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 /*-------------Header-------------*/
 
 header {
@@ -231,7 +235,7 @@ button a {
     color: #191919;
     letter-spacing: 5px;
     font-weight: 700;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #class-section-wrapper {
@@ -354,6 +358,15 @@ button a {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100px;
+}
+
+#class-buttons button {
+    padding: 20px;
+    margin: 0 20px;
+    background-color: #9A5526;
+    border: none;
+    width: 300px;
 }
 
 
