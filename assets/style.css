@@ -284,7 +284,6 @@ button a {
     color: #191919;
     letter-spacing: 5px;
     font-weight: 700;
-    margin-top: 20px;
 }
 
 #class-section-wrapper {
@@ -474,7 +473,7 @@ button a {
 /*-------------Instructors-------------*/
 
 #instructors {
-    height: 600px;
+    height: 700px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -487,7 +486,7 @@ button a {
 #i-half-left {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #C1121F;
 }
@@ -499,6 +498,43 @@ button a {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 700;
+    margin-top: 20px;
+}
+
+#i-half-left button {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF3B0;
+    background-color: #9A5526;
+}
+
+#cert-wrapper {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #9A5526
+}
+
+.cert {
+    background-color: #FFF3B0;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cert p {
+    font-family: 'Poppins', sans-serif;
+    color: #191919;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80%;
+    font-weight: 600;
 }
 
 /*
