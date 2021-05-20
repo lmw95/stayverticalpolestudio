@@ -312,7 +312,7 @@ button a {
 .grid-row {
     width: 100%;
     height: 100%;
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     flex-direction: row;
 }
@@ -444,6 +444,15 @@ button a {
     #class-levels h2 {
         text-align: center;
         width: 90%;
+    }
+
+    .grid-row {
+        flex-direction: column;
+    }
+
+    .level, .description {
+        width: 100%;
+        height: 50%;
     }
 }
 
