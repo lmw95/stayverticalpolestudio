@@ -415,12 +415,14 @@ button a {
     text-transform: none;
     letter-spacing: 0px;
     word-spacing: 2px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .description p:nth-of-type(2),
-.description p:nth-of-type(3) {
-    font-weight: 600;
+.description p:nth-of-type(3),
+.description p:nth-of-type(4),
+.description p:nth-of-type(5)  {
+    font-weight: 400;
 }
 
 #class-buttons {
