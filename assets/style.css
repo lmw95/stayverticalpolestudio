@@ -230,7 +230,8 @@ button a {
     text-transform: uppercase;
     color: #191919;
     letter-spacing: 5px;
-    font-weight: 600;
+    font-weight: 700;
+    margin-top: 20px;
 }
 
 #class-section-wrapper {
@@ -269,7 +270,8 @@ button a {
 
 #class-pictures h1 {
     color: #FFF3B0;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    font-weight: 500;
 }
 
 
