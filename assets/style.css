@@ -604,6 +604,11 @@ button a {
 
     #class-section-wrapper {
         height: 5200px;
+        justify-content: space-between;
+    }
+
+    .wrapper {
+        padding: 0;
     }
 
     .wrapper:nth-of-type(1) {
@@ -620,7 +625,6 @@ button a {
     }
 
     #class-header {
-        margin-top: 60px;
         font-weight: 700;
         font-size: 4em;
         text-align: center;
@@ -631,6 +635,11 @@ button a {
         text-align: center;
         width: 90%;
         margin-bottom: 40px;
+    }
+
+    #class-levels, 
+    #class-extras {
+        padding: 0px;
     }
 
     .grid-row {
@@ -650,6 +659,7 @@ button a {
     .description p {
         width: 90%;
         margin-left: 20px;
+        font-size: 1em;
     }
 
     .class {
@@ -658,8 +668,7 @@ button a {
     }
 
     .class h3 {
-        font-size: 2em;
-        text-align: center;
+        font-size: 2.1em;
     }
 
     #closing-line {
@@ -674,6 +683,10 @@ button a {
     #class-buttons button {
         width: 100%;
         height: 60px;
+    }
+
+    #closing-line {
+        margin-top: 30px;
     }
 
     /*Instructors*/
