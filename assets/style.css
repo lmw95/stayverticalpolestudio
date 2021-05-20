@@ -913,6 +913,13 @@ button a {
     #class-buttons button {
         font-size: 0.8em;
         height: 100%;
+        width: 25%;
+        margin: 0;
+    }
+
+    #closing-line {
+        width: 90%;
+        margin-top: 20px;
     }
 
     /*Instructors*/
