@@ -558,9 +558,11 @@ button a {
     height: 100%;
     width: 100%;
     background-color: transparent;
+    transition: all 0.3s ease-in-out;
 }
 
 .instr-img div:hover {
+    background-color: rgba(25, 25, 25, 0.95);
     
 }
 
@@ -907,8 +909,6 @@ button a {
     }
 
     /*Instructors*/
-
-    
     #instructors {
         flex-direction: column;
         height: 1200px;
