@@ -378,9 +378,30 @@ button a {
     }
 
     /*Classes*/
-    #classes h1 {
-        margin-top: 20px;
+
+    #classes {
+        height: 4000px;
     }
+
+    #class-section-wrapper {
+        height: 3500px;
+    }
+
+    #class-pictures {
+        flex-direction: column;
+    }
+
+    .overlay {
+        height: 25%;
+        width: 100%;
+    }
+
+    #classes h1 {
+        margin-top: 60px;
+        font-weight: 700;
+    }
+
+    #classes-wrapper:
 }
 
 @media (min-width: 798px) and (max-width: 1024px) {
@@ -457,5 +478,21 @@ button a {
         width: 500px;
         padding: 30px;
         font-size: 1.5em;
+    }
+
+    /*Classes*/
+    #class-pictures {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #classes h1 {
+        margin-top: 20px;
+        font-weight: 700;
+    }
+
+    .overlay {
+        width: 50%;
+        height: 50%;
     }
 }
