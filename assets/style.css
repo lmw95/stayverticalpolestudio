@@ -294,6 +294,8 @@ button a {
 
     #about-button button {
         width: 100%;
+        padding: 30px;
+        font-size: 1.3em;
     }
 }
 
