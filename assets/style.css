@@ -309,7 +309,8 @@ button a {
     letter-spacing: 2px;
 }
 
-#class-levels h2 {
+#class-levels h2,
+#class-extras h2 {
     margin-bottom: 20px;
 }
 
@@ -321,16 +322,24 @@ button a {
     flex-direction: row;
 }
 
-.level {
+.level,
+.class {
     width: 30%;
     height: 100%;
 }
 
 .level h3 {
     margin-left: 20px;
-    display: flex;
     color: #9A5526;
     font-size: 2em;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.class h3 {
+    margin-left: 20px;
+    color: #9A5526;
+    font-size: 1.6em;
     letter-spacing: 3px;
     font-weight: 500;
 }
@@ -405,7 +414,6 @@ button a {
         width: 280px;
     }
 
-
     #about ul {
         width: 80%;
         font-size: 1.2em;
@@ -453,7 +461,8 @@ button a {
         font-weight: 700;
     }
 
-    #class-levels h2 {
+    #class-levels h2,
+    #class-extras h2 {
         text-align: center;
         width: 90%;
         margin-bottom: 40px;
@@ -468,6 +477,14 @@ button a {
         height: 50%;
     }
 
+    .class {
+        height: 50%;
+        width: 50%;
+    }
+
+    .class h3 {
+        font-size: 2em;
+    }
 }
 
 @media (min-width: 798px) and (max-width: 1024px) {
@@ -569,5 +586,9 @@ button a {
 
     .class-img h1 {
         margin-top: 0px;
+    }
+
+    .level h3 {
+        font-size: 1.4em;
     }
 }
