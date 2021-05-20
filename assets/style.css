@@ -519,6 +519,7 @@ button a {
     width: 90%;
     font-weight: 300;
     text-align: justify;
+    font-size: 0.9em;
 }
 
 #cert-wrapper {
@@ -602,6 +603,21 @@ button a {
     background-size: cover;
 }
 
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+
+/*-------------Testimonials-------------*/
+
+#testimonials {
+    height: 600px;
+}
 
 /*
 /*
