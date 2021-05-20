@@ -295,6 +295,12 @@ button a {
     background-size: cover;
 }
 
+#class-levels-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 /*-------------Media Queries-------------*/
 
