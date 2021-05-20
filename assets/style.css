@@ -515,7 +515,6 @@ button a {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #9A5526
 }
 
 .cert {
@@ -534,7 +533,18 @@ button a {
     text-transform: uppercase;
     text-align: center;
     width: 80%;
-    font-weight: 600;
+    font-weight: 700;
+}
+
+#instr-img-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.instr-img {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
 }
 
 /*
