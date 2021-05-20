@@ -269,6 +269,11 @@ button a {
     background-size: cover;
 }
 
+.class-img:nth-of-type(3) {
+    background: url(/documentation/images/pole-dancer-flex.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 
 /*-------------Media Queries-------------*/
 
