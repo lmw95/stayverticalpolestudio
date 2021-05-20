@@ -539,13 +539,15 @@ button a {
 #instr-img-wrapper {
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
 }
 
-.instr-img {
+#instr-img-wrapper .instr-img {
     width: 50%;
     height: 50%;
-    background-color: blue;
 }
+
 
 /*
 /*
