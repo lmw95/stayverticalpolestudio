@@ -18,13 +18,16 @@ body {
 header {
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 #header-background {
     height: 700px;
+    width: 100%;
     background: url(/documentation/images/pole-dancer.jpg) no-repeat center center;
     background-size: cover;
     animation: bg-zoom 3s forwards;
+    overflow: hidden;
 }
 
 @keyframes bg-zoom {
@@ -81,8 +84,9 @@ header h1 {
 
 #about {
     height: 800px;
-    position: relative;
+    width: 100%;
     background-color: #C1121F;
+    position: relative;
 }
 
 #about h1,
@@ -312,7 +316,6 @@ button a {
     /*About*/
     #about {
         height: 2100px;
-        width: 100%;
         position: relative;
     }
 
@@ -336,10 +339,17 @@ button a {
 
     #about-container h3 {
         font-size: 2em;
+        margin-top: 30px;
     }
 
     #about-container p {
         font-size: 1.7em;
+        line-height: 30px;
+    }
+
+    #pole-studio {
+        height: 400px;
+        width: 400px;
     }
 
     #about-right ul {
