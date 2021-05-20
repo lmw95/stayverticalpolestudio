@@ -2,6 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+
 /*-------------General-------------*/
 
 * {
@@ -16,6 +26,16 @@ body {
 html {
     overflow-x: hidden;
 }
+
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
 
 /*-------------Header-------------*/
 
@@ -43,6 +63,16 @@ header {
         transform: scale(1.1);
     }
 }
+
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
 
 /*-------------Navbar-------------*/
 
@@ -83,6 +113,16 @@ header h1 {
     font-family: 'Homemade Apple', cursive;
     text-transform: lowercase;
 }
+
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
 
 /*-------------About-------------*/
 
@@ -215,6 +255,16 @@ button a {
     font-size: 1.3em;
     color: #FFF3B0;
 }
+
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
 
 /*-------------Classes-------------*/
 
@@ -373,6 +423,28 @@ button a {
     letter-spacing: 2px;
 }
 
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+
+/*-------------Instructors-------------*/
+
+
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
 
 /*-------------Media Queries-------------*/
 
