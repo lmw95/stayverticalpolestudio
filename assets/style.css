@@ -444,6 +444,7 @@ button a {
     #class-levels h2 {
         text-align: center;
         width: 90%;
+        margin-bottom: 40px;
     }
 
     .grid-row {
