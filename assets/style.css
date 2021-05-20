@@ -272,7 +272,7 @@ button a {
 /*
 /*
 
-/*-------------Classes
+/*-------------Classes-------------*/
 
 #classes {
     height: 3000px;
@@ -476,8 +476,6 @@ button a {
 /*
 /*
 /*
-
--------------*/
 
 /*-------------Instructors-------------*/
 
@@ -729,7 +727,7 @@ button a {
         font-size: 1.3em;
     }
 
-    /*Classes
+    /*Classes*/
     #classes {
         height: 6000px;
     }
@@ -832,8 +830,6 @@ button a {
     #closing-line {
         margin-top: 30px;
     }
-
-    */
 
     /*Instructors*/
     #instructors {
@@ -952,7 +948,7 @@ button a {
         font-size: 1.5em;
     }
 
-    /*Classes
+    /*Classes*/
     #class-pictures {
         display: flex;
         flex-wrap: wrap;
@@ -990,7 +986,7 @@ button a {
     #closing-line {
         width: 90%;
         margin-top: 20px;
-    } */
+    }
 
     /*Instructors*/
     #instructors {
