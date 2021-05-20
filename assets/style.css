@@ -264,6 +264,11 @@ button a {
     background-size: cover;
 }
 
+.class-img:nth-of-type(2) {
+    background: url(/documentation/images/pole-dancer-duo.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 
 /*-------------Media Queries-------------*/
 
