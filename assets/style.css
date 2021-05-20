@@ -229,13 +229,13 @@ button a {
 
 #class-header {
     font-family: 'Poppins', sans-serif;
-    padding: 30px;
-    font-size: 3em;
+    padding: 20px;
+    font-size: 4em;
     text-transform: uppercase;
     color: #191919;
     letter-spacing: 5px;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 #class-section-wrapper {
@@ -459,11 +459,15 @@ button a {
     /*Classes*/
 
     #classes {
-        height: 4000px;
+        height: 2500px;
     }
 
     #class-section-wrapper {
-        height: 3500px;
+        height: 2500px;
+    }
+
+    .wrapper {
+        height: 25%;
     }
 
     #class-pictures {
@@ -478,6 +482,8 @@ button a {
     #class-header {
         margin-top: 60px;
         font-weight: 700;
+        font-size: 4em;
+        text-align: center;
     }
 
     #class-levels h2,
@@ -501,8 +507,9 @@ button a {
         width: 50%;
     }
 
+    .level h3, 
     .class h3 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
 
