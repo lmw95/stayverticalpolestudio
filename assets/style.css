@@ -617,6 +617,14 @@ button a {
 
 #testimonials {
     height: 600px;
+    background: url(/documentation/images/pole-dancer2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#test-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(25, 25, 25, 0.8);
 }
 
 /*
