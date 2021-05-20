@@ -306,36 +306,6 @@ button a {
     letter-spacing: 2px;
 }
 
-#levels-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
-}
-
-#level-no {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-#level-no p {
-    font-size: 2.2em;
-    font-weight: 600;
-    margin-left: 10px;
-    color: #9A5526;
-}
-
-#level-description {
-    width: 80%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
 
 /*-------------Media Queries-------------*/
 
