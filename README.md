@@ -25,7 +25,7 @@ Based on a fictional business offering pole dancing lessons, this website was bu
 
 # UX 
 ## Strategy 
-Stay Vertical is a fictional pole studio based in Lowestoft Suffolk which is the only one of its kind in the town, set up by a former adult entertainer is fully insured, and has qualifications and certifications in teaching pole dancing and health and safety. 
+Stay Vertical is a fictional pole studio based in Lowestoft Suffolk which is the only one of its kind in the town, set up by a former adult entertainer who is fully insured, and has high-ranking qualifications in teaching pole dancing and health and safety. 
 
 The studio is relatively new, but is looking to expand their customer base and their local pole community through social media.
 
