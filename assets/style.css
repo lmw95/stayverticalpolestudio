@@ -627,6 +627,17 @@ button a {
     background-color: rgba(25, 25, 25, 0.7);
 }
 
+#testimonials h1 {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    font-size: 4em;
+    text-transform: uppercase;
+    color: #FFF3B0;
+    letter-spacing: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+
 /*
 /*
 /*
