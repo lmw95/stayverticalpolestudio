@@ -259,6 +259,11 @@ button a {
     background-color: red;
 }
 
+.class-img:nth-of-type(1) {
+    background: url(/documentation/images/pole-dancer-heels.jpg) no-repeat center center;
+    background-size: cover;
+}
+
 
 /*-------------Media Queries-------------*/
 
