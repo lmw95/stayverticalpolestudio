@@ -242,6 +242,7 @@ button a {
     #about h1 {
         font-size: 5em;
         line-height: 90px;
+        padding-top: 10px;
     }
 
     #about h2 {
