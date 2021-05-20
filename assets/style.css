@@ -420,6 +420,11 @@ button a {
         margin-top: 60px;
         font-weight: 700;
     }
+
+    #class-levels h2 {
+        text-align: center;
+        width: 90%;
+    }
 }
 
 @media (min-width: 798px) and (max-width: 1024px) {
