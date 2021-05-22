@@ -655,14 +655,18 @@ button a {
 
 /*-------------Footer/contact-------------*/
 
-footer {
+#get-in-touch {
     height: 700px;
     width: 100%;
     background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-footer h1,
-footer h2 {
+#get-in-touch h1,
+#get-in-touch h2 {
     font-family: 'Poppins', sans-serif;
     color: #FFF3B0;
     text-transform: uppercase;
@@ -670,16 +674,44 @@ footer h2 {
     text-align: center;
 }
 
-footer h1 {
+#get-in-touch h1 {
     letter-spacing: 4px;
     font-size: 3em;
     padding-top: 20px;
 }
 
-footer h2 {
+#get-in-touch h2 {
     letter-spacing: 7px;
     font-size: 1.1em;
-    padding-top: 5px;
+    padding: 5px 0 20px 0;
+}
+
+#contact-wrapper {
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    background-color: red;
+}
+
+#sm-wrapper {
+    height: 25%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 /*-------------Media Queries-------------*/
