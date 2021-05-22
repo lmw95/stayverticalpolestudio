@@ -661,15 +661,25 @@ footer {
     background-color: #191919;
 }
 
-footer h1 {
+footer h1,
+footer h2 {
     font-family: 'Poppins', sans-serif;
     color: #FFF3B0;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 3em;
     font-weight: 600;
     text-align: center;
+}
+
+footer h1 {
+    letter-spacing: 4px;
+    font-size: 3em;
     padding-top: 20px;
+}
+
+footer h2 {
+    letter-spacing: 7px;
+    font-size: 1.1em;
+    padding-top: 5px;
 }
 
 /*-------------Media Queries-------------*/
@@ -895,6 +905,9 @@ footer h1 {
         width: 100%;
     }
 
+    #testimonials {
+        height: 1000px;
+    }
     
 }
 
