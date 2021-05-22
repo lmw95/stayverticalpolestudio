@@ -746,15 +746,28 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
-.footer-third h1 {
+footer a, footer p {
     font-family: 'Poppins', sans-serif;
     color: #FFF3B0;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+footer i {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #FFF3B0;
+}
+
+#left p {
     text-transform: uppercase;
-    padding-top: 10px;
-    font-weight: 600;
-    font-size: 1.2em;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
 }
 
 /*-------------Media Queries-------------*/
