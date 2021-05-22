@@ -99,11 +99,11 @@ My colours were chosen to be gender neutral, with a contrast that is both bold y
 
 ![Colour palette](/documentation/screenshots/my-colours.png)
 
-* #191919 is an off-black which is used for the header and footer, and the text colour on lighter backgrounds
+* #191919 is an off-black which is used for the header and footer, and the text colour on lighter backgrounds and as the overlays
 * #FFF380 is a warm cream which us used for text on dark backgrounds
-* E09F3E is a golden colour which is used for the colour of buttons and links when hovered over
-* 9A5526 is a light brown will is used as the background colour for some sections 
-* C1121F is a bold crimson which will be used as the background colour for some sections
+* E09F3E is a golden colour which is used for the colour of icons in the footer
+* 9A5526 is a light brown will is used for the buttons
+* C1121F is a bold crimson which will be used as the background colour for the intro and instructor section
 
 ### Icons
 
