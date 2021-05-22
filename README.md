@@ -125,4 +125,10 @@ All images on the website are to display pole dancing in action and to excite us
 Please find all credits for the images used in this project [here]()
 
 ### Structure
+I have chosen [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to structure my website. CSS Flexbox is simple to use and allows
+for easy restructuring for responsive design across screen sizes. This way, I can have assurance that my website will
+work on mobile, tablet and desktop. Below are the current features and which stories/criteria they tick:
 
+RESPONSIVE DESIGN
+* The website will grow and shrink according to the screen size of the user, for a good cross-device user experience.
+> * 
