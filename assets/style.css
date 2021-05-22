@@ -653,6 +653,25 @@ button a {
 /*
 /*
 
+/*-------------Footer/contact-------------*/
+
+footer {
+    height: 700px;
+    width: 100%;
+    background-color: #191919;
+}
+
+footer h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF3B0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+
 /*-------------Media Queries-------------*/
 
 @media (min-width: 480px) and (max-width: 798px) {
