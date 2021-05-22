@@ -736,7 +736,27 @@ button a {
 footer {
     height: 240px;
     background-color: #191919;
+    display: flex;
+    flex-direction: row;
 }
+
+.footer-third {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-third h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF3B0;
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
 
 /*-------------Media Queries-------------*/
 
@@ -965,6 +985,16 @@ footer {
         height: 1000px;
     }
     
+    /*Contact*/
+    #contact-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact {
+        width: 100%;
+        height: 50%;
+    }
 }
 
 @media (min-width: 798px) and (max-width: 1024px) {
