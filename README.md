@@ -93,21 +93,36 @@ Due to length restrictions on Mockup Plus Classic, the mobile and tablet wirefra
 ### [Mobile wireframe part 1](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/mobile-wireframe.png)
 ### [Mobile wireframe part 2](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/mobile-wireframe(part2).png)
 
+### Differences to wireframes:
+
+
 ## Design 
 ### Colours
 My colours were chosen to be gender neutral, with a contrast that is both bold yet inviting. I used [Coolors](https://coolors.co/) to help me choose my palette:
 
 ![Colour palette](/documentation/screenshots/my-colours.png)
 
-* #191919 is an off-black which is used for the header and footer, and the text colour on lighter backgrounds and as the overlays
-* #FFF380 is a warm cream which us used for text on dark backgrounds
-* E09F3E is a golden colour which is used for the colour of icons in the footer
-* 9A5526 is a light brown will is used for the buttons
-* C1121F is a bold crimson which will be used as the background colour for the intro and instructor section
+* #191919 is an off-black which is used for the header and footer, and the text colour on lighter backgrounds and as the overlays.
+* #FFF380 is a warm cream which us used for text on dark backgrounds.
+* E09F3E is a golden colour which is used for the colour of icons in the footer.
+* 9A5526 is a light brown will is used for the buttons.
+* C1121F is a bold crimson which will be used as the background colour for the intro and instructor section.
 
 ### Icons
+I have used icons sparingly throughout the website, only acting as bullet points in lists or to signify social media. I did this so as not to overclutter the page and distract from the content itself. All the icons I used in the project are from [Font Awesome](https://fontawesome.com/).
 
 ### Fonts
 The fonts I have used are all from [Google Fonts](https://fonts.google.com/). I wanted to ensure readability, so used sans-serif fonts [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) for the main text and [Homemade Apple](https://fonts.google.com/specimen/Homemade+Apple?category=Handwriting#standard-styles) for the slogan for an almost-handwritten aesthetic.
+
+### Images 
+All images on the website are to display pole dancing in action and to excite users into booking a class:
+* The hero image is designed to grab the users attention when they first land on the website and show the power of the pole, which tells the user directly what services are offered by the company.
+* The image in the introduction is to show off the studio itself in a colour that matches the palette of the website.
+* The four images in the classes section is to reflect the four purposes of the service provided by the company.
+* The instructor profile images are to show the instructors in action, so that users will feel assured they are in good hands if they decided to use the company's services.
+* The background image of the testimonials section is to provide one last display of pole-dancing before the user exits the page to the footer.
+
+Please find all credits for the images used in this project [here]()
+
 ### Structure
-### 
+
