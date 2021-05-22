@@ -656,19 +656,20 @@ button a {
 /*-------------Footer/contact-------------*/
 
 #get-in-touch {
-    height: 700px;
+    height: 900px;
     width: 100%;
     background-color: #191919;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFF3B0;
 }
 
 #get-in-touch h1,
 #get-in-touch h2 {
     font-family: 'Poppins', sans-serif;
-    color: #FFF3B0;
+    color: #191919;
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
@@ -676,13 +677,13 @@ button a {
 
 #get-in-touch h1 {
     letter-spacing: 4px;
-    font-size: 3em;
+    font-size: 4em;
     padding-top: 20px;
 }
 
 #get-in-touch h2 {
     letter-spacing: 7px;
-    font-size: 1.1em;
+    font-size: 1.4em;
     padding: 5px 0 20px 0;
 }
 
@@ -701,18 +702,40 @@ button a {
     align-items: center;
     justify-content: space-evenly;
     font-family: 'Poppins', sans-serif;
-    background-color: red;
+}
+
+.contact h3, 
+#sm-wrapper h3 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 #sm-wrapper {
-    height: 25%;
+    height: 30%;
     width: 100%;
-    background-color: blue;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     font-family: 'Poppins', sans-serif;
+}
+
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+
+/*-------------Footer-------------*/
+
+footer {
+    height: 240px;
+    background-color: #191919;
 }
 
 /*-------------Media Queries-------------*/
