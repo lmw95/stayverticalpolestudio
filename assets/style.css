@@ -1023,7 +1023,7 @@ footer i {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        height: 500px;
+        height: 600px;
     }
 
     .footer-third {
@@ -1031,7 +1031,7 @@ footer i {
         height: 30%;
     }
 
-    .footer-third:nth-of-type(2) {
+    .footer-third:nth-of-type(3) {
         height: 20%;
     }
 }
