@@ -132,3 +132,31 @@ work on mobile, tablet and desktop. Below are the current features and which sto
 RESPONSIVE DESIGN
 * The website will grow and shrink according to the screen size of the user, for a good cross-device user experience.
 > * 
+
+HERO HEADER SECTION WITH NAVIGATION MENU
+* This section displays a hero image with a tagline and a fixed navigation menu.
+> * 
+
+INTRODUCTION 
+* This section gives the user background into the company owner and gives a brief overview of the company ethos and commitments to its customers.
+> * 
+
+CLASSES & PRICES
+* This section displays an overview of the services provided by the company and an array of call to action buttons.
+> * 
+
+INSTRUCTOR PROFILES
+* This section provides information on the staff who work for the company and their social media profiles.
+> * 
+
+TESTIMONIALS
+* This section displays review from previous customers and a working link to TripAdvisor should the user want to see more.
+> * 
+
+CONTACT US 
+* This section includes an enquiry form and all of the necessary contact details (phone and phone) of the company, with each of the email links opening Outlook on the user's device for quick contact. This section also includes working links to the comoany's social media pages which open in different tabs.
+> * 
+
+FOOTER
+* The footer section includes opening times, a working link to Google Maps (for the company location) and a copyright notice.
+> * 
