@@ -726,6 +726,10 @@ button a {
     padding: 5px;
 }
 
+#form button {
+    padding: 5px;
+}
+
 .contact h3, 
 #sm-wrapper h3 {
     font-size: 1.3em;
