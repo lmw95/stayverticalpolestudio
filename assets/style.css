@@ -711,14 +711,24 @@ button a {
     letter-spacing: 5px;
 }
 
+#sm-wrapper h3 {
+    margin-bottom: 30px;
+}
+
 #sm-wrapper {
     height: 30%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
+}
+
+#sm-wrapper i {
+    font-size: 4em;
+    margin: 0 10px;
+    color: #9A5526;
 }
 
 /*
@@ -1004,7 +1014,7 @@ footer i {
     
     /*Contact*/
     #get-in-touch{
-        height: 1500px;
+        height: 1800px;
     }
 
     #contact-wrapper {
@@ -1016,6 +1026,28 @@ footer i {
         width: 100%;
         height: 50%;
         text-align: center;
+    }
+
+    #sm-wrapper {
+        width: 100%;
+        height: 25%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #social-media {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        background-color: #9A5526;
+    }
+
+    #social-media i {
+       color: #FFF3B0;
+       padding: 10px;
     }
 
     /*Footer*/
