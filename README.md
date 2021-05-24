@@ -247,11 +247,9 @@ Please find the complete Testing process and results [here.](/https://github.com
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio#stay-vertical-pole-studio)
 
-## Issues during development 
-
-## Testing user stories
-
-## Testing access
-
 # Deployment 
+## Project creation
+## Deployment on GitHub
+## How to run the project locally
+
 # Credits 
