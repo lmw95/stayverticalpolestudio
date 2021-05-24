@@ -1348,21 +1348,16 @@ footer i {
     }
 
     /*Testimonials*/
+    #testimonials {
+        height: 1000px;
+    }
+
     #test-overlay h1 {
         font-size: 2.4em;
     }
 
     #contact-no h3 {
         text-align: center;
-    }
-
-    #testimonials {
-        height: 1000px;
-    }
-
-    /*Testimonials*/
-    #testimonials h1 {
-        font-size: 2.5em;
     }
 
     #test-wrapper {
@@ -1398,7 +1393,7 @@ footer i {
 
     /*Contact*/
     #get-in-touch {
-        height: 1700px;
+        height: 1600px;
         align-items: center;
     }
 
@@ -1432,11 +1427,14 @@ footer i {
     #social-media a {
         width: 50%;
         height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
     }
 
     #social-media i {
-        color: #FFF3B0;
-        padding: 10px;
+        color: #fff3b0;
     }
 
     /*Footer*/
