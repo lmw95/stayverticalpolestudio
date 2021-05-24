@@ -123,8 +123,8 @@ The inital testing of the performance score differed greatly between desktop and
 ![](/documentation/screenshots/performance-desktop.png)
 * Desktop: On desktop screens, the performance was at 95%, which was brought down from 100% by issues that I do not currently have the skill to understand, but in the future I will amend these issues.
 
-![](/
-* Mobile: On mobile screens, the performance was quite badly affected by 
+![](/documentation/screenshots/performance-mobile.png)
+* Mobile: On mobile screens, the performance was quite badly affected by issues such as large 
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
@@ -135,8 +135,6 @@ INITIAL TESTING
 
 * Desktop: On the SEO rating, it was affected by the meta tag in the index.html not having a description
 * Solution: I simply added a description to the meta tag as recommended by [Google DevTools](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools)
-
-![]
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
