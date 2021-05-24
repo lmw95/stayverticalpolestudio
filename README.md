@@ -259,17 +259,23 @@ Please find the complete Testing process and results [here.](https://github.com/
 This project was deployed via GitHub by executing the following steps, following the above write, commit and push process:
 * Navigate to the repository on github and click Settings.
 * From there, go to the Source section within the Github Pages section.
-* Select master branch on the dropdown menu, and click save.
-* Now the website is live on https://anouksmet.github.io/Naturazy/
-* Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
+* Select 'master' branch on the dropdown menu, and click save.
+* Now the website is live on https://lmw95.github.io/stayverticalpolestudio/
+* When commits and pushes are sent to Github, the Github Pages site should update shortly after.
 
 ## How to run the project locally
 Fork or clone the github repository to use or contribute to this project.
 
+FORK:
 * Click the green Clone or Download button on the Github Repository
 * Using the Clone with HTTPS option, copy the link displayed.
 * Open your IDE, and ensure the Git Terminal is open.
 * Change the working directory to the location where the cloned directory is to go.
 * Use the "git clone" command and paste the url copied in the second step.
+
+CLONE:
+* Cloning the GitHub Repository
+* Log in to GitHub and locate the GitHub Repository.
+* Under the repository name, click "Clone or download".
 
 # Credits 
