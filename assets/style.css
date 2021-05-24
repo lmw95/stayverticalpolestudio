@@ -654,6 +654,14 @@ button a {
     color: #FFF3B0;
 }
 
+.icon-wrapper {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
 /*
 /*
 /*
