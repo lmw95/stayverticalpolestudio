@@ -88,10 +88,14 @@ This section covers the major issues I encountered during the development and te
 ### Google Lighthouse 
 INITIAL TESTING
 
-![The initial report from Google Lighthouse](/documentation/screenshots/accessibility-initial-report.png)
+![](/documentation/screenshots/accessibility-initial-report.png)
 
 Initially, Google Lighthouse brought up a variety of issues that were affecting the website's accessibility:
-* ![Contrast](/documentation/screenshots/accessibility-contrast.png) - The 
+
+![](/documentation/screenshots/accessibility-contrast.png)
+
+* The contrast between the background colour of the Instructors section and the section h1 was not high enough. I fixed this by making the header #FFF3B0.
+
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
