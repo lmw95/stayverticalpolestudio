@@ -235,5 +235,22 @@ FOOTER
 [Back to top](https://github.com/lmw95/therabbitandribbon#stay-vertical-pole-studio)
 
 # Testing
+Testing has been an ongoing process throughout the development stage. Testing has been conducted on the following:
+
+* Issues during the development process
+* User stories
+* Accessibility
+* Performance
+* HTML & CSS validation.
+
+Please find the complete Testing process and results [here.](/https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md)
+
+
+## Issues during development 
+
+## Testing user stories
+
+## Testing access
+
 # Deployment 
 # Credits 
