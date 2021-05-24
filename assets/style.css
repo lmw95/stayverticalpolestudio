@@ -843,6 +843,10 @@ button a {
     color: #191919;
 }
 
+.contact h2 {
+    font-size: 20px;
+}
+
 .contact h3, 
 #sm-wrapper h3 {
     font-size: 1.3em;

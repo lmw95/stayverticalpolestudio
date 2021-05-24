@@ -80,7 +80,7 @@ This section covers the major issues I encountered during the development and te
 ### Post-deployment 
 * Issue: Post-deployment website did not display background images due to incorrect file paths
 * Solution: I simply switched the absolute paths to relative paths on all divs that had a background image with a URL
-> * [LInk to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/059f58c0a66b03af1ad77610412163cb9e5ff7f4)
+> * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/059f58c0a66b03af1ad77610412163cb9e5ff7f4)
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
@@ -101,6 +101,11 @@ Initially, Google Lighthouse brought up a variety of issues that were affecting 
 
 * Issue: The links did not have discernable names, which would make it harder for users of screen readers. 
 * Solution: To fix this, I added aria labels to all links on the website.
+
+![](/documentation/screenshots/accessibility-headers.png)
+
+* Issue: The header of the form sub-section in the contact section was not semantically correct.
+* Solution: To improve the last issue with accessibility, I changed the h3 to a h2 to correct the semantics.
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
