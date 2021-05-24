@@ -883,6 +883,29 @@ footer i {
     letter-spacing: 1px;
 }
 
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+
+/*-------------404 error page-------------*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#error {
+
+}
+
 /*-------------Media Queries-------------*/
 
 @media (min-width: 480px) and (max-width: 798px) {
