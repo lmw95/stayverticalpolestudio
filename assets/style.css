@@ -903,8 +903,18 @@ body {
 }
 
 #error {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
+
+#error h1 {
+    font-size: 6em;
+}
+
+#error
 
 /*-------------Media Queries-------------*/
 
