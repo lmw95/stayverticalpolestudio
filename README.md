@@ -192,8 +192,17 @@ FOOTER
 
 # Features
 ## Current features
+* Responsive design to allow user to browse the website on all devices
+* A call for action in terms of clickable buttons in each section to encourage users explore other parts of the website
+* Form with validation to allow users to make contact with the business
+* An active 404 error page that redirects users back to the homepage
+* Clickable and hoverable icons to allow users to open social media links into new tabs, whilst retaining navigation on the website
 
 ## Features for future implementation
+* Carousel of the testimonials for an enhanced user experience 
+* A working link to a gallery page
+* Collapsable hamburger menu when on mobile devices to shrink navigation menu size when I imrpove my Bootstrap skills
+* Working links to menus, gallery, emails and phone numbers which are not currently relevant since this website is for a fictional business.
 
 [Back to top](https://github.com/lmw95/therabbitandribbon#stay-vertical-pole-studio)
 
@@ -222,3 +231,8 @@ FOOTER
 ## Workspaces ##
 * [GitPod](https://www.gitpod.io/)
 * [GitHub](https://github.com/)
+
+[Back to top](https://github.com/lmw95/therabbitandribbon#stay-vertical-pole-studio)
+
+# Testing
+# Deployment 
