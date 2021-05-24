@@ -895,26 +895,39 @@ footer i {
 
 /*-------------404 error page-------------*/
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-}
-
 #error {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    margin-top: 200px;
 }
 
 #error h1 {
     font-size: 6em;
 }
 
-#error
+#error h2 {
+    font-size: 2em;
+}
+
+#error button {
+    padding: 10px;
+    background-color: #9A5526;
+    color: #FFF3B0;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+}
+
+#error button a {
+    font-weight: 300;
+}
+
+#error button i {
+    margin-left: 5px;
+}
 
 /*-------------Media Queries-------------*/
 
