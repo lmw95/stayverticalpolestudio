@@ -188,7 +188,7 @@ FOOTER
 > * When visiting the website, the user wants to check where company is located (locality)
 > * As a returning user, I want to see opening times/timetable so that I can plan for future classes
 
-[Back to top](https://github.com/lmw95/therabbitandribbon#stay-vertical-pole-studio)
+[Back to top](https://github.com/lmw95/stayverticalpolestudio#stay-vertical-pole-studio)
 
 # Features
 ## Current features
@@ -204,7 +204,7 @@ FOOTER
 * Collapsable hamburger menu when on mobile devices to shrink navigation menu size when I imrpove my Bootstrap skills
 * Working links to menus, gallery, emails and phone numbers which are not currently relevant since this website is for a fictional business.
 
-[Back to top](https://github.com/lmw95/therabbitandribbon#stay-vertical-pole-studio)
+[Back to top](https://github.com/lmw95/stayverticalpolestudio#stay-vertical-pole-studio)
 
 # Technologies
 ## Languages and Markup ##
@@ -232,10 +232,10 @@ FOOTER
 * [GitPod](https://www.gitpod.io/)
 * [GitHub](https://github.com/)
 
-[Back to top](https://github.com/lmw95/therabbitandribbon#stay-vertical-pole-studio)
+[Back to top](https://github.com/lmw95/stayverticalpolestudio#stay-vertical-pole-studio)
 
 # Testing
-Testing has been an ongoing process throughout the development stage. Testing has been conducted on the following:
+Testing has been an ongoing process throughout the development stage. It has been conducted on the following:
 
 * Issues during the development process
 * User stories
@@ -245,6 +245,7 @@ Testing has been an ongoing process throughout the development stage. Testing ha
 
 Please find the complete Testing process and results [here.](/https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md)
 
+[Back to top](https://github.com/lmw95/stayverticalpolestudio#stay-vertical-pole-studio)
 
 ## Issues during development 
 
