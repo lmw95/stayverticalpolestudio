@@ -942,6 +942,7 @@ footer i {
         font-weight: 700;
         font-size: 4em;
         text-align: center;
+        margin-top: 20px;
     }
 
     #class-pictures {
@@ -1055,7 +1056,7 @@ footer i {
     
     /*Contact*/
     #get-in-touch{
-        height: 1800px;
+        height: 1700px;
     }
 
     #contact-wrapper {
@@ -1067,6 +1068,14 @@ footer i {
         width: 100%;
         height: 50%;
         text-align: center;
+    }
+
+    #contact-form {
+        height: 70%;
+    }
+
+    #contact-no {
+        height: 30%;
     }
 
     #sm-wrapper {
@@ -1255,6 +1264,29 @@ footer i {
     }
 
     /*Contact*/
+    #get-in-touch {
+        height: 1700px;
+        align-items: center;
+    }
+
+     #contact-wrapper {
+        flex-direction: column;
+    }
+
+    #contact-form, 
+    #contact-no {
+        align-items: center;
+        width: 100%;
+    }
+
+    #contact-form {
+        height: 70%;
+    }
+
+    #contact-no {
+        height: 30%;
+    }
+
     #social-media {
         width: 100%;
         height: 100%;
