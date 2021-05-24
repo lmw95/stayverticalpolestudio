@@ -107,6 +107,8 @@ Initially, Google Lighthouse brought up a variety of issues that were affecting 
 * Issue: The header of the form sub-section in the contact section was not semantically correct.
 * Solution: To improve the last issue with accessibility, I changed the h3 to a h2 to correct the semantics.
 
+FINAL TESTING
+
 ![](/documentation/screenshots/accessibility-final-report.png)
 
 After these changes, the website is displaying a 100% score on Accessiblity on mobile devices and desktop devices.
@@ -114,6 +116,10 @@ After these changes, the website is displaying a 100% score on Accessiblity on m
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
 ## Performance
+
+[Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
+
+## SEO 
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
