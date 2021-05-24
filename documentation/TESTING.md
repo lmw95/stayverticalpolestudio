@@ -2,19 +2,47 @@
 
 During the development process, testing has been conducted as an ongoing process, with further testing conducted towards the end of the process:
 * [Testing process](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing-process)
-* [Issues & bugs during development](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#issues--bugs-during-development)
+* [Issues during development](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#issues--during-development)
 * [Accessibility](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#accessibility)
 * [Performance](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#performance)
 * [HTML & CSS validation](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#html--css-validation)
 
 ## Testing process 
-This section outlines the testing of each component of the webpage.
+This section outlines the testing of the interactive components of the website.
 ### Navigation menu
-* Plan:
-* Implementation:
+* Plan: I wanted a navigation menu that was fixed to the top of the user's screen on desktop and tablet devices (over 798px). All the links should take the user to their intended destination, be it on the current page, a different part of the website or another site entirely.
+* Implementation: I created the navigation menu using CSS Flexbox which provided me with a responsive navigation menu that stretches the entire width of the user's screen, and the navigation items display neatly either in column or row display. I styled the navigation in accordance with the colour palette of the website.
 * Test:
 * Result:
 * Verdict: 
+
+### Zooming header animation
+* Plan: I wanted to have a hero image which moved towards the user to grab their attention when they first enter or refresh the page. 
+* Implementation: I created a header background div within the header itself and set the background to the hero image, then used keyframes to create the zooming animation of that div.
+* Test:
+* Result:
+* Verdict:
+
+### Working links
+* Plan: I wanted to have working links that took the user to external sites (such as social media), to another section of the page or opened another app (such as Outlook).
+* Implementation: I left the link hrefs empty at first, then I created a 404 error page, and linked all the relevant pages and sections to each link with their correct targets.
+* Test:
+* Result:
+* Verdict:
+
+### Hover effects
+* Plan: I wanted animations on the buttons, social media links and navigation menu links to increase interactivity with the user as they travelled through the website.
+* Implementation: I utlised Hover.css: the 'float' effect for buttons and social media icons, and the 'grow' effect for the navigation menu links.
+* Test:
+* Result:
+* Verdict:
+
+### Contact form
+* Plan: I wanted to include a contact form which the user can fill in if they wish to reach out to the owners directly. They should insert their name, email address & phone number, a reason for contact and a message so the owners can respond to them. 
+* Implementation: In order to implement this, I have created a form in my index.html with 3 input fields, 1 textarea field and a submit button, with corresponding labels. The form was styled in accordance with the colour palette of the site.
+* Test: 
+* Result:
+* Verdict:
 
 ## Issues during development
 This section covers the major issues I encountered during the development and testing process and the solutions that fixed them.
@@ -48,6 +76,11 @@ This section covers the major issues I encountered during the development and te
 * Issue: There was white space showing on the side of the website when in mobile & tablet screen size in Responsive Viewer
 * Solution: I changed the html overflow-x value to hidden for both mobile and tablet media queries, with the help of [Stack Overflow](https://stackoverflow.com/questions/47976439/unable-to-remove-white-space-from-right-in-responsive-design-html-css)
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/852ba6ed9e5132ae91a5ab81d0d71dfbd0d37ce9)
+
+### Post-deployment 
+* Issue: Post-deployment website did not display background images due to incorrect file paths
+* Solution: I simply switched the absolute paths to relative paths on all divs that had a background image with a URL
+> * [LInk to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/059f58c0a66b03af1ad77610412163cb9e5ff7f4)
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
