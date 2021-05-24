@@ -763,25 +763,23 @@ button a {
     background-color: #FFF3B0;
 }
 
-#get-in-touch h1,
-#get-in-touch h2 {
+#get-in-touch h1 {
     font-family: 'Poppins', sans-serif;
     color: #191919;
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
-}
-
-#get-in-touch h1 {
     letter-spacing: 4px;
     font-size: 4em;
     padding-top: 20px;
 }
 
 #get-in-touch h2 {
-    letter-spacing: 7px;
+    letter-spacing: 3px;
     font-size: 1.4em;
     padding: 5px 0 20px 0;
+    width: 90%;
+    text-transform: uppercase;
 }
 
 #contact-wrapper {
@@ -841,10 +839,6 @@ button a {
 
 #contact-no a {
     color: #191919;
-}
-
-.contact h2 {
-    font-size: 20px;
 }
 
 .contact h3, 
