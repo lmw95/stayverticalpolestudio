@@ -94,17 +94,17 @@ Initially, Google Lighthouse brought up a variety of issues that were affecting 
 
 ![](/documentation/screenshots/accessibility-contrast.png)
 
-* Issue: The contrast between the background colour of the Instructors section and the section h1 was not high enough. 
+* Desktop & mobile: The contrast between the background colour of the Instructors section and the section h1 was not high enough. 
 * Solution: I improved the contrast by making the header #FFF3B0. This dramatically improved the accessibility score in the second report.
 
 ![](/documentation/screenshots/accessibility-links.png)
 
-* Issue: The links did not have discernable names, which would make it harder for users of screen readers. 
+* Desktop & mobile: The links did not have discernable names, which would make it harder for users of screen readers. 
 * Solution: To fix this, I added aria labels to all links on the website, with help from [Stack Overflow.](https://stackoverflow.com/questions/51683761/how-to-fix-lighthouse-links-do-not-have-a-discernible-name)
 
 ![](/documentation/screenshots/accessibility-headers.png)
 
-* Issue: The header of the form sub-section in the contact section was not semantically correct.
+* Desktop & mobile: The header of the form sub-section in the contact section was not semantically correct.
 * Solution: To improve the last issue with accessibility, I changed the h3 to a h2 to correct the semantics.
 
 FINAL TESTING
@@ -116,19 +116,27 @@ After these changes, the website is displaying a 100% score on Accessiblity on m
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
 ## Performance
-INITIAL TESTING - DESKTOP
+INITIAL TESTING 
 
-* The inital testing of the performance score differed greatly between desktop and mobile displays:
+The inital testing of the performance score differed greatly between desktop and mobile displays:
 
 ![](/documentation/screenshots/performance-desktop.png)
 * Desktop: On desktop screens, the performance was at 95%, which was brought down from 100% by issues that I do not currently have the skill to understand, but in the future I will amend these issues.
 
-![](/documentation/screenshots/performance-mobile.png)
+![](/
 * Mobile: On mobile screens, the performance was quite badly affected by 
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
 ## SEO 
+INITIAL TESTING
+
+![](/documentation/screenshots/seo-desktop.png)
+
+* Desktop: On the SEO rating, it was affected by the meta tag in the index.html not having a description
+* Solution: I simply added a description to the meta tag as recommended by [Google DevTools](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools)
+
+![]
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
