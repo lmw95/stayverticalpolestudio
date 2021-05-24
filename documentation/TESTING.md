@@ -32,17 +32,17 @@ This section outlines the testing of the interactive components of the website.
 
 ### Hover effects
 * Plan: I wanted animations on the buttons, social media links and navigation menu links to increase interactivity with the user as they travelled through the website.
-* Implementation: I utlised Hover.css: the 'float' effect for buttons and social media icons, and the 'grow' effect for the navigation menu links.
-* Test:
-* Result:
-* Verdict:
+* Implementation: I utilised Hover.css: the 'float' effect for buttons and social media icons, and the 'grow' effect for the navigation menu links.
+* Test: I tested the website on Google Chrome, Mozilla Firefox and Microsoft Edge, I hovered over all of the hoverable elements to make sure the effect was working.
+* Result: All hoverable effects worked across all browsers and devices.
+* Verdict: PASS
 
 ### Contact form
 * Plan: I wanted to include a contact form which the user can fill in if they wish to reach out to the owners directly. They should insert their name, email address & phone number, a reason for contact and a message so the owners can respond to them. 
 * Implementation: In order to implement this, I have created a form in my index.html with 3 input fields, 1 textarea field and a submit button, with corresponding labels. The form was styled in accordance with the colour palette of the site.
-* Test: 
-* Result:
-* Verdict:
+* Test: I tested the website on Google Chrome, Mozilla Firefox and Microsoft Edge, I tried to submit the form without entering the required information in the input fields to test the form validation.
+* Result: An alert popped up telling the user to enter text in the field on all browsers and devices, which worked as expected.
+* Verdict: PASS
 
 ## Issues during development
 This section covers the major issues I encountered during the development and testing process and the solutions that fixed them.
