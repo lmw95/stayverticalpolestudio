@@ -1,13 +1,23 @@
 # Testing 
 
 During the development process, testing has been conducted as an ongoing process, with further testing conducted towards the end of the process:
-* [Issues during development](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#issues-during-development)
-* [User stories](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#user-stories)
+* [Testing process](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing-process)
+* [Issues & bugs during development](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#issues--bugs-during-development)
 * [Accessibility](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#accessibility)
 * [Performance](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#performance)
 * [HTML & CSS validation](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#html--css-validation)
 
+## Testing process 
+This section outlines the testing of each component of the webpage.
+### Navigation menu
+* Plan:
+* Implementation:
+* Test:
+* Result:
+* Verdict: 
+
 ## Issues during development
+This section covers the major issues I encountered during the development and testing process and the solutions that fixed them.
 ### Navigation
 * Issue: The navigation links were bunched up too close to each other
 * Solution: I removed the styling for .nav-item divs and started over by styling the nav-item links only
@@ -37,9 +47,8 @@ During the development process, testing has been conducted as an ongoing process
 
 * Issue: There was white space showing on the side of the website when in mobile & tablet screen size in Responsive Viewer
 * Solution: I changed the html overflow-x value to hidden for both mobile and tablet media queries, with the help of [Stack Overflow](https://stackoverflow.com/questions/47976439/unable-to-remove-white-space-from-right-in-responsive-design-html-css)
-> * [Linl to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/852ba6ed9e5132ae91a5ab81d0d71dfbd0d37ce9)
+> * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/852ba6ed9e5132ae91a5ab81d0d71dfbd0d37ce9)
 
-## User stories
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
 ## Accessibility

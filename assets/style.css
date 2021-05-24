@@ -50,7 +50,13 @@ header {
     width: 100%;
     background: url(/documentation/images/pole-dancer.jpg) no-repeat center center;
     background-size: cover;
-    animation: bg-zoom 3s forwards;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        animation: bg-zoom 3s forwards;
+        -webkit-animation: bg-zoom 3s forwards;
+        -moz-animation: bg-zoom 3s forwards;
+        -o-animation: bg-zoom 3s forwards;
     overflow: hidden;
 }
 
