@@ -252,7 +252,24 @@ Please find the complete Testing process and results [here.](https://github.com/
 
 # Deployment 
 ## Project creation
+* This project was developed using Gitpod and pushed to GitHub using the built-in function within Gitpod.
+* Updates were committed frequently to git and the project pushed onto GitHub on a regular basis after changes made in the project.
+
 ## Deployment on GitHub
+This project was deployed via GitHub by executing the following steps, following the above write, commit and push process:
+* Navigate to the repository on github and click Settings.
+* From there, go to the Source section within the Github Pages section.
+* Select master branch on the dropdown menu, and click save.
+* Now the website is live on https://anouksmet.github.io/Naturazy/
+* Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
+
 ## How to run the project locally
+Fork or clone the github repository to use or contribute to this project.
+
+* Click the green Clone or Download button on the Github Repository
+* Using the Clone with HTTPS option, copy the link displayed.
+* Open your IDE, and ensure the Git Terminal is open.
+* Change the working directory to the location where the cloned directory is to go.
+* Use the "git clone" command and paste the url copied in the second step.
 
 # Credits 
