@@ -87,9 +87,11 @@ This section covers the major issues I encountered during the development and te
 ## Accessibility
 ### Google Lighthouse 
 INITIAL TESTING
-![](/documentation/screenshots/accessibility-initial-report.png)
+
+![The initial report from Google Lighthouse](/documentation/screenshots/accessibility-initial-report.png)
+
 Initially, Google Lighthouse brought up a variety of issues that were affecting the website's accessibility:
-* ![](documentation/screenshots/accessibility-contrast.png) 
+* ![Contrast](/documentation/screenshots/accessibility-contrast.png) - The 
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
