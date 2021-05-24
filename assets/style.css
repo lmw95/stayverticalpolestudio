@@ -1001,11 +1001,11 @@ footer i {
 
     /*About*/
     #about {
-        height: 1725px;
+        height: 1900px;
     }
     
     #about h1 {
-        font-size: 5em;
+        font-size: 3.5em;
         line-height: 90px;
         padding-top: 10px;
     }
@@ -1017,7 +1017,7 @@ footer i {
 
     #about-container {
         flex-direction: column;
-        height: 1300px;
+        height: 1500px;
     }
 
     #about-container .third {
@@ -1059,7 +1059,7 @@ footer i {
 
     /*Classes*/
     #classes {
-        height: 6000px;
+        height: 6200px;
     }
 
     #class-section-wrapper {
@@ -1088,7 +1088,7 @@ footer i {
         font-weight: 700;
         font-size: 4em;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     #class-pictures {
@@ -1096,11 +1096,11 @@ footer i {
     }
 
     #class-levels {
-        height: 50%;
+        height: 45%;
     }
 
     #class-extras {
-        height: 25%;
+        height: 30%;
     }
     
     #class-levels h2,
@@ -1122,6 +1122,10 @@ footer i {
     .level {
         height: 20%;
         width: 100%;
+    }
+
+    .level h3 {
+        font-size: 2.3em;
     }
 
     .description {
@@ -1175,9 +1179,9 @@ footer i {
 
     #i-half-left h1 {
         text-align: center;
-        font-size: 3em;
+        font-size: 2.6em;
         font-weight: 700;
-        margin-top: 50px;
+        margin: 50px 0 20px 0;
     }
 
     #instr-img-wrapper {
@@ -1189,6 +1193,11 @@ footer i {
     #instr-img-wrapper .instr-img {
         height: 25%;
         width: 100%;
+    }
+
+    .cert {
+        border-radius: 0px;
+        height: 100%;
     }
 
     /*Testimonials*/
