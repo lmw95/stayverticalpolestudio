@@ -904,6 +904,11 @@ footer i {
     margin-top: 200px;
 }
 
+#error i {
+    font-size: 4em;
+    color: #C1121F;
+}
+
 #error h1 {
     font-size: 6em;
 }
@@ -923,10 +928,6 @@ footer i {
 
 #error button a {
     font-weight: 300;
-}
-
-#error button i {
-    margin-left: 5px;
 }
 
 /*-------------Media Queries-------------*/
@@ -1239,6 +1240,44 @@ footer i {
        padding: 10px;
     }
 
+    /*Error page (404.html)*/
+    #error {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 50px;
+        height: 500px;
+    }
+
+    #error i {
+        font-size: 4em;
+        color: #C1121F;
+    }
+
+    #error h1 {
+        font-size: 4em;
+        text-align: center;
+    }
+
+    #error h2 {
+        font-size: 2em;
+    }
+
+    #error button {
+        padding: 10px;
+        background-color: #9A5526;
+        color: #FFF3B0;
+        outline: none;
+        border: none;
+        margin-top: 20px;
+    }
+
+    #error button a {
+        font-weight: 300;
+    }
+
     /*Footer*/
     footer {
         display: flex;
@@ -1497,5 +1536,42 @@ footer i {
 
     .footer-third i {
         padding-top: 50px;
+    }
+
+    /*Error page (404.html)*/
+    #error {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 100px;
+    }
+
+    #error i {
+        font-size: 4em;
+        color: #C1121F;
+    }
+
+    #error h1 {
+        font-size: 6em;
+        text-align: center;
+    }
+
+    #error h2 {
+        font-size: 2em;
+    }
+
+    #error button {
+        padding: 10px;
+        background-color: #9A5526;
+        color: #FFF3B0;
+        outline: none;
+        border: none;
+        margin-top: 20px;
+    }
+
+    #error button a {
+        font-weight: 300;
     }
 }
