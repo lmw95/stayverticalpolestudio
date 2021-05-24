@@ -68,10 +68,11 @@ As a returning user:
 * I expect the social media links to work and open in another tab so that I can join the local community
 * I want to know more about the instructors credentials so that I can recommend them to my friends
 * I want a clear and simple booking system that I can use quickly
-* I want to see further reviews so that I can recommend to my friends
-* I want to see class sizes so that I can plan for future classes
+* I want to see reviews so that I can recommend to my friends
+* I want to see opening times/timetable so that I can plan for future classes
 * I want to know about COVID-19 precautions so I know I will be safe during my lessons
 * I want to be able to buy merchandise so that I can represent the pole studio when in public
+* I want to be able to leave a review on TripAdvisor so I can promote the company 
 * I want to see that there is a refund and cancellation policy so that I can get my money back if I miss a class
 
 ### Business owner:
@@ -81,7 +82,7 @@ As the business owner:
 * I want to emphasise inclusivity and accessibility in my studio
 * I want to feature my and my instructors' backstories so customers can feel at ease when they first visit 
 * I want to to encourage users to get in touch so that I can answer any questions they have
-* I want to provide links to our social media accounts to grow my online community and retain returning customers
+* I want to provide links to our social media accounts and TripAdvisor reviews to grow my online community and retain returning customers
 * I want to emphasise the saftey (in terms of COVID-19 and physical safety) of my staff and customers due to the nature of the services that my company provides
 * I want to showcase my merchandise so that I can advertise my studio through my students when in public
 
@@ -132,6 +133,7 @@ work on mobile, tablet and desktop. Below are the current features and which sto
 RESPONSIVE DESIGN
 * The website will grow and shrink according to the screen size of the user, for a good cross-device user experience.
 > * As a first-time user, I want the website to work on all devices
+> * As a first-time user, I want the website to be easy to navigate
 > * When visiting the website, the user wants to access website across a range of devices
 
 HERO HEADER SECTION WITH NAVIGATION MENU
@@ -140,30 +142,51 @@ HERO HEADER SECTION WITH NAVIGATION MENU
 > * As the business owner, I want a to create an online presence that stands out from the competition
 
 INTRODUCTION 
-* This section gives the user background into the company owner and gives a brief overview of the company ethos and commitments to its customers.
+* This section gives the user background into the company owner and gives a brief overview of the company ethos and commitments to its customers, with a button that takes the user to the instuctor section.
 > * When visiting the website, the user wants to feel comfortable attending classes without fear of discrimination or self-conscious
+> * By having a new website, the business owner wants to promote inclusivity and accessibility
 > * As a first-time user, I want to feel comfortable that I will be welcome here
-> * 
+> * As the business owner, I want to emphasise inclusivity and accessibility in my studio
 
 CLASSES & PRICES
-* This section displays an overview of the services provided by the company and an array of call to action buttons.
-> * 
+* This section displays an overview of the services provided by the company and an array of call to action buttons to the timetable, booking system, refund policy and shop.
+> * By having a new website, the business owner wants to advertise classes to customers, both new to pole and existing pole dancers
+> * When visiting the website, the user wants to see the range of classes and bookings (prices, ability levels and lesson types)
+> * As a first-time user, I want to see a description about the classes so that I can judge my comfort levels and feel comfortable with the class I will be attending
+> * As a first-time user, It is important to know what to wear and bring to my first lesson with this studio
+> * As a first-time user, I want to know about COVID-19 precautions so I know I will be safe during my time at the studio
+> * As the business owner, I want to provide clear navigation of the website to advertise classes and prices
+> * As the business owner, I want to showcase my merchandise so that I can advertise my studio through my students when in public
+> * As the business owner, I want to emphasise the saftey (in terms of COVID-19 and physical safety) of my staff and customers due to the nature of the services that my company provides
+> * As a returning user, I want to know about COVID-19 precautions so I know I will be safe during my lessons
+> * As a returning user, I want to see that there is a refund and cancellation policy so that I can get my money back if I miss a class
+> * As a returning user, I want to be able to buy merchandise so that I can represent the pole studio when in public
 
 INSTRUCTOR PROFILES
 * This section provides information on the staff who work for the company and their social media profiles.
-> * 
+> * As a first-time user, I want to know about the instructors to feel at ease
+> * As a returning user, I want to know more about the instructors credentials so that I can recommend them to my friends
+> * As the business owner, I want to feature my and my instructors' backstories so customers can feel at ease when they first visit 
 
 TESTIMONIALS
 * This section displays review from previous customers and a working link to TripAdvisor should the user want to see more.
-> * 
+> * As a returning user, I want to be able to leave a review on TripAdvisor so I can promote the company 
+> * As a returning user, I want to see reviews so that I can recommend to my friends
+> * As a business owner, I want to provide links to our social media accounts and TripAdvisor reviews to grow my online community and retain returning customers
+> * As the business owner, I want a to create an online presence that stands out from the competition
 
 CONTACT US 
 * This section includes an enquiry form and all of the necessary contact details (phone and phone) of the company, with each of the email links opening Outlook on the user's device for quick contact. This section also includes working links to the comoany's social media pages which open in different tabs.
-> * 
+> * When visiting the website, the user wants to access the owners contact information
+> * As a first-time user, I want the owners contact details so that I can ask any questions 
+> * As a returning user, I want to be able to submit an enquiry quickly through the website as I am now familiar with the owners
+> * As the business owner, I want to to encourage users to get in touch so that I can answer any questions they have
+> * As the business owner, I want to provide links to our social media accounts and TripAdvisor reviews to grow my online community and retain returning customers
 
 FOOTER
 * The footer section includes opening times, a working link to Google Maps (for the company location) and a copyright notice.
-> * 
+> * When visiting the website, the user wants to check where company is located (locality)
+> * As a returning user, I want to see opening times/timetable so that I can plan for future classes
 
 [Back to top](https://github.com/lmw95/therabbitandribbon#stay-vertical-pole-studio)
 
