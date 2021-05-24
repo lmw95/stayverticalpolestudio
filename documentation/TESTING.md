@@ -90,7 +90,7 @@ INITIAL TESTING
 
 ![](/documentation/screenshots/accessibility-initial-report.png)
 
-Initially, Google Lighthouse brought up a variety of issues that were affecting the website's accessibility:
+Initially, Google Lighthouse brought up a variety of issues that were affecting the website's accessibility on both website and mobile screens:
 
 ![](/documentation/screenshots/accessibility-contrast.png)
 
@@ -106,6 +106,10 @@ Initially, Google Lighthouse brought up a variety of issues that were affecting 
 
 * Issue: The header of the form sub-section in the contact section was not semantically correct.
 * Solution: To improve the last issue with accessibility, I changed the h3 to a h2 to correct the semantics.
+
+![](/documentation/screenshots/accessibility-final-report.png)
+
+After these changes, the website is displaying a 100% score on Accessiblity on mobile devices and desktop devices.
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
