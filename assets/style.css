@@ -655,7 +655,7 @@ button a {
 /*-------------Footer/contact-------------*/
 
 #get-in-touch {
-    height: 900px;
+    height: 1100px;
     width: 100%;
     background-color: #191919;
     display: flex;
@@ -709,6 +709,7 @@ button a {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-top: 10px;
 }
 
 .label {
@@ -727,7 +728,21 @@ button a {
 }
 
 #form button {
-    padding: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 80%;
+    background-color: #9A5526;
+    outline: none;
+    border: none;
+}
+
+#contact-no p {
+    font-size: 1.2em;
+    letter-spacing: 3px;
+}
+
+#contact-no a {
+    color: #191919;
 }
 
 .contact h3, 
