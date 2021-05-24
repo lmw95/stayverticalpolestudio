@@ -12,23 +12,23 @@ This section outlines the testing of the interactive components of the website.
 ### Navigation menu
 * Plan: I wanted a navigation menu that was fixed to the top of the user's screen on desktop and tablet devices (over 798px). All the links should take the user to their intended destination, be it on the current page, a different part of the website or another site entirely.
 * Implementation: I created the navigation menu using CSS Flexbox which provided me with a responsive navigation menu that stretches the entire width of the user's screen, and the navigation items display neatly either in column or row display. I styled the navigation in accordance with the colour palette of the website.
-* Test:
-* Result:
-* Verdict: 
+* Test: I tested the website on Google Chrome, Mozilla Firefox and Microsoft Edge. On Google Chrome, I used Responsive View to grow and shrink the device width to make sure the navigation menu changes display at the breakpoints.
+* Result: The navigation bar displays correctly on all browsers and devices.
+* Verdict: PASS
 
 ### Zooming header animation
 * Plan: I wanted to have a hero image which moved towards the user to grab their attention when they first enter or refresh the page. 
 * Implementation: I created a header background div within the header itself and set the background to the hero image, then used keyframes to create the zooming animation of that div.
-* Test:
-* Result:
-* Verdict:
+* Test: I tested the website on Google Chrome, Mozilla Firefox and Microsoft Edge and refreshed the page a few times on each. Using Google inspect and Responsive View, I refreshed the page a few times to test the zoom on smaller screens.
+* Result: The background zoom works well on all browsers and screen sizes as intended - there was a slight delay on Google Chrome desktop view at first but worked well afterwards.
+* Verdict: PASS
 
 ### Working links
 * Plan: I wanted to have working links that took the user to external sites (such as social media), to another section of the page or opened another app (such as Outlook).
 * Implementation: I left the link hrefs empty at first, then I created a 404 error page, and linked all the relevant pages and sections to each link with their correct targets.
-* Test:
-* Result:
-* Verdict:
+* Test: I tested the website on Google Chrome, Mozilla Firefox and Microsoft Edge by clicking on all of the links one by one to check they took the user to the correct place.
+* Result: I noticed an incorrect link in some of the buttons, but that was easily added in after testing and fixed the issue. All other links were working perfectly on all browsers.
+* Verdict: PASS
 
 ### Hover effects
 * Plan: I wanted animations on the buttons, social media links and navigation menu links to increase interactivity with the user as they travelled through the website.
