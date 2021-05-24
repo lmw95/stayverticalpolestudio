@@ -246,7 +246,7 @@ Testing has been an ongoing process throughout the development stage. It has bee
 * Performance
 * HTML & CSS validation.
 
-Please find the complete Testing process and results [here.](/https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md)
+Please find the complete Testing process and results [here.](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md)
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio#stay-vertical-pole-studio)
 
