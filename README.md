@@ -59,7 +59,7 @@ As a first-time user:
 * It is important to know what to wear and bring to my first lesson with this studio
 * It is important that the information is not cluttered on the page
 * I want to know about the instructors to feel at ease
-* I want to see the class sizes so that I can judge my comfort levels and feel comfortable with the number of students at one time
+* I want to see a description about the classes so that I can judge my comfort levels and feel comfortable with the class I will be attending
 * I want to know about COVID-19 precautions so I know I will be safe during my time at the studio
 
 ### Returning users:
@@ -131,14 +131,18 @@ work on mobile, tablet and desktop. Below are the current features and which sto
 
 RESPONSIVE DESIGN
 * The website will grow and shrink according to the screen size of the user, for a good cross-device user experience.
-> * 
+> * As a first-time user, I want the website to work on all devices
+> * When visiting the website, the user wants to access website across a range of devices
 
 HERO HEADER SECTION WITH NAVIGATION MENU
 * This section displays a hero image with a tagline and a fixed navigation menu.
-> * 
+> * As a first-time user, I want to be inspired by the studio as soon as I enter the page
+> * As the business owner, I want a to create an online presence that stands out from the competition
 
 INTRODUCTION 
 * This section gives the user background into the company owner and gives a brief overview of the company ethos and commitments to its customers.
+> * When visiting the website, the user wants to feel comfortable attending classes without fear of discrimination or self-conscious
+> * As a first-time user, I want to feel comfortable that I will be welcome here
 > * 
 
 CLASSES & PRICES
@@ -160,3 +164,38 @@ CONTACT US
 FOOTER
 * The footer section includes opening times, a working link to Google Maps (for the company location) and a copyright notice.
 > * 
+
+[Back to top](https://github.com/lmw95/therabbitandribbon#stay-vertical-pole-studio)
+
+# Features
+## Current features
+
+## Features for future implementation
+
+[Back to top](https://github.com/lmw95/therabbitandribbon#stay-vertical-pole-studio)
+
+# Technologies
+## Languages and Markup ##
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+## Libraries & Frameworks ##
+* [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Hover.css](https://ianlunn.github.io/Hover/)
+* [Font Awesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
+
+## Tools ##
+* [Mockup Plus](https://www.mockplus.com/download/mockplus-classic)
+* [W3C HTML Validation Service](https://validator.w3.org/)
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+* [Google Chrome ColorPicker](https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg?hl=en)
+* Google Chrome Responsive View (in DevTools)
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools)
+* [W3C HTML Validator](https://validator.w3.org/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+## Workspaces ##
+* [GitPod](https://www.gitpod.io/)
+* [GitHub](https://github.com/)
