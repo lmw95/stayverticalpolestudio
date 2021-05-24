@@ -9,14 +9,20 @@ During the development process, testing has been conducted as an ongoing process
 
 # Ongoing issues
 
-
-
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
 # User stories
 
+[Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
+
 # Accessibility
+
+[Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
 # Performance
 
+[Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
+
 # HTML & CSS validation
+
+[Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
