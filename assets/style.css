@@ -652,14 +652,35 @@ button a {
     width: 19%;
     background-color: #191919;
     color: #FFF3B0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .icon-wrapper {
-    height: 20%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
+}
+
+.review span {
+    font-size: 1.2em;
+    color: #9A5526;
+    font-weight: 700;
+    margin: 0 5px;
+}
+
+.review p {
+    color: #FFF3B0;
+    width: 90%;
+    height: 90%;
+}
+
+.name {
+    height: 20%;
 }
 
 /*
