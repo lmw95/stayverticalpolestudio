@@ -123,6 +123,9 @@ INITIAL TESTING - DESKTOP
 ![](/documentation/screenshots/performance-desktop.png)
 * Desktop: On desktop screens, the performance was at 95%, which was brought down from 100% by issues that I do not currently have the skill to understand, but in the future I will amend these issues.
 
+![](/documentation/screenshots/performance-mobile.png)
+* Mobile: On mobile screens, the performance was quite badly affected by 
+
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
 ## SEO 
