@@ -94,8 +94,13 @@ Initially, Google Lighthouse brought up a variety of issues that were affecting 
 
 ![](/documentation/screenshots/accessibility-contrast.png)
 
-* The contrast between the background colour of the Instructors section and the section h1 was not high enough. I fixed this by making the header #FFF3B0.
+* Issue: The contrast between the background colour of the Instructors section and the section h1 was not high enough. 
+* Solution: I improved the contrast by making the header #FFF3B0. This dramatically improved the accessibility score in the second report.
 
+![](/documentation/screenshots/accessibility-links.png)
+
+* Issue: The links did not have discernable names, which would make it harder for users of screen readers. 
+* Solution: To fix this, I added aria labels to all links on the website.
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
