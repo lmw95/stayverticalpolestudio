@@ -100,7 +100,7 @@ Initially, Google Lighthouse brought up a variety of issues that were affecting 
 ![](/documentation/screenshots/accessibility-links.png)
 
 * Issue: The links did not have discernable names, which would make it harder for users of screen readers. 
-* Solution: To fix this, I added aria labels to all links on the website.
+* Solution: To fix this, I added aria labels to all links on the website, with help from [Stack Overflow.](https://stackoverflow.com/questions/51683761/how-to-fix-lighthouse-links-do-not-have-a-discernible-name)
 
 ![](/documentation/screenshots/accessibility-headers.png)
 
@@ -116,6 +116,12 @@ After these changes, the website is displaying a 100% score on Accessiblity on m
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
 ## Performance
+INITIAL TESTING - DESKTOP
+
+* The inital testing of the performance score differed greatly between desktop and mobile displays:
+
+![](/documentation/screenshots/performance-desktop.png)
+* Desktop: On desktop screens, the performance was at 95%, which was brought down from 100% by issues that I do not currently have the skill to understand, but in the future I will amend these issues.
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
