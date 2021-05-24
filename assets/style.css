@@ -1107,13 +1107,44 @@ footer i {
         width: 100%;
     }
 
+    /*Testimonials*/
     #testimonials {
         height: 1000px;
     }
 
-    /*Testimonials*/
     #testimonials h1 {
         font-size: 2.5em;
+    }
+
+    #test-wrapper {
+        flex-direction: column;
+        height: 80%;
+        font-size: 0.7em;
+    }
+
+    .review {
+        height: 19%;
+        width: 100%;
+    }
+
+    .icon-wrapper {
+        height: 40%;
+    }
+
+    .name {
+        height: 30%;
+    }
+
+    #tripadvisor {
+        background-color: #9A5526;
+    }
+
+    #tripad-wrapper {
+        background-color: #9A5526;
+    }
+
+    #tripad-wrapper i {
+        color: #FFF3B0;
     }
     
     /*Contact*/
@@ -1323,6 +1354,46 @@ footer i {
 
     #contact-no h3 {
         text-align: center;
+    }
+
+    #testimonials {
+        height: 1000px;
+    }
+
+    /*Testimonials*/
+    #testimonials h1 {
+        font-size: 2.5em;
+    }
+
+    #test-wrapper {
+        flex-direction: column;
+        height: 80%;
+        font-size: 0.8em;
+    }
+
+    .review {
+        height: 19%;
+        width: 100%;
+    }
+
+    .icon-wrapper {
+        height: 40%;
+    }
+
+    .name {
+        height: 30%;
+    }
+
+    #tripadvisor {
+        background-color: #9A5526;
+    }
+
+    #tripad-wrapper {
+        background-color: #9A5526;
+    }
+
+    #tripad-wrapper i {
+        color: #FFF3B0;
     }
 
     /*Contact*/
