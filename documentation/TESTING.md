@@ -163,7 +163,7 @@ INITIAL REPORT
 ![](/documentation/screenshots/errors/W3C-HTML-error2.png)
 * Issue: These three issues were all part of the same block of code: there was an unclosed h1 tag which in turn caused the parent div as read as having open elements
 * Solution: I simply closed the h1 tag
-> * [Limk to commit & code]()
+> * [Limk to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/f360ceb93d5cba2c3500e2d3e562d04e83ea8865)
 
 ### W3C CSS Validator
 
