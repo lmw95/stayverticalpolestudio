@@ -194,7 +194,7 @@ Second report still found errors pertaining to the descendant order of the ancho
 
 FINAL REPORT
 
-![](documentation/screenshots/errors/W3C-HTML-final-report.png)
+![](/documentation/screenshots/errors/W3C-HTML-final-report.png)
 
 After these errors were all fixed, the HTML was all valid.
 
