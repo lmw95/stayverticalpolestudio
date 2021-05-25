@@ -153,7 +153,8 @@ After the changes made, the SEO score was in the green.
 INITIAL REPORT
 
 ![](/documentation/screenshots/errors/W3C-HTML-error-report.png)
-* Initial testing found 12 errors in the HTML and 37 warnings (which are hidden here to focus on the errors)
+
+Initial testing found 12 errors in the HTML and 37 warnings (which are hidden here to focus on the errors)
 
 ![](/documentation/screenshots/errors/W3C-HTML-error1.png)
 * Issue: An anchor tag was the descendant of a button 
@@ -180,13 +181,20 @@ INITIAL REPORT
 * Solution: Moved anchor to wrap button, and have button be descendant of anchor tag
 > * [Link to commit & code](/https://github.com/lmw95/stayverticalpolestudio/commit/5c857a3567eec1a3db5a017fffe36aec49f5f35c)
 
-FINAL REPORT
+SECOND REPORT
 
-![]()
+![](/documentation/screenshots/errors/W3C-HTML-error-report2.png)
+
+Second report still found errors pertaining to the descendant order of the anchor tag and button element
+
+* Solution: To fix this, I removed all buttons from the website (asides from the form button) and left them as styled anchor tags
+> * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/e83727daadca601036229c0db2e7bf61906a0d0f)
+
+FINAL REPORT
 
 ### W3C CSS Validator
 
-INITIAL REPORT
+INITIAL & FINAL REPORT
 
 ![](/documentation/screenshots/W3C-CSS-validator.png)
 * Initial testing found no errors in the CSS
