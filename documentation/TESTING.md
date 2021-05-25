@@ -156,14 +156,18 @@ INITIAL REPORT
 * Initial testing found 12 errors in the HTML and 37 warnings (which are hidden here to focus on the errors)
 
 ![](/documentation/screenshots/errors/W3C-HTML-error1.png)
-* Issue: An achor element was the descendant of a button 
+* Issue: An anchor element was the descendant of a button 
 * Solution: Moved anchor to wrap button, and have button be descendant of anchor tag
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/90be6307dbf227792d11566fb4011b448d4d24df)
 
 ![](/documentation/screenshots/errors/W3C-HTML-error2.png)
 * Issue: These three issues were all part of the same block of code: there was an unclosed h1 tag which in turn caused the parent div as read as having open elements
 * Solution: I simply closed the h1 tag
-> * [Limk to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/f360ceb93d5cba2c3500e2d3e562d04e83ea8865)
+> * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/f360ceb93d5cba2c3500e2d3e562d04e83ea8865)
+
+![](/documentation/screenshots/errors/W3C-HTML-error3.png)
+* Issue: A h3 tag was left unclosed
+* Solution: Closed the h3 tag
 
 ### W3C CSS Validator
 
