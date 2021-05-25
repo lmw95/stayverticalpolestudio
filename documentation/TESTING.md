@@ -166,9 +166,11 @@ INITIAL REPORT
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/f360ceb93d5cba2c3500e2d3e562d04e83ea8865)
 
 ![](/documentation/screenshots/errors/W3C-HTML-error3.png)
-* Issue: A h3 tag was left unclosed
-* Solution: Closed the h3 tag
+* Issue: A h3 tag was left unclosed, causing the div to read as having an open element
+* Solution: Closed the open h3 tag
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/7f26ca4de72329c050453ae7cca4d88455301c6a)
+
+
 
 ### W3C CSS Validator
 
