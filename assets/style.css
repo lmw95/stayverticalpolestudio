@@ -258,7 +258,7 @@ header h1 {
 }
 
 #about-link {
-    padding: 20px;
+    padding: 10px;
     width: 300px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
@@ -1033,7 +1033,7 @@ footer i {
 /*How to build responsive nav without Bootstrap: https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/*/
 
 /*--------------------------------------Media query for mobile screens--------------------------------------*/
-@media (min-width: 360px) and (max-width: 798px) {
+@media (min-width: 320px) and (max-width: 798px) {
     /*General*/
     html {
         overflow-x: hidden;
@@ -1088,6 +1088,7 @@ footer i {
         height: 75%;
     }
 
+
     #about-container .third {
         height: 31%;
         width: 100%;
@@ -1098,8 +1099,8 @@ footer i {
     }
 
     #pole-studio {
-        height: 280px;
-        width: 280px;
+        height: 240px;
+        width: 240px;
     }
 
     #about ul {
@@ -1118,14 +1119,14 @@ footer i {
         height: 5%;
         width: 100%;
         bottom: 0;
-        position: absolute;
     }
 
     #about-link {
-        padding: 1.5em;
+        padding: 1em;
         width: 100%;
         bottom: 0;
         font-size: 1.7em;
+        position: absolute;
     }
 
     /*Classes*/
@@ -1335,6 +1336,11 @@ footer i {
         text-align: center;
     }
 
+    #contact-no a {
+        font-size: 0.8em;
+        letter-spacing: 1px;
+    }
+
     #contact-form {
         height: 70%;
     }
@@ -1348,6 +1354,10 @@ footer i {
         height: 25%;
         align-items: center;
         justify-content: space-between;
+    }
+
+    #sm-wrapper h3 {
+        text-align: center;
     }
 
     #social-media {
@@ -1478,8 +1488,8 @@ footer i {
     }
 
     #pole-studio {
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
     }
 
     #about-right ul {
@@ -1495,12 +1505,6 @@ footer i {
 
     #about-button {
         margin-top: 60px;
-    }
-
-    #about-button button {
-        width: 500px;
-        padding: 30px;
-        font-size: 1.5em;
     }
 
     /*Classes*/
