@@ -148,3 +148,12 @@ After the changes made, the SEO score was in the green.
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
+### W3C CSS Validator
+
+INITIAL TESTING 
+
+![](/documentation/screenshots/W3C-CSS-validator.png)
+* Initial testing found no errors in the CSS
+
+![](/documentation/screenshots/W3C-CSS-validation-warnings.png)
+* These warnings are just information on how the imported style sheet will be validated - webkit is a HTML/CSS web browser rendering engine for Safari/Chrome, so these warnings can be ignored.
