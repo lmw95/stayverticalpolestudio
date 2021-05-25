@@ -1476,19 +1476,17 @@ footer i {
 
     #class-buttons {
         justify-content: center;
+        align-items: center;
     }
 
-    #class-buttons button {
-        font-size: 0.8em;
-        height: 100%;
-        width: 100%;
-        margin: 0;
-    }
-
-    #class-buttons a {
+    #class-buttons .class-link {
         width: 25%;
         height: 100%;
         text-align: center;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #closing-line {
