@@ -178,7 +178,11 @@ INITIAL REPORT
 ![](/documentation/screenshots/errors/W3C-HTML-error5.png)
 * Issue: An anchor tag was the descendant of a button 
 * Solution: Moved anchor to wrap button, and have button be descendant of anchor tag
-> * [Link to commit & code]()
+> * [Link to commit & code](/https://github.com/lmw95/stayverticalpolestudio/commit/5c857a3567eec1a3db5a017fffe36aec49f5f35c)
+
+FINAL REPORT
+
+![]()
 
 ### W3C CSS Validator
 
