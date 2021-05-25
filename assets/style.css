@@ -1067,7 +1067,7 @@ footer i {
 
     /*About*/
     #about {
-        height: 160vh;
+        height: 250vh;
         justify-content: space-between;
     }
     
@@ -1130,7 +1130,7 @@ footer i {
 
     /*Classes*/
     #classes {
-        height: 400vh;
+        height: 600vh;
     }
 
     #class-section-wrapper {
@@ -1209,6 +1209,7 @@ footer i {
 
     .class h3 {
         font-size: 1.9em;
+        margin-bottom: 20px;
     }
 
     #closing-line {
