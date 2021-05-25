@@ -156,7 +156,7 @@ INITIAL REPORT
 * Initial testing found 12 errors in the HTML and 37 warnings (which are hidden here to focus on the errors)
 
 ![](/documentation/screenshots/errors/W3C-HTML-error1.png)
-* Issue: An anchor element was the descendant of a button 
+* Issue: An anchor tag was the descendant of a button 
 * Solution: Moved anchor to wrap button, and have button be descendant of anchor tag
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/90be6307dbf227792d11566fb4011b448d4d24df)
 
@@ -170,7 +170,10 @@ INITIAL REPORT
 * Solution: Closed the open h3 tag
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/7f26ca4de72329c050453ae7cca4d88455301c6a)
 
-
+![](/documentation/screenshots/errors/W3C-HTML-error4.png)
+* Issue: All of the buttons in the Classes section had anchor tags as a descendant 
+* Solution: Moved anchor to wrap button, and have button be descendant of anchor tag
+> * [Link to commit & code]()
 
 ### W3C CSS Validator
 
