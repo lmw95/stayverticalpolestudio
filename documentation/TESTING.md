@@ -148,9 +148,11 @@ After the changes made, the SEO score was in the green.
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
-### W3C HTML Validator
+### W3C HTML Validator 
 
-INITIAL REPORT
+This testing was conducted using [W3C Markup Validator.](https://validator.w3.org/)
+
+INITIAL REPORT 
 
 ![](/documentation/screenshots/errors/W3C-HTML-error-report.png)
 
@@ -192,9 +194,13 @@ Second report still found errors pertaining to the descendant order of the ancho
 
 FINAL REPORT
 
+![](documentation/screenshots/errors/W3C-HTML-final-report.png)
 
+After these errors were all fixed, the HTML was all valid.
 
 ### W3C CSS Validator
+
+This report was conducted using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 INITIAL & FINAL REPORT
 
