@@ -996,7 +996,7 @@ footer i {
 
     /*About*/
     #about {
-        height: 1900px;
+        height: 2000px;
     }
     
     #about h1 {
@@ -1012,7 +1012,7 @@ footer i {
 
     #about-container {
         flex-direction: column;
-        height: 1500px;
+        height: 1600px;
     }
 
     #about-container .third {
@@ -1041,15 +1041,16 @@ footer i {
         width: 50px;
     }
 
-    #about-button {
-        margin-top: 42px;
+    #about-button a {
+        margin-top: 82px;
         width: 100%;
+        font-size: 1.3em;
+        bottom: 0;
     }
 
     #about-button button {
         width: 100%;
         padding: 30px;
-        font-size: 1.3em;
     }
 
     /*Classes*/
