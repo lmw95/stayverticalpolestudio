@@ -173,6 +173,11 @@ INITIAL REPORT
 ![](/documentation/screenshots/errors/W3C-HTML-error4.png)
 * Issue: All of the buttons in the Classes section had anchor tags as a descendant 
 * Solution: Moved anchor to wrap button, and have button be descendant of anchor tag
+> * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/a79cb48677679a1ba50afa0134971e418296d35c)
+
+![](/documentation/screenshots/errors/W3C-HTML-error5.png)
+* Issue: An anchor tag was the descendant of a button 
+* Solution: Moved anchor to wrap button, and have button be descendant of anchor tag
 > * [Link to commit & code]()
 
 ### W3C CSS Validator

@@ -785,6 +785,7 @@ header h1 {
     padding: 5px 0 20px 0;
     width: 90%;
     text-transform: uppercase;
+    text-align: center;
 }
 
 #contact-wrapper {
@@ -835,6 +836,19 @@ header h1 {
     background-color: #9A5526;
     outline: none;
     border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #FFF3B0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#form a {
+    width: 80%;
+    text-align: center;
 }
 
 #contact-no p {
