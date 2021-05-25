@@ -148,9 +148,20 @@ After the changes made, the SEO score was in the green.
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
+### W3C HTML Validator
+
+INITIAL REPORT
+
+![](/documentation/screenshots/errors/W3C-HTML-error-report.png)
+* Initial testing found 12 errors in the HTML and 37 warnings (which are hidden here to focus on the errors)
+
+![](/documentation/screenshots/errors/W3C-HTML-error1.png)
+* Issue: An achor element was the descendant of a button 
+* Solution: 
+
 ### W3C CSS Validator
 
-INITIAL TESTING 
+INITIAL REPORT
 
 ![](/documentation/screenshots/W3C-CSS-validator.png)
 * Initial testing found no errors in the CSS

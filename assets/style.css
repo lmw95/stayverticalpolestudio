@@ -261,9 +261,6 @@ header h1 {
     background-color: #9A5526;
     outline: none;
     border: none;
-}
-
-button a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
