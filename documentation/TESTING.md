@@ -206,7 +206,15 @@ Report with the new navbar found an error relating to the p and span tags in the
 
 ![](/documentation/screenshots/errors/W3C-HTML-error6.png)
 * Issue: The p tag is not allowed to be a child of span 
-* Solution: 
+* Solution: Remove p tag entirely
+> * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/c83aac91f43ef55550a05abe8e179d3d32b67e45)
+
+
+FINAL REPORT WITH NEW NAV BAR 
+
+![](/documentation/screenshots/errors/W3C-HTML-error-report-NNB-final.png)
+
+After the solutions were implemented, all the HTML was valid.
 
 ### W3C CSS Validator
 
