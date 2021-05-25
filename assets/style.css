@@ -1213,6 +1213,7 @@ footer i {
     .cert {
         border-radius: 0px;
         height: 100%;
+        width: 33.3%;
     }
 
     /*Testimonials*/
