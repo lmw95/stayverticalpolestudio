@@ -198,7 +198,7 @@ FINAL REPORT
 
 After these errors were all fixed, the HTML was all valid.
 
-REPORT WITH NEW NAV BAR
+REPORT WITH NEW NAVIGATION MENU
 
 ![](/documentation/screenshots/errors/W3C-HTML-error-report-NNB.png)
 
@@ -209,8 +209,7 @@ Report with the new navbar found an error relating to the p and span tags in the
 * Solution: Remove p tag entirely
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/c83aac91f43ef55550a05abe8e179d3d32b67e45)
 
-
-FINAL REPORT WITH NEW NAV BAR 
+FINAL REPORT WITH NEW NAVIGATION MENU 
 
 ![](/documentation/screenshots/errors/W3C-HTML-error-report-NNB-final.png)
 
@@ -227,3 +226,9 @@ INITIAL & FINAL REPORT
 
 ![](/documentation/screenshots/W3C-CSS-validation-warnings.png)
 * These warnings are just information on how the imported style sheet will be validated - webkit is a HTML/CSS web browser rendering engine for Safari/Chrome, so these warnings can be ignored.
+
+REPORT WITH NEW NAVIGATION MENU
+
+![](/documentation/screenshots/errors/W3C-CSS-validation-NNB.png)
+
+There were no errors reported with the new navigation menu
