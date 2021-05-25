@@ -187,10 +187,12 @@ SECOND REPORT
 
 Second report still found errors pertaining to the descendant order of the anchor tag and button element
 
-* Solution: To fix this, I removed all buttons from the website (asides from the form button) and left them as styled anchor tags
+* Solution: To fix this, I removed all buttons from the website (asides from the form button) and left them as styled anchor tags, with the suggestion of [Stack Overflow.](https://stackoverflow.com/questions/6393827/can-i-nest-a-button-element-inside-an-a-using-html5)
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/e83727daadca601036229c0db2e7bf61906a0d0f)
 
 FINAL REPORT
+
+
 
 ### W3C CSS Validator
 
