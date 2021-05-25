@@ -168,6 +168,7 @@ INITIAL REPORT
 ![](/documentation/screenshots/errors/W3C-HTML-error3.png)
 * Issue: A h3 tag was left unclosed
 * Solution: Closed the h3 tag
+> * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/7f26ca4de72329c050453ae7cca4d88455301c6a)
 
 ### W3C CSS Validator
 
