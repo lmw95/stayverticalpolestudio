@@ -16,7 +16,23 @@
     
     <!--------------------------------------------Header-------------------------------------------->
     <header>
+
         <!--------------------------------------------Navigation menu-------------------------------------------->
+    <div class="nav-wrapper">
+        <nav class="navbar">
+            <span id="toggle-nav" onclick="toggleNav()">
+                <i class="fa fa-bars"></i>
+            </span>
+            <ul id="navlist">
+                <li class="hvr-grow">Home</li>
+                <li class="hvr-grow">Classes</li>
+                <li class="hvr-grow">Gallery</li>
+                <li class="hvr-grow">Items</li>
+                <li class="hvr-grow">Items</li>
+            </ul>
+        </nav>
+    </div>
+        <!--
         <nav id="navbar">
                 <div id="nav-menu">
                     <div class="nav-item"><a href="index.html" class="hvr-grow" target="blank" aria-label="Home page">Home</a></div>
@@ -27,7 +43,7 @@
                     <div class="nav-item"><a href="404.html" class="hvr-grow" target="blank" aria-label="Shop page">Shop</a></div>
                     <div class="nav-item"><a href="#get-in-touch" class="hvr-grow" target="blank" aria-label="Contact section">Contact</a></div>
                 </div>
-            </nav>
+            </nav> -->
             <h1>Learn to fly...</h1>
         <div id="header-background">
         </div>
@@ -371,6 +387,19 @@
         </div>
     </footer>
 
+    <script>
+      var nav = document.getElementById("navlist");
 
+      function toggleNav() {
+        if (nav.style.display === "") nav.style.display = "block";
+        else nav.style.display = "";
+      }
+
+      function windowResizeHandler() {
+        if (screen.width > 630) nav.style.display = "";
+      }
+
+      window.addEventListener("resize", windowResizeHandler);
+    </script>
 </body>
 </html>
