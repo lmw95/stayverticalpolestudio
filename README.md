@@ -98,7 +98,18 @@ Due to length restrictions on Mockup Plus Classic, the mobile and tablet wirefra
 ### [Mobile wireframe part 2](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/mobile-wireframe(part2).png)
 
 ### Differences to wireframes:
+* DESKTOP
+    * In the instructors section, the two halves are on opposite sides
+    * There are no buttons in the reviews section, rather just an icon wih a link to TripAdvisor
 
+* TABLET
+    * The instructors profiles are in a grid display, rather than in a row
+    * There are no buttons in the reviews section, rather just an icon wih a link to TripAdvisor
+
+* MOBILE
+    * The navbar sits above the header
+    * The instructors certifications are not circular, rather sqaure and take up the whole container
+    * The instructors profiles are in a column, not in a grid display
 
 ## Design 
 ### Colours
@@ -230,6 +241,7 @@ FOOTER
 * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools)
 * [W3C HTML Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+* [Am I responsive?](http://ami.responsivedesign.is/)
 
 ## Workspaces ##
 * [GitPod](https://www.gitpod.io/)
