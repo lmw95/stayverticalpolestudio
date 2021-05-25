@@ -198,6 +198,14 @@ FINAL REPORT
 
 After these errors were all fixed, the HTML was all valid.
 
+REPORT WITH NEW NAV BAR
+
+![](/documentation/screenshots/errors/W3C-HTML-error-report-NNB.png)
+
+Report with the new navbar found an error relating to the p and span tags in the navbar
+
+![](/documentation/screenshots/errors/W3C-HTML-error6.png)
+
 ### W3C CSS Validator
 
 This report was conducted using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
