@@ -968,18 +968,24 @@ footer i {
     font-size: 2em;
 }
 
-#error button {
+#error-link {
+    font-weight: 600;
     padding: 10px;
-    background-color: #9A5526;
-    color: #FFF3B0;
+    margin-top: 20px;
+    width: 300px;
     outline: none;
     border: none;
-    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    background-color: #9A5526;
+    color: #FFF3B0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-align: center;
 }
 
-#error button a {
-    font-weight: 300;
-}
 
 /*--------------------------------------Media Queries--------------------------------------*/
 
