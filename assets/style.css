@@ -1018,8 +1018,9 @@ footer i {
         display: inline;
     }
 
-    #toggle-nav p {
+    #toggle-nav #nav-menu {
         display: inline;
+        margin-left: 10px;
         font-size: 18px;
         font-weight: 400;
         color: #FFF3B0;

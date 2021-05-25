@@ -205,6 +205,8 @@ REPORT WITH NEW NAV BAR
 Report with the new navbar found an error relating to the p and span tags in the navbar
 
 ![](/documentation/screenshots/errors/W3C-HTML-error6.png)
+* Issue: The p tag is not allowed to be a child of span 
+* Solution: 
 
 ### W3C CSS Validator
 
