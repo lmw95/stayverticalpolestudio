@@ -292,13 +292,14 @@ CLONE:
 
 # Credits 
 ## Media & images
-The entire list of credits can be found [here.]() 
+The entire list of credits can be found [here.](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/CREDITS.md) 
 
 ## Code & solutions
-The entire list of credits can be found [here.]() 
+The entire list of credits can be found [here.](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/CREDITS.md) 
 
 ## Inspiration 
 The content in this website was inspired by existing pole studio websites, namely [London Dance Academy](https://londondanceacademy.co.uk/classes/pole-fitness/) and [The Pole Studio.](https://www.thepolestudio.co.uk/)
+README.md document inspiration from fellow students 
 
 ## Acknowledgements 
 * My mentor Narender Singh for his advice and guidance during this project
