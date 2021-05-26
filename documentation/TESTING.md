@@ -10,8 +10,8 @@ During the development process, testing has been conducted as an ongoing process
 ## Testing process 
 This section outlines the testing of the interactive components of the website.
 ### Navigation menu
-* Plan: I wanted a navigation menu that was fixed to the top of the user's screen on desktop and tablet devices (over 798px). All the links should take the user to their intended destination, be it on the current page, a different part of the website or another site entirely.
-* Implementation: I created the navigation menu using CSS Flexbox which provided me with a responsive navigation menu that stretches the entire width of the user's screen, and the navigation items display neatly either in column or row display. I styled the navigation in accordance with the colour palette of the website.
+* Plan: I wanted a navigation menu that was fixed to the top of the user's screen. All the links should take the user to their intended destination, be it on the current page, a different part of the website or another site entirely.
+* Implementation: I created the navigation menu using CSS Flexbox which provided me with a responsive navigation menu that stretches the entire width of the user's screen, and the navigation items display neatly either in row or in hamburger menu. I styled the navigation in accordance with the colour palette of the website.
 * Test: I tested the website on Google Chrome, Mozilla Firefox and Microsoft Edge. On Google Chrome, I used Responsive View to grow and shrink the device width to make sure the navigation menu changes display at the breakpoints.
 * Result: The navigation bar displays correctly on all browsers and devices.
 * Verdict: PASS

@@ -151,7 +151,7 @@ RESPONSIVE DESIGN
 > * When visiting the website, the user wants to access website across a range of devices
 
 HERO HEADER SECTION WITH NAVIGATION MENU
-* This section displays a hero image with a tagline and a fixed navigation menu.
+* This section displays a hero image with a tagline and a fixed, collapsable navigation menu.
 > * As a first-time user, I want to be inspired by the studio as soon as I enter the page
 > * As the business owner, I want a to create an online presence that stands out from the competition
 
@@ -206,7 +206,8 @@ FOOTER
 
 # Features
 ## Current features
-* Responsive design to allow user to browse the website on all devices
+* Responsive design to allow user to browse the website on all devices  
+* Collapsable navigation menu for easy browsing on mobile screens 
 * A call for action in terms of clickable buttons in each section to encourage users explore other parts of the website
 * Form with validation to allow users to make contact with the business
 * An active 404 error page that redirects users back to the homepage
@@ -215,7 +216,6 @@ FOOTER
 ## Features for future implementation
 * Carousel of the testimonials for an enhanced user experience 
 * A working link to a gallery page
-* Collapsable hamburger menu when on mobile devices to shrink navigation menu size when I imrpove my Bootstrap skills
 * Working links to menus, gallery, emails and phone numbers which are not currently relevant since this website is for a fictional business.
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio#stay-vertical-pole-studio)
