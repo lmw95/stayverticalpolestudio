@@ -291,3 +291,16 @@ CLONE:
 * Under the repository name, click "Clone or download".
 
 # Credits 
+## Media & images
+The entire list of credits can be found [here.]() 
+
+## Code & solutions
+The entire list of credits can be found [here.]() 
+
+## Inspiration 
+The content in this website was inspired by existing pole studio websites, namely [London Dance Academy](https://londondanceacademy.co.uk/classes/pole-fitness/) and [The Pole Studio.](https://www.thepolestudio.co.uk/)
+
+## Acknowledgements 
+* My mentor Narender Singh for his advice and guidance during this project
+* The slack community for advice and solution to problems that I needed assistance with
+* The wider coding community on [Stack Overflow](https://stackoverflow.com/) for their insights and knowledge which has helped me through this project
