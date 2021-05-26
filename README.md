@@ -299,7 +299,7 @@ The entire list of credits can be found [here.](https://github.com/lmw95/stayver
 
 ## Inspiration 
 The content in this website was inspired by existing pole studio websites, namely [London Dance Academy](https://londondanceacademy.co.uk/classes/pole-fitness/) and [The Pole Studio.](https://www.thepolestudio.co.uk/)
-README.md document inspiration from fellow students 
+README.md document inspiration from fellow students [AnoukSmet](https://github.com/AnoukSmet/Naturazy) and [lemocla](https://github.com/lemocla/MS1-Catsitting)
 
 ## Acknowledgements 
 * My mentor Narender Singh for his advice and guidance during this project
