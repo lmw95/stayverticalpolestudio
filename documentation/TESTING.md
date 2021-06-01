@@ -77,10 +77,14 @@ This section covers the major issues I encountered during the development and te
 * Solution: I changed the html overflow-x value to hidden for both mobile and tablet media queries, with the help of [Stack Overflow](https://stackoverflow.com/questions/47976439/unable-to-remove-white-space-from-right-in-responsive-design-html-css)
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/852ba6ed9e5132ae91a5ab81d0d71dfbd0d37ce9)
 
-### Post-deployment 
+## Issues post-deployment
 * Issue: Post-deployment website did not display background images due to incorrect file paths
 * Solution: I simply switched the absolute paths to relative paths on all divs that had a background image with a URL
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/059f58c0a66b03af1ad77610412163cb9e5ff7f4)
+
+* Issue: Post-deployment navigation menu links did not lead user to the correct page/section
+* Solution: Fixed links to take user to correct places
+> * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/1807913e171111fd8e0c1a9956df7005e7ccf353)
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING.md/#testing)
 
