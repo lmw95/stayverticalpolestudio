@@ -35,10 +35,10 @@ header {
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-    animation: bg-zoom 3s forwards;
-        -webkit-animation: bg-zoom 3s forwards;
-        -moz-animation: bg-zoom 3s forwards;
-        -o-animation: bg-zoom 3s forwards;
+    animation: bg-zoom 7s forwards;
+        -webkit-animation: bg-zoom 7s forwards;
+        -moz-animation: bg-zoom 7s forwards;
+        -o-animation: bg-zoom 7s forwards;
     overflow: hidden;
 }
 
@@ -165,6 +165,8 @@ header h1 {
         height: 900px;
     }
 }
+
+
 
 
 
