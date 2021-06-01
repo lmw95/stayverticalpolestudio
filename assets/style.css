@@ -158,9 +158,9 @@ header h1 {
 
 }
 
-/*--------------------------------------[Media Query - up to 2560px]--------------------------------------*/
+/*--------------------------------------[Media Query - 1440px and above]--------------------------------------*/
 
-@media all and (min-width: 2560px) {
+@media all and (min-width: 1440px) {
     header {
         height: 900px;
     }
