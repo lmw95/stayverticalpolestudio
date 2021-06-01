@@ -27,16 +27,6 @@ html {
     overflow-x: hidden;
 }
 
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-
 /*--------------------------------------Header--------------------------------------*/
 
 header {
@@ -46,9 +36,9 @@ header {
 }
 
 #header-background {
-    height: 700px;
+    height: 600px;
     width: 100%;
-    background: url(../documentation/images/pole-dancer.jpg) no-repeat center center;
+    background: url(../documentation/images/pole-dancer.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -70,15 +60,7 @@ header {
     }
 }
 
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
+
 
 /*--------------------------------------Navbar--------------------------------------*/
 
@@ -131,18 +113,8 @@ header h1 {
     text-transform: lowercase;
 }
 
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-
 /*--------------------------------------About--------------------------------------*/
-
+/*
 #about {
     height: 800px;
     width: 100%;
@@ -284,7 +256,7 @@ header h1 {
 /*
 
 /*--------------------------------------Classes--------------------------------------*/
-
+/*
 #classes {
     height: 3000px;
     width: 100%;
@@ -510,7 +482,7 @@ header h1 {
 /*
 
 /*--------------------------------------Instructors--------------------------------------*/
-
+/*
 #instructors {
     height: 700px;
     width: 100%;
@@ -657,7 +629,7 @@ header h1 {
 /*
 
 /*--------------------------------------Testimonials--------------------------------------*/
-
+/*
 #testimonials {
     height: 650px;
     background: url(../documentation/images/pole-dancer2.jpg) no-repeat center center;
@@ -762,7 +734,7 @@ header h1 {
 /*
 
 /*--------------------------------------Footer/contact--------------------------------------*/
-
+/*
 #get-in-touch {
     height: 1100px;
     width: 100%;
@@ -900,7 +872,7 @@ header h1 {
 /*
 
 /*--------------------------------------Footer--------------------------------------*/
-
+/*
 footer {
     height: 240px;
     background-color: #191919;
@@ -949,7 +921,7 @@ footer i {
 /*
 
 /*--------------------------------------404 error page--------------------------------------*/
-
+/*
 #error {
     display: flex;
     flex-direction: column;
@@ -992,7 +964,7 @@ footer i {
 
 
 /*--------------------------------------Media Queries--------------------------------------*/
-/*How to build responsive nav without Bootstrap: https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/*/
+
 @media all and (max-width: 630px) {
     .navbar {
         padding: 1.6em;
@@ -1030,16 +1002,16 @@ footer i {
         text-decoration: none;
     }
 }
-/*How to build responsive nav without Bootstrap: https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/*/
 
 /*--------------------------------------Media query for mobile screens--------------------------------------*/
+/*
 @media (min-width: 320px) and (max-width: 798px) {
-    /*General*/
+    /*General*//*
     html {
         overflow-x: hidden;
     }
 
-    /*Header*/
+    /*Header*//*
     header {
         height: 350px;
     }
@@ -1055,7 +1027,7 @@ footer i {
         z-index: 1;
     }
 
-    /*Navigation*/
+    /*Navigation*//*
     .nav-wrapper {
         height: 50px;
     }
@@ -1072,7 +1044,7 @@ footer i {
         display: none;
     }
 
-    /*About*/
+    /*About*//*
     #about {
         height: 350vh;
         justify-content: space-between;
@@ -1136,7 +1108,7 @@ footer i {
         position: absolute;
     }
 
-    /*Classes*/
+    /*Classes*//*
     #classes {
         height: 1000vh;
     }
@@ -1248,7 +1220,7 @@ footer i {
         padding: 2em;
     }
 
-    /*Instructors*/
+    /*Instructors*//*
     #instructors {
         flex-direction: column;
         height: 1900px;
@@ -1287,7 +1259,7 @@ footer i {
         width: 33.3%;
     }
 
-    /*Testimonials*/
+    /*Testimonials*//*
     #testimonials {
         height: 1000px;
     }
@@ -1327,7 +1299,7 @@ footer i {
         color: #FFF3B0;
     }
     
-    /*Contact*/
+    /*Contact*//*
     #get-in-touch{
         height: 1700px;
     }
@@ -1382,7 +1354,7 @@ footer i {
        padding: 10px;
     }
 
-    /*Error page (404.html)*/
+    /*Error page (404.html)*//*
     #error {
         display: flex;
         flex-direction: column;
@@ -1420,7 +1392,7 @@ footer i {
         font-weight: 300;
     }
 
-    /*Footer*/
+    /*Footer*/ /*
     footer {
         display: flex;
         flex-direction: column;
@@ -1439,14 +1411,14 @@ footer i {
 }
 
 /*--------------------------------------Media query for tablet screens--------------------------------------*/
-@media (min-width: 798px) and (max-width: 1024px) {
+/*@media (min-width: 798px) and (max-width: 1024px) {
     
-    /*General*/
+    /*General*//*
     html {
         overflow-x: hidden;
     }
 
-    /*Header*/
+    /*Header*//*
     header {
         height: 700px;
     }
@@ -1455,12 +1427,12 @@ footer i {
         margin-left: 100px;
     }
 
-    /*Navigation*/
+    /*Navigation*//*
     #nav-logo {
         display: none;
     }
 
-    /*About*/
+    /*About*//*
     #about {
         height: 2100px;
         position: relative;
@@ -1514,7 +1486,7 @@ footer i {
         margin-top: 60px;
     }
 
-    /*Classes*/
+    /*Classes*//*
     #class-pictures {
         display: flex;
         flex-wrap: wrap;
@@ -1558,7 +1530,7 @@ footer i {
         margin-top: 20px;
     }
 
-    /*Instructors*/
+    /*Instructors*//*
     #instructors {
         flex-direction: column;
         height: 1500px;
@@ -1569,7 +1541,7 @@ footer i {
         height: 50%;
     }
 
-    /*Testimonials*/
+    /*Testimonials*//*
     #testimonials {
         height: 1000px;
     }
@@ -1613,7 +1585,7 @@ footer i {
         color: #FFF3B0;
     }
 
-    /*Contact*/
+    /*Contact*//*
     #get-in-touch {
         height: 1600px;
         align-items: center;
@@ -1659,7 +1631,7 @@ footer i {
         color: #fff3b0;
     }
 
-    /*Footer*/
+    /*Footer*//*
     footer {
         height: 600px;
         flex-direction: column;
@@ -1675,7 +1647,7 @@ footer i {
         padding-top: 50px;
     }
 
-    /*Error page (404.html)*/
+    /*Error page (404.html)*//*
     #error {
         display: flex;
         flex-direction: column;
