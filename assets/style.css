@@ -12,7 +12,7 @@
 /*
 /*
 
-/*--------------------------------------General--------------------------------------*/
+/*--------------------------------------[General]--------------------------------------*/
 
 * {
     padding: 0;
@@ -27,7 +27,7 @@ html {
     overflow-x: hidden;
 }
 
-/*--------------------------------------Header--------------------------------------*/
+/*--------------------------------------[Header]--------------------------------------*/
 
 header {
     height: 100%;
@@ -36,7 +36,7 @@ header {
 }
 
 #header-background {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url(../documentation/images/pole-dancer.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
@@ -59,7 +59,6 @@ header {
         transform: scale(1.1);
     }
 }
-
 
 
 /*--------------------------------------Navbar--------------------------------------*/
@@ -1001,6 +1000,15 @@ footer i {
         letter-spacing: 2px;
         text-decoration: none;
     }
+}
+
+/* Media query */ 
+
+@media (min-width: 320px) and (max-width: 798px) {
+    html {
+        overflow-x: hidden;
+    }
+
 }
 
 /*--------------------------------------Media query for mobile screens--------------------------------------*/
