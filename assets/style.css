@@ -29,7 +29,9 @@ header {
 .header__background {
     height: 100%;
     width: 100%;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     background: url(../documentation/images/pole-dancer.jpg) no-repeat 50% 50%;
     background-size: cover;
         -webkit-background-size: cover;
@@ -52,7 +54,15 @@ header {
     }
 }
 
-/*--------------------------------------[Navbar]--------------------------------------*/
+.header__background h1 {
+    z-index: 1;
+    font-size: 3.5em;
+    margin-bottom: 70px;
+    font-family: 'Homemade Apple', cursive;
+    text-transform: lowercase;
+}
+
+/*--------------------------------------[Navigation Menu]--------------------------------------*/
 
 .nav-wrapper {
     position: fixed;
@@ -93,16 +103,6 @@ header {
   cursor: pointer;
 }
 
-header h1 {
-    position: absolute;
-    z-index: 1;
-    margin-top: 500px;
-    margin-left: 500px;
-    font-size: 3.5em;
-    font-family: 'Homemade Apple', cursive;
-    text-transform: lowercase;
-}
-
 /*--------------------------------------[Media Query - up to 630px]--------------------------------------*/
 
 @media all and (max-width: 630px) {
@@ -118,6 +118,14 @@ header h1 {
     .header__background {
         background: url(../documentation/images/pole-dancer.jpg) no-repeat center center;
         background-size: cover;
+    }
+
+    .header__background h1 {
+        z-index: 1;
+        font-size: 2em;
+        margin-bottom: 50px;
+        font-family: 'Homemade Apple', cursive;
+        text-transform: lowercase;
     }
 
     .navbar {
@@ -155,14 +163,18 @@ header h1 {
         letter-spacing: 2px;
         text-decoration: none;
     }
-
 }
+
 
 /*--------------------------------------[Media Query - 1440px and above]--------------------------------------*/
 
 @media all and (min-width: 1440px) {
     header {
         height: 900px;
+    }
+
+    .header__background h1 {
+        margin-bottom: 100px;
     }
 }
 
@@ -176,7 +188,15 @@ header h1 {
 
 
 
-
+/* header h1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 500px;
+    margin-left: 500px;
+    font-size: 3.5em;
+    font-family: 'Homemade Apple', cursive;
+    text-transform: lowercase;
+}
 
 
 
