@@ -20,7 +20,7 @@ html {
 
 /*--------------------------------------[Header]--------------------------------------*/
 
-header {
+.header {
     height: 700px;
     width: 100%;
     overflow: hidden;
@@ -139,7 +139,7 @@ header {
 
 /* Header */
 
-    header {
+    .header {
         height: 400px;
     }
 
@@ -214,7 +214,7 @@ header {
 
 /* Header */
 
-    header {
+    .header {
         height: 900px;
     }
 
