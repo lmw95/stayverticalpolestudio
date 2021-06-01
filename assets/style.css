@@ -56,7 +56,7 @@ header {
 
 .header__background h1 {
     z-index: 1;
-    font-size: 3.5em;
+    font-size: 2.8em;
     margin-bottom: 70px;
     font-family: 'Homemade Apple', cursive;
     text-transform: lowercase;
@@ -103,13 +103,41 @@ header {
   cursor: pointer;
 }
 
+/*--------------------------------------[About section]--------------------------------------*/
+
+.section__about {
+    height: 740px;
+    background-color: #C1121F;
+}
+
+.section__about h1,
+.section__about h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF3B0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section__about h1 {
+    font-size: 7em;
+    padding: 0.25em 0.25em 0 0.25em;
+    font-weight: 500;
+    letter-spacing: 10px;
+}
+
+.section__about h2 {
+    font-size: 1.3em;
+    font-weight: 300;
+    letter-spacing: 6px;
+    padding: 0 0.25em 0 0.25em;
+}
+
+
 /*--------------------------------------[Media Query - up to 630px]--------------------------------------*/
 
 @media all and (max-width: 630px) {
 
-    html {
-        overflow-x: hidden;
-    }
+/* Header */
 
     header {
         height: 400px;
@@ -122,11 +150,13 @@ header {
 
     .header__background h1 {
         z-index: 1;
-        font-size: 2em;
+        font-size: 1.4em;
         margin-bottom: 50px;
         font-family: 'Homemade Apple', cursive;
         text-transform: lowercase;
     }
+
+/* Navigation */
 
     .navbar {
         padding: 1.6em;
@@ -163,41 +193,48 @@ header {
         letter-spacing: 2px;
         text-decoration: none;
     }
-}
 
+/* About section */
+
+    .section__about h1 {
+        font-size: 2.7em;
+        padding: 0.5em 0.5em 0 0.5em;
+    }
+
+    .section__about h2 {
+        font-size: 0.6em;
+        padding: 0 0.5em 0 0.5em;
+    }
+
+}
 
 /*--------------------------------------[Media Query - 1440px and above]--------------------------------------*/
 
 @media all and (min-width: 1440px) {
+
+/* Header */
+
     header {
         height: 900px;
     }
 
     .header__background h1 {
+        font-size: 3.5em;
         margin-bottom: 100px;
     }
+
+/* About section */
+    .section__about h1 {
+        font-size: 9.5em;
+        letter-spacing: 15px;
+        padding: 0.1em 0.1em 0 0.1em;
+    }
+
+    .section__about h2 {
+        font-size: 1.7em;
+        letter-spacing: 9px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-/* header h1 {
-    position: absolute;
-    z-index: 1;
-    margin-top: 500px;
-    margin-left: 500px;
-    font-size: 3.5em;
-    font-family: 'Homemade Apple', cursive;
-    text-transform: lowercase;
-}
-
 
 
 /*--------------------------------------About--------------------------------------*/
@@ -217,18 +254,6 @@ header {
     text-align: center;
 }
 
-#about h1 {
-    font-size: 6em;
-    font-weight: 400;
-    letter-spacing: 8px;
-}
-
-#about h2 {
-    font-size: 1.3em;
-    font-weight: 300;
-    letter-spacing: 6px;
-    line-height: 15px;
-}
 
 #about-container {
     display: flex;
