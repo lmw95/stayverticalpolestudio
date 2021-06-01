@@ -1,16 +1,7 @@
 /*--------------------------------------Google Fonts--------------------------------------*/
+
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
 
 /*--------------------------------------[General]--------------------------------------*/
 
@@ -30,15 +21,16 @@ html {
 /*--------------------------------------[Header]--------------------------------------*/
 
 header {
-    height: 100%;
+    height: 700px;
     width: 100%;
     overflow: hidden;
 }
 
-#header-background {
-    height: 500px;
+.header__background {
+    height: 100%;
     width: 100%;
-    background: url(../documentation/images/pole-dancer.jpg) no-repeat fixed 50% 50%;
+    position: relative;
+    background: url(../documentation/images/pole-dancer.jpg) no-repeat 50% 50%;
     background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -60,8 +52,7 @@ header {
     }
 }
 
-
-/*--------------------------------------Navbar--------------------------------------*/
+/*--------------------------------------[Navbar]--------------------------------------*/
 
 .nav-wrapper {
     position: fixed;
@@ -111,6 +102,81 @@ header h1 {
     font-family: 'Homemade Apple', cursive;
     text-transform: lowercase;
 }
+
+/*--------------------------------------[Media Query - up to 630px]--------------------------------------*/
+
+@media all and (max-width: 630px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    header {
+        height: 400px;
+    }
+
+    .header__background {
+        background: url(../documentation/images/pole-dancer.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    .navbar {
+        padding: 1.6em;
+     }
+
+    #navlist {
+        flex-direction: column;
+        display: none;
+    }
+
+    #navlist li {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #toggle-nav {
+        display: block;
+        color: #FFF3B0;
+    }
+
+     #toggle-nav i {
+        display: inline;
+    }
+
+    #toggle-nav #nav-menu {
+        display: inline;
+        margin-left: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #FFF3B0;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-decoration: none;
+    }
+
+}
+
+/*--------------------------------------[Media Query - up to 2560px]--------------------------------------*/
+
+@media all and (min-width: 2560px) {
+    header {
+        height: 900px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*--------------------------------------About--------------------------------------*/
 /*
@@ -962,54 +1028,6 @@ footer i {
 }
 
 
-/*--------------------------------------Media Queries--------------------------------------*/
-
-@media all and (max-width: 630px) {
-    .navbar {
-        padding: 1.6em;
-     }
-
-    #navlist {
-        flex-direction: column;
-        display: none;
-    }
-
-    #navlist li {
-        width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    #toggle-nav {
-        display: block;
-        color: #FFF3B0;
-    }
-
-     #toggle-nav i {
-        display: inline;
-    }
-
-    #toggle-nav #nav-menu {
-        display: inline;
-        margin-left: 10px;
-        font-size: 18px;
-        font-weight: 400;
-        color: #FFF3B0;
-        font-family: 'Poppins', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-decoration: none;
-    }
-}
-
-/* Media query */ 
-
-@media (min-width: 320px) and (max-width: 798px) {
-    html {
-        overflow-x: hidden;
-    }
-
-}
 
 /*--------------------------------------Media query for mobile screens--------------------------------------*/
 /*
