@@ -220,6 +220,7 @@ html {
 .section__classes {
     height: 900px;
     background-color: #FFF3B0;
+    box-sizing: border-box;
 }
 
 .section__classes h1 {
@@ -230,6 +231,28 @@ html {
     font-size: 4em;
     font-weight: 500;
     letter-spacing: 10px;
+}
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
 }
 
 /*--------------------------------------[Media Query - up to 630px]--------------------------------------*/
@@ -437,6 +460,7 @@ html {
     .section__classes h1 {
         font-size: 5em;
     }
+    
 }
 
 
