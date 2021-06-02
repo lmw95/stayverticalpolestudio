@@ -18,8 +18,8 @@ html {
     overflow-x: hidden;
 }
 
-.animate__fadeInUp {
-    animation-duration: 3s;
+.animate__fadeIn {
+    animation-duration: 5s;
 }
 
 /*--------------------------------------[Header]--------------------------------------*/
@@ -240,9 +240,9 @@ html {
     }
 }
 
-/*--------------------------------------[Media Query - 1440px and above]--------------------------------------*/
+/*--------------------------------------[Media Query - 1024px and above]--------------------------------------*/
 
-@media all and (min-width: 1440px) {
+@media all and (min-width: 1024px) {
 
 /* Header */
 
@@ -251,7 +251,7 @@ html {
     }
 
     .header__background h1 {
-        font-size: 3.5em;
+        font-size: 2.8em;
         margin-bottom: 80px;
     }
 
@@ -262,7 +262,7 @@ html {
     }
 
     .section__about h1 {
-        font-size: 9.5em;
+        font-size: 7em;
         letter-spacing: 15px;
         padding: 0.1em 0.1em 0 0.1em;
     }
