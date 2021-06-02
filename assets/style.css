@@ -147,7 +147,7 @@ html {
     align-items: center;
     height: 70%;
     margin-top: 30px;
-    background: url(/documentation/images/polestudio.jpg) no-repeat center;
+    background: url(../documentation/images/polestudio.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -218,7 +218,7 @@ html {
 /*--------------------------------------[Classes section]--------------------------------------*/
 
 .section__classes {
-    height: 900px;
+    height: 800px;
     background-color: #FFF3B0;
     box-sizing: border-box;
 }
@@ -234,25 +234,52 @@ html {
 }
 
 .carousel {
-  background: #EEE;
+  background: #FFF3B0;
 }
 
 .carousel-cell {
-  width: 66%;
-  height: 200px;
+  width: 70%;
+  height: 500px;
   margin-right: 10px;
-  background: #8C8;
   border-radius: 5px;
-  counter-increment: gallery-cell;
+  display: flex;
 }
+
+.carousel-cell--overlay {
+    height: 100%;
+    width: 100%;
+     background: rgba(25, 25, 25, 0.9);
+}
+
+.carousel-cell:nth-of-type(1) {
+    background: url(../documentation/images/beginner.png) no-repeat center center;
+     background-size: contain;
+}
+
+.carousel-cell:nth-of-type(2) {
+    background: url(../documentation/images/improver.png) no-repeat center center;
+    background-size: contain;
+}
+
+.carousel-cell:nth-of-type(3) {
+    background: url(../documentation/images/intermediate.png) no-repeat center center;
+    background-size: contain;
+}
+
+.carousel-cell:nth-of-type(4) {
+    background: url(../documentation/images/advanced.png) no-repeat center center;
+    background-size: contain;
+}
+
+.carousel-cell:nth-of-type(5) {
+    background: url(../documentation/images/elite.png) no-repeat center center;
+    background-size: contain;
+}
+
 
 .carousel-cell:before {
   display: block;
   text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
 }
 
 /*--------------------------------------[Media Query - up to 630px]--------------------------------------*/
@@ -380,10 +407,20 @@ html {
     }
 
 /* Classes */
+
+    .section__classes {
+        height: 1000px;
+    }
+
     .section__classes h1 {
         font-size: 2.5em;
         font-weight: 600;
         padding-top: 1.5em;
+    }
+
+    .carousel-cell {
+        height: 600px;
+        width: 80%;
     }
 }
 
