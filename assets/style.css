@@ -232,7 +232,7 @@ html {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: 600;
     letter-spacing: 10px;
     color: #191919;
@@ -321,6 +321,7 @@ html {
     height: 50%;
     width: 50%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     color: #E8E8E8;
 }
@@ -329,9 +330,16 @@ html {
     background-color: #191919;
 }
 
+.cell__description--cell p {
+    padding: 0.5em;
+    font-weight: 500;
+    text-align: left;
+    font-size: 1.5vw;
+}
+
 .cell__description--cell i {
     font-size: 2em;
-    padding: 0 3em 0 0.5em;
+    padding: 0 1em 0 0.5em;
 }
 
 
@@ -403,13 +411,13 @@ html {
     }
 
     .about__headings h1 {
-        font-size: 9vw;
+        font-size: 9.3vw;
         padding: 0.5em 0.5em 0 0.5em;
     }
 
     .about__headings h2 {
         font-size: 2vw;
-        padding: 0 0.5em 0 0.5em;
+        padding: 0 1.5em 0 1.5em;
     }
 
     .section__about .about__headings {
@@ -466,18 +474,40 @@ html {
     }
 
     .section__classes h1 {
-        font-size: 3.5em;
+        font-size: 2.3em;
         font-weight: 700;
         padding-top: 1.5em;
     }
 
     .carousel-cell {
-        height: 600px;
+        height: 550px;
         width: 80%;
+    }
+
+    .carousel-cell--overlay h2 {
+        font-size: 9vw;
     }
 
     .carousel-cell--overlay p {
         font-size: 3.5vw;
+    }
+
+    .cell__description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cell__description--cell {
+        height: 25%;
+        width: 100%;
+    }
+
+    .cell__description--cell p {
+        font-size: 2.3vw;
+    }
+
+    .cell__description--cell i {
+        font-size: 1em;
     }
 }
 
@@ -552,7 +582,19 @@ html {
 
 /* Classes */
     .section__classes h1 {
-        font-size: 5em;
+        font-size: 3.5em;
+    }
+
+    .carousel-cell {
+        height: 450px;
+    }
+
+    .carousel-cell--overlay p {
+        font-weight: 1.8vw;
+    }
+
+    .cell__description--cell p {
+        font-size: 1.5vw;
     }
 }
 
@@ -566,15 +608,19 @@ html {
     }
 
     .section__classes h1 {
-        font-size: 6em;
+        font-size: 4em;
     }
 
     .carousel-cell {
-        height: 600px;
+        height: 400px;
     }
 
     .carousel-cell--overlay p {
-        font-size: 1.9vw;
+        font-size: 1.3vw;
+    }
+
+    .cell__description--cell p {
+        font-size: 1.1vw;
     }
 }
 
