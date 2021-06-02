@@ -368,12 +368,28 @@ html {
 
 .section__classes--extras i {
     color: #FB590E;
-}    
-
-}
+} 
 
 .section__classes--extras li {
     margin-bottom: 10px;
+}
+
+.section__classes--buttons {
+    background-color: #FB590E;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.section__classes--buttons a {
+    font-weight: 700;
+    width: 25%;
+    color: #191919;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*--------------------------------------[Media Query - up to 630px]--------------------------------------*/
