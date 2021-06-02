@@ -222,7 +222,6 @@ html {
 /*--------------------------------------[Classes section]--------------------------------------*/
 
 .section__classes {
-    height: 1100px;
     background-color: #E8E8E8;
 }
 
@@ -393,6 +392,40 @@ html {
     padding: 1.5em;
 }
 
+/*--------------------------------------[Instructors section]--------------------------------------*/
+
+.section__instructors {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #564256;
+}
+
+.section__instructors h1 {
+    font-size: 3.9em;
+    padding: 0.4em 0.25em;
+    font-weight: 500;
+    letter-spacing: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section__instructors .instructors__container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 100%;
+}
+
+.instructors__container .quarter {
+    height: 50%;
+    width: 50%;
+}
+
 /*--------------------------------------[Media Query - up to 630px]--------------------------------------*/
 
 @media all and (max-width: 630px) {
@@ -518,10 +551,6 @@ html {
     }
 
 /* Classes */
-
-    .section__classes {
-        height: 1400px;
-    }
 
     .section__classes h1 {
         font-size: 2.3em;
