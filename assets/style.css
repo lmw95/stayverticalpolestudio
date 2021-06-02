@@ -312,6 +312,19 @@ html {
     height: 35%;
     width: 100%;
     background: #564256;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cell__description--cell {
+    height: 50%;
+    width: 50%;
+}
+
+.cell__description--cell:hover {
+    background-color: #191919;
+    color: #E8E8E8;
 }
 
 
