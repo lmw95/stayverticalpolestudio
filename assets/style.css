@@ -15,7 +15,7 @@ body {
 }
 
 html {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .animate__fadeIn {
@@ -157,7 +157,8 @@ html {
     background-color: rgb(25, 25, 25, 0.9);
     display: flex;
     flex-direction: column;
-
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .about__left h3,
@@ -170,6 +171,18 @@ html {
     font-size: 0.9em;
     padding: 1em;
     letter-spacing: 4px;
+    margin-top: 20px;
+}
+
+.about__left p,
+.about__right p {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF3B0;
+    text-align: justify;
+    font-weight: 200;
+    line-height: 40px;
+    padding: 0 2em 2em 2em;
+    font-size: 1.9vw;
 }
 
 /*--------------------------------------[Media Query - up to 630px]--------------------------------------*/
@@ -236,7 +249,7 @@ html {
 /* About section */
 
     .section__about {
-        height: 800px;
+        height: 1000px;
     }
 
     .about__headings h1 {
@@ -268,6 +281,12 @@ html {
     .about__left h3,
     .about__right h3 {
         font-size: 1em;
+    }
+
+    .about__left p,
+    .about__right p {
+        font-size: 3.1vw;
+        line-height: 30px;
     }
 }
 
@@ -315,45 +334,19 @@ html {
     .about__right h3 {
         font-size: 1.5em;
     }
+    
+    .about__left p,
+    .about__right p {
+        font-size: 1.4vw;
+    }
 }
 
 
 /*--------------------------------------About--------------------------------------*/
 /*
 
-#about h3 {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    color: #FFF3B0;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 1.6em;
-    letter-spacing: 4px;
-}
 
-#about-left,
-#about-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-#about-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#pole-studio {
-    height: 320px;
-    width: 320px;
-    border-radius: 50%;
-    background: url(../documentation/images/pole-studio.jpg) no-repeat center center;
-    background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-}
 
 .third p {
     font-family: 'Poppins', sans-serif;
