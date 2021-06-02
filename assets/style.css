@@ -134,7 +134,7 @@ html {
 }
 
 .about__headings h2 {
-    font-size: 1.3em;
+    font-size: 2vw;
     font-weight: 300;
     letter-spacing: 6px;
     padding: 0 0.25em 0 0.25em;
@@ -253,12 +253,12 @@ html {
     }
 
     .about__headings h1 {
-        font-size: 2.7em;
+        font-size: 9vw;
         padding: 0.5em 0.5em 0 0.5em;
     }
 
     .about__headings h2 {
-        font-size: 0.6em;
+        font-size: 2vw;
         padding: 0 0.5em 0 0.5em;
     }
 
@@ -320,13 +320,13 @@ html {
     }
 
     .about__headings h1 {
-        font-size: 6.5em;
+        font-size: 6.8em;
         letter-spacing: 15px;
         padding: 0.1em 0.1em 0 0.1em;
     }
 
     .about__headings h2 {
-        font-size: 1.7em;
+        font-size: 1.7vw;
         letter-spacing: 9px;
     }
 
