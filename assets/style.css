@@ -192,6 +192,10 @@ html {
     line-height: 30px;
 }
 
+.about__right i {
+    color: #FB590E;
+}
+
 .about__right li i:before {
     display: inline-block;
     margin-left: -35px;
@@ -219,7 +223,7 @@ html {
 
 .section__classes {
     height: 800px;
-    background-color: #564256;
+    background-color: #E8E8E8;
     box-sizing: border-box;
 }
 
@@ -231,11 +235,11 @@ html {
     font-size: 4em;
     font-weight: 600;
     letter-spacing: 10px;
-    color: #E8E8E8;
+    color: #191919;
 }
 
 .carousel {
-  background: #564256;
+  background: #E8E8E8;
 }
 
 .carousel-cell {
@@ -243,15 +247,15 @@ html {
   height: 500px;
   margin-right: 10px;
   border-radius: 5px;
-  display: flex;
 }
 
 .carousel-cell--overlay {
     height: 100%;
     width: 100%;
-    background: rgba(25, 25, 25, 0.9);
+    background: rgba(86, 66, 86, 0.95);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -262,6 +266,16 @@ html {
     color: #E8E8E8;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+.carousel-cell--overlay p {
+    padding: 0 1.5em 1.5em 1.5em;
+    font-size: 2.1vw;
+    font-family: 'Poppins', sans-serif;
+    color: #E8E8E8;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: justify;
 }
 
 .carousel-cell:nth-of-type(1) {
@@ -294,7 +308,16 @@ html {
   text-align: center;
 }
 
+.cell__description {
+    height: 35%;
+    width: 100%;
+    background: #FB590E;
+}
 
+.cell__description ul {
+    list-style: none;
+    padding: 0.5em;
+}
 
 /*--------------------------------------[Media Query - up to 630px]--------------------------------------*/
 
@@ -436,6 +459,10 @@ html {
         height: 600px;
         width: 80%;
     }
+
+    .carousel-cell--overlay p {
+        font-size: 3.5vw;
+    }
 }
 
 /*--------------------------------------[Media Query - 1024px and above]--------------------------------------*/
@@ -511,7 +538,28 @@ html {
     .section__classes h1 {
         font-size: 5em;
     }
-    
+}
+
+/*--------------------------------------[Media Query - 1250px and above]--------------------------------------*/
+
+@media all and (min-width: 1250px) {
+/* Classes */
+
+    .section__classes {
+        height: 1000px;
+    }
+
+    .section__classes h1 {
+        font-size: 6em;
+    }
+
+    .carousel-cell {
+        height: 600px;
+    }
+
+    .carousel-cell--overlay p {
+        font-size: 1.9vw;
+    }
 }
 
 
