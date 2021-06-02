@@ -311,13 +311,9 @@ html {
 .cell__description {
     height: 35%;
     width: 100%;
-    background: #FB590E;
+    background: #564256;
 }
 
-.cell__description ul {
-    list-style: none;
-    padding: 0.5em;
-}
 
 /*--------------------------------------[Media Query - up to 630px]--------------------------------------*/
 
