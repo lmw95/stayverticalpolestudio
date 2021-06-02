@@ -366,6 +366,12 @@ html {
     font-weight: 500;
 }
 
+.section__classes--extras i {
+    color: #FB590E;
+}    
+
+}
+
 .section__classes--extras li {
     margin-bottom: 10px;
 }
