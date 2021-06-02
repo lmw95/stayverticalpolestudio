@@ -58,12 +58,10 @@ html {
     }
 }
 
-.header__background h1 {
-    z-index: 1;
-    font-size: 2.8em;
-    margin-bottom: 50px;
-    font-family: 'Homemade Apple', cursive;
-    text-transform: lowercase;
+.header__background img {
+    margin-bottom: 70px;
+    height: 65px;
+    width: 65px;
 }
 
 /*--------------------------------------[Navigation Menu]--------------------------------------*/
@@ -118,6 +116,8 @@ html {
 
 .about__headings {
     height: 20%;
+    display: flex;
+    flex-direction: column;
 }
 
 .about__headings h1,
