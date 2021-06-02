@@ -117,11 +117,6 @@ My colours were chosen to be gender neutral, with a contrast that is both bold y
 
 ![Colour palette](/documentation/screenshots/my-colours.png)
 
-* #191919 is an off-black which is used for the header and footer, and the text colour on lighter backgrounds and as the overlays.
-* #FFF380 is a warm cream which us used for text on dark backgrounds.
-* E09F3E is a golden colour which is used for the colour of icons in the footer.
-* 9A5526 is a light brown will is used for the buttons.
-* C1121F is a bold crimson which will be used as the background colour for the intro and instructor section.
 
 ### Icons
 I have used icons sparingly throughout the website, only acting as bullet points in lists or to signify social media. I did this so as not to overclutter the page and distract from the content itself. All the icons I used in the project are from [Font Awesome](https://fontawesome.com/).
