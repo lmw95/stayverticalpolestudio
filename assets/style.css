@@ -11,11 +11,11 @@
 }
 
 body {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 html {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .animate__fadeIn {
@@ -151,11 +151,13 @@ html {
     background-size: cover;
 }
 
-.about__left,
-.about__right {
+.about__container .half {
     height: 100%;
     width: 50%;
     background-color: rgb(25, 25, 25, 0.9);
+    display: flex;
+    flex-direction: column;
+
 }
 
 .about__left h3,
@@ -258,8 +260,7 @@ html {
         flex-direction: column;
     }
 
-    .about__left,
-    .about__right {
+    .about__container .half {
         width: 100%;
         height: 50%;
     }
