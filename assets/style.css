@@ -458,7 +458,7 @@ html {
 .reviews__carousel-cell {
   width: 28%;
   height: 400px;
-  margin-right: 10px;
+  margin-right: 50px;
   background: #191919;
   border-radius: 5px;
 }
@@ -468,7 +468,6 @@ html {
   display: block;
   text-align: center;
   line-height: 200px;
-  font-size: 80px;
 }
 
 .reviews__carousel-cell .photo {
@@ -486,10 +485,20 @@ html {
 .photo--img {
     width: 130px;
     height: 130px;
-    background: url(/documentation/images/brooke-cagle-k9XZPpPHDho-unsplash.jpg) no-repeat center center;
-    background-size: cover;
     border-radius: 50%;
 }
+
+/*-----------------------------------[Reviews carousel photos]-----------------------------------*/
+    .photo--img:nth-of-type(1) {
+        background: url(/documentation/images/brooke-cagle-k9XZPpPHDho-unsplash.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    .photo--img:nth-of-type(2) {
+        background: url(/documentation/images/bruno-adam-9n-WKWQZrno-unsplash.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
 
 /*--------------------------------------[Contact section]--------------------------------------*/
 
