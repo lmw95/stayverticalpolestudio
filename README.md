@@ -114,7 +114,7 @@ Due to length restrictions on Mockup Plus Classic, the mobile and tablet wirefra
 ### Colours
 My colours were chosen to be gender neutral, with a contrast that is both bold yet inviting. I used [Coolors](https://coolors.co/) to help me choose my palette:
 
-![Colour palette](/)
+![Colour palette](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/screenshots/colour-palette.png)
 
 
 ### Icons
