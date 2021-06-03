@@ -237,14 +237,14 @@ html {
 }
 
 .carousel {
-  background: #E8E8E8;
+    background: #E8E8E8;
 }
 
 .carousel-cell {
-  width: 70%;
-  height: 500px;
-  margin-right: 10px;
-  border-radius: 5px;
+    width: 70%;
+    height: 500px;
+    margin-right: 10px;
+    border-radius: 5px;
 }
 
 .carousel-cell--overlay {
@@ -278,30 +278,30 @@ html {
 
 /*-----------------------------------[Classes carousel]-----------------------------------*/
 
-    .carousel-cell:nth-of-type(1) {
-        background: url(../documentation/images/beginner.png) no-repeat center center;
-        background-size: contain;
-    }
+        .carousel-cell:nth-of-type(1) {
+            background: url(../documentation/images/beginner.png) no-repeat center center;
+            background-size: contain;
+        }
 
-    .carousel-cell:nth-of-type(2) {
-        background: url(../documentation/images/improver.png) no-repeat center center;
-        background-size: contain;
-    }
+        .carousel-cell:nth-of-type(2) {
+            background: url(../documentation/images/improver.png) no-repeat center center;
+            background-size: contain;
+        }
 
-    .carousel-cell:nth-of-type(3) {
-        background: url(../documentation/images/intermediate.png) no-repeat center center;
-        background-size: contain;
-    }
+        .carousel-cell:nth-of-type(3) {
+            background: url(../documentation/images/intermediate.png) no-repeat center center;
+            background-size: contain;
+        }
 
-    .carousel-cell:nth-of-type(4) {
-        background: url(../documentation/images/advanced.png) no-repeat center center;
-        background-size: contain;
-    }
+        .carousel-cell:nth-of-type(4) {
+            background: url(../documentation/images/advanced.png) no-repeat center center;
+            background-size: contain;
+        }
 
-    .carousel-cell:nth-of-type(5) {
-        background: url(../documentation/images/elite.png) no-repeat center center;
-        background-size: contain;
-    }
+        .carousel-cell:nth-of-type(5) {
+            background: url(../documentation/images/elite.png) no-repeat center center;
+            background-size: contain;
+        }
 
 /*------------------------------------------------------------------------------------*/
 
@@ -436,7 +436,6 @@ html {
 /*--------------------------------------[Testimonials section]--------------------------------------*/
 
 .section__reviews {
-    height: 600px;
     background: url(../documentation/images/pole-dancer2.jpg) no-repeat fixed center center;
     background-size: cover;
 }
@@ -458,39 +457,65 @@ html {
     background-color: rgba(25, 25, 25, 0.8);
 }
 
-.reviews__carousel-cell {
-  width: 28%;
-  height: 400px;
-  margin-right: 50px;
-  background: #191919;
-  border-radius: 5px;
-}
+/*--------------------------------------[Testimonials carousel]--------------------------------------*/
 
-/* cell number */
-.reviews__carousel-cell:before {
-  display: block;
-  text-align: center;
-  line-height: 200px;
-}
+        .reviews__carousel-cell {
+            width: 30%;
+            height: 400px;
+            margin-right: 25px;
+            background: #191919;
+            border-radius: 5px;
+        }
 
-.reviews__carousel-cell .photo {
-    height: 40%;
+        /* cell number */
+        .reviews__carousel-cell:before {
+            display: block;
+            text-align: center;
+            line-height: 200px;
+        }
+
+        .reviews__carousel-cell .photo {
+            height: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .reviews__carousel-cell .review {
+            height: 60%;
+            background-color: #E8E8E8;
+        }
+
+        .photo--img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+        }
+
+/*---------------------------------------------------------------------------------------------*/
+
+.reviews--social-media {
+    height: 130px;
+    background-color: #191919;
+    margin-top: 50px;
     display: flex;
+    flex-direction: row;
+}
+
+.reviews--social-media .left, .reviews--social-media .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.reviews__carousel-cell .review {
-    height: 60%;
-    background-color: #E8E8E8;
+.reviews--social-media .right a {
+    padding: 1em;
+    font-size: 2vw;
+    color: #F69051;
 }
-
-.photo--img {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-}
-
 
 /*-----------------------------------[Reviews carousel photos]-----------------------------------*/
     .photo--1 {
@@ -520,8 +545,21 @@ html {
 
 .section__contact {
     height: 400px;
+    display: flex;
+    flex-direction: row;
+    background-color: #E8E8E8;
+}
+
+.contact__half {
+    width: 50%;
+    height: 100%;
+}
+
+.section__contact .left {
     background-color: #96939B;
 }
+
+
 
 /*--------------------------------------[Footer]--------------------------------------*/
 
@@ -742,6 +780,15 @@ html {
         font-size: 2.3em;
         font-weight: 700;
         padding: 1em;
+    }
+
+/* Testimonials */
+    .section__reviews {
+        height: 800px;
+    }
+
+    .reviews__carousel-cell {
+        width: 50%;
     }
 
 /* Footer */
@@ -1122,34 +1169,6 @@ html {
     height: 20%;
 }
 
-#tripadvisor {
-    width: 100%;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#tripad-wrapper {
-    border-radius: 50%;
-    background-color: #191919;
-}
-
-#tripad-wrapper i {
-    font-size: 3em;
-    color: #9A5526;
-    padding: 15px;
-}
-
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
 
 /*--------------------------------------Footer/contact--------------------------------------*/
 /*
