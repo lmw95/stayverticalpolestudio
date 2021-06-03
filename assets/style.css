@@ -433,7 +433,7 @@ html {
 /*--------------------------------------[Testimonials section]--------------------------------------*/
 
 .section__reviews {
-    height: 500px;
+    height: 600px;
     background: url(/documentation/images/pole-dancer2.jpg) no-repeat fixed center center;
     background-size: cover;
 }
@@ -453,6 +453,42 @@ html {
     height: 100%;
     width: 100%;
     background-color: rgba(25, 25, 25, 0.8);
+}
+
+.reviews__carousel-cell {
+  width: 28%;
+  height: 400px;
+  margin-right: 10px;
+  background: #191919;
+  border-radius: 5px;
+}
+
+/* cell number */
+.reviews__carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+}
+
+.reviews__carousel-cell .photo {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews__carousel-cell .review {
+    height: 60%;
+    background-color: #E8E8E8;
+}
+
+.photo--img {
+    width: 130px;
+    height: 130px;
+    background: url(/documentation/images/brooke-cagle-k9XZPpPHDho-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
 }
 
 /*--------------------------------------[Contact section]--------------------------------------*/
