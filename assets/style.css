@@ -72,7 +72,7 @@ html {
 }
 
 .navbar {
-    background-color: #191919;
+    background-color: rgba(25, 25, 25, 0.8);
 }
 
 #navlist {
@@ -80,7 +80,7 @@ html {
     display: flex;
     padding: 0;
     margin: 0;
-    background: #191919;
+    background: rgba(25, 25, 25, 0.8);
 }
 
 #navlist li {
@@ -237,7 +237,8 @@ html {
 }
 
 .carousel {
-    background: #E8E8E8;
+    background: rgba(86, 66, 86, 0.5);
+    padding: 20px 0;
 }
 
 .carousel-cell {
@@ -564,7 +565,7 @@ html {
 }
 
 .section__contact .left {
-    background-color: #96939B;
+    background-color: rgba(86, 66, 86, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -635,7 +636,7 @@ html {
     margin: 10px;
     width: 80%;
     border-radius: 10px;
-    background-color: #96939B;
+    background-color: rgba(86, 66, 86, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -691,7 +692,6 @@ html {
 @media all and (max-width: 630px) {
 
 /* Header */
-
     .header {
         height: 400px;
     }
@@ -710,7 +710,6 @@ html {
     }
 
 /* Navigation */
-
     .navbar {
         padding: 1.6em;
      }
@@ -747,8 +746,7 @@ html {
         text-decoration: none;
     }
 
-/* About section */
-
+/* About */
     .section__about {
         height: 1150px;
     }
@@ -811,7 +809,6 @@ html {
     }
 
 /* Classes */
-
     .section__classes h1 {
         font-size: 2.3em;
         font-weight: 700;
@@ -877,7 +874,6 @@ html {
     }
 
 /* Testimonials */
-
     .section__reviews h1 {
         font-size: 2.3em;
         padding: 1em;
@@ -953,7 +949,6 @@ html {
 @media all and (min-width: 1024px) {
 
 /* Header */
-
     .header {
         height: 700px;
     }
@@ -964,7 +959,6 @@ html {
     }
 
 /* About section */
-
     .section__about {
         height: 900px;
     }
@@ -1018,7 +1012,6 @@ html {
     }
 
 /* Classes */
-
     .section__classes h1 {
         font-size: 3.5em;
     }
@@ -1048,8 +1041,8 @@ html {
 /*--------------------------------------[Media Query - 1250px and above]--------------------------------------*/
 
 @media all and (min-width: 1250px) {
-/* Classes */
 
+/* Classes */
     .section__classes h1 {
         font-size: 4em;
     }
@@ -1221,171 +1214,7 @@ html {
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-}
 
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-
-/*--------------------------------------Testimonials--------------------------------------*/
-/*
-
-
-
-/*--------------------------------------Footer/contact--------------------------------------*/
-/*
-#get-in-touch {
-    height: 1100px;
-    width: 100%;
-    background-color: #191919;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FFF3B0;
-}
-
-#get-in-touch h1 {
-    font-family: 'Poppins', sans-serif;
-    color: #191919;
-    text-transform: uppercase;
-    font-weight: 600;
-    text-align: center;
-    letter-spacing: 4px;
-    font-size: 4em;
-    padding-top: 20px;
-}
-
-#get-in-touch h2 {
-    letter-spacing: 3px;
-    font-size: 1.4em;
-    padding: 5px 0 20px 0;
-    width: 90%;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-#contact-wrapper {
-    height: 55%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.contact {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-
-#contact-no p {
-    font-size: 1.2em;
-    letter-spacing: 3px;
-}
-
-#contact-no a {
-    color: #191919;
-}
-
-.contact h3, 
-#sm-wrapper h3 {
-    font-size: 1.3em;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-}
-
-#sm-wrapper h3 {
-    margin-bottom: 30px;
-}
-
-#sm-wrapper {
-    height: 30%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-}
-
-#sm-wrapper i {
-    font-size: 4em;
-    margin: 0 10px;
-    color: #9A5526;
-}
-
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-
-/*--------------------------------------Footer--------------------------------------*/
-/*
-footer {
-    height: 240px;
-    background-color: #191919;
-    display: flex;
-    flex-direction: row;
-}
-
-.footer-third {
-    width: 33%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-footer a, footer p {
-    font-family: 'Poppins', sans-serif;
-    color: #FFF3B0;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-footer i {
-    margin-bottom: 20px;
-    font-size: 2em;
-    color: #FFF3B0;
-}
-
-#left p {
-    text-transform: uppercase;
-    font-size: 0.8em;
-    margin-bottom: 5px;
-    letter-spacing: 1px;
-}
-
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-/*
-
-/*--------------------------------------404 error page--------------------------------------*/
 /*
 #error {
     display: flex;
