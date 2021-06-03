@@ -214,6 +214,7 @@ html {
 .about__container--button a {
     padding: 1em 1em 1em 1em;
     font-weight: 700;
+    font-size: 1.7em;
     color: #F69051;
     text-decoration: none;
     text-transform: uppercase;
@@ -375,10 +376,11 @@ html {
 
 .section__classes--buttons {
     background-color: #191919;
-    height: 90px;
+    height: 100px;
     width: 100%;
     display: flex;
     flex: auto;
+    align-items: center;
 }
 
 .section__classes--buttons a {
@@ -389,7 +391,7 @@ html {
     text-decoration: none;
     color: #F69051;
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 1.2em;
     padding: 1.5em;
 }
 
@@ -647,6 +649,7 @@ html {
     .section__classes--buttons a {
         height: 25%;
         width: 100%;
+        font-size: 1em;
     }
 
 /* Instructors */
@@ -781,6 +784,11 @@ html {
 
     .section__classes--extras h3 {
         font-size: 2vw;
+    }
+
+    .section__classes--buttons a {
+        font-size: 1.7em;
+        padding: 0.9em;
     }
 }
 
