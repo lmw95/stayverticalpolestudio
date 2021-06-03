@@ -262,9 +262,11 @@
                 </div>
             </div>
             <div class="reviews--social-media">
-                <div class="left"></div>
+                <div class="left">
+                    <h2>Join our community on social media!</h2>
+                </div>
                 <div class="right">
-                    <a href="https://www.tripadvisor.co.uk/" target="_blank" aria-label="Go to TripAdvisor"><i class="fab fa-tripadvisor"></i></a>
+                    <a href="https://www.tripadvisor.co.uk/" target="_blank" aria-label="Go to TripAdvisor"><i class="fab fa-tripadvisor hvr-float"></i></a>
                     <a href= "https://www.facebook.com/" target="_blank" aria-label="New tab to Facebook"><i class="fab fa-facebook-f hvr-float"></i></a>
                     <a href="https://twitter.com/?lang=en-gb" target="_blank" aria-label="New tab to Twitter"><i class="fab fa-twitter hvr-float"></i></a>
                     <a href="https://www.instagram.com/" target="_blank" aria-label="New tab to Instagram"><i class="fab fa-instagram hvr-float"></i></a>
@@ -275,7 +277,20 @@
     </section>
 
     <section class="section__contact">
-        <div class="contact__half left"></div>
+        <div class="contact__half left">
+            <h2>Any questions? Drop us a message</h2>
+                <form class="contact__form">
+                        <label for="fname" class="label">First name</label>
+                        <input type="text" id="fname" required>
+                        <label for="lname" class="label">Last name</label>
+                        <input type="text" id="lname" required>
+                        <label for="email" class="label">Email address</label>
+                        <input type="email" id="email" required>
+                        <label for="message" class="label">Your message</label>
+                        <textarea id="message" rows="10" cols="60" required></textarea>
+                        <button type="submit">Send me</button>
+                </form>
+        </div>
         <div class="contact__half right"></div>
     </section>
 
@@ -393,25 +408,8 @@
         </div>
     </section>
 
-    <section id="get-in-touch">
-        <h1>Get in touch</h1>
-        <div id="contact-wrapper">
-            <div class="contact" id="contact-form">
-                <h2>Any questions? Drop us a message</h2>
-                <form id="form">
-                        <label for="fname" class="label">First name</label>
-                        <input type="text" id="fname" required>
-                        <label for="lname" class="label">Last name</label>
-                        <input type="text" id="lname" required>
-                        <label for="email" class="label">Email address</label>
-                        <input type="email" id="email" required>
-                        <label for="reason" class="label">Please provide a one line summary of your enquiry</label>
-                        <input type="text" id="reason" required>
-                        <label for="message" class="label">Your message</label>
-                        <textarea id="message" rows="10" cols="60" required></textarea>
-                        <button type="submit" class="hvr-float">Send me</button>
-                </form>
-            </div>
+                
+
             <div class="contact" id="contact-no">
                 <h3>By phone</h3>
                     <p>01502 555555 <i class="fas fa-phone"></i></p>
