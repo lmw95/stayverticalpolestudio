@@ -21,7 +21,10 @@
 </head>
 <body>
     
+    <!--Header section-->
     <header class="header">
+        <!--Collapsable navigation menu-->
+        <!-- Credit: https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/ -->
         <div class="nav-wrapper">
             <nav class="navbar">
                 <span id="toggle-nav" onclick="toggleNav()">
@@ -36,13 +39,15 @@
                 </ul>
             </nav>
         </div>
-            <div class="header__background">
-                <!--
-                <img src="../documentation/images/SV-favicon.png"> -->
-                <div class="header__logo"></div>
-            </div>
+        <!-- Credit: https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/ -->
+        <!--Hero image-->
+        <div class="header__background">
+            <!--Company logo (favicon)-->
+            <div class="header__logo"></div>
+        </div>
     </header>
 
+    <!--About section-->
     <section class="section__about">
             <div class="about__headings">
                 <h1>Stay Vertical</h1>
@@ -66,13 +71,16 @@
                     </ul>
                 </div>
             </div>
+            <!--Link to Timetable-->
             <div class="about__container--button">
                 <a href="#" target="blank" aria-label="Classes section">See our timetable</a>
             </div>
     </section>
 
+    <!--Classes section-->
     <section class="section__classes">
         <h1>Our classes</h1>
+        <!--Carousel for each Class level made with Flickity - https://flickity.metafizzy.co/-->
         <div class="carousel"
             data-flickity='{ "freeScroll": true }'>
             <div class="carousel-cell">
@@ -196,6 +204,7 @@
                 </div>
             </div>
         </div>
+        <!--Extra Classes section-->
         <div class="section__classes--extras">
             <h3>We also offer</h3>
             <ul>
@@ -205,6 +214,7 @@
                 <li><i class="far fa-heart"></i> Opportunities for socials and nights out</li>
             </ul>
         </div>
+        <!--Links to other pages (Timetable, booking system, refund policy and shop)-->
         <div class="section__classes--buttons">
             <a href="#" target="blank" aria-label="Timetable page">Timetable</a>
             <a href="#" target="blank" aria-label="Booking system">Book a lesson</a>
@@ -213,6 +223,7 @@
         </div>
     </section>
 
+    <!--Instructor profiles section-->
     <section class="section__instructors">
         <h1>Our instructors</h1>
         <!--
@@ -232,9 +243,11 @@
         </div> -->
     </section>
 
+    <!--Reviews from students section-->
     <section class="section__reviews">
         <div class="reviews--overlay">
             <h1>Words from our students</h1>
+            <!--Carousel for student reviews-->
             <div class="reviews__carousel" data-flickity='{ "groupCells": 1 }'>
                 <div class="reviews__carousel-cell">
                     <div class="photo">
@@ -273,10 +286,12 @@
                     </div>
                 </div>
             </div>
+            <!--Social media links-->
             <div class="reviews--social-media">
                 <div class="left">
                     <h2>Join our community on social media!</h2>
                 </div>
+                <!--Links to Tripadvisor, Facebook, Twitter, Instagram, TikTok-->
                 <div class="right">
                     <a href="https://www.tripadvisor.co.uk/" target="_blank" aria-label="Go to TripAdvisor"><i class="fab fa-tripadvisor hvr-float"></i></a>
                     <a href= "https://www.facebook.com/" target="_blank" aria-label="New tab to Facebook"><i class="fab fa-facebook-f hvr-float"></i></a>
@@ -288,9 +303,11 @@
         </div>
     </section>
 
+    <!--Contact section-->
     <section class="section__contact">
         <div class="contact__half left">
             <h2>Any questions? Drop us a message</h2>
+                <!--Contact form-->
                 <form class="contact__form">
                         <label for="fname" class="label">First name</label>
                         <input type="text" id="fname" required>
@@ -303,6 +320,7 @@
                         <button type="submit">Send me</button>
                 </form>
         </div>
+        <!--Phone, email and FB messenger-->
         <div class="contact__half right">
             <div class="phone-number">
                 <h3><i class="fas fa-phone"></i></h3>
@@ -319,7 +337,9 @@
         </div>
     </section>
 
+    <!--Footer section-->
     <footer class="footer">
+        <!--Opening times-->
         <div class="footer__opening-times">
             <i class="far fa-clock"></i>
             <p>Monday - Wednesday: 10:00 - 19:00</p>
@@ -327,6 +347,7 @@
             <p>Saturday: 9:00 - 13:00</p>
             <p>Sunday: CLOSED</p>
         </div>
+        <!--Location with Google Maps link-->
         <div class="footer__location">
             <a href="https://www.google.com/maps/place/London+Rd+N,+Lowestoft/@52.4763935,1.7505538,17z/data=!3m1!4b1!4m5!3m4!1s0x47da1af55c8eb1bf:0xc88ab7822fed6d88!8m2!3d52.4763903!4d1.7527425" target="_blank" aria-label="New tab to Google Maps">
                 <i class="fas fa-map-marked-alt"></i>
@@ -337,6 +358,7 @@
                 <p>NR32 1ET</p>
             </a>
         </div>
+        <!--Copyright notice-->
         <div class="footer__copyright">
             <p>copyright @ Stay Vertical 2021</p>
             <p>All rights reserved</p>
@@ -345,10 +367,6 @@
 <!--
 
 
-    
-    <section id="instructors">
-            <div id="i-half-left" class="i-half">
-                <h1>Our instructors</h1>
                     <h2>Aoife McNeal</h2>
                         <p class="backstory">"Ever since I walked on stage at my first audition, I fell in love with pole and 10 years later, I am proud as punch to be passing down the art to my wonderful students."</p>
                     <h2>Will Cossey</h2>
@@ -393,14 +411,11 @@
                         <div class="intr-profile">
                             <h1>Avery Duncan</h1>
                             <p><i class="fab fa-instagram"></i> averyflexylady</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
+
 
 
 -->
+    <!-- Credit: https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/ -->
     <script>
       var nav = document.getElementById("navlist");
 
@@ -415,6 +430,7 @@
 
       window.addEventListener("resize", windowResizeHandler);
     </script>
+    <!--Credit: https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/-->
 
 </body>
 </html>
