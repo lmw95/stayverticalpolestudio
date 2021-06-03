@@ -91,7 +91,7 @@ html {
 
 #navlist li a {
     font-size: 18px;
-    color: #E8E8E8;
+    color: #F69051;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -146,7 +146,7 @@ html {
     align-items: center;
     height: 70%;
     margin-top: 30px;
-    background: url(../documentation/images/polestudio.jpg) no-repeat fixed center;
+    background: url(../documentation/images/pole-studio3.jpg) no-repeat fixed center;
     background-size: cover;
 }
 
@@ -345,7 +345,6 @@ html {
     flex-direction: column;
     justify-content: space-evenly;
     height: 300px;
-    background-color: #96939B;
     margin-top: 60px;
 }
 
@@ -414,6 +413,7 @@ html {
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
+    color: #E8E8E8;
 }
 
 /*
@@ -491,6 +491,7 @@ html {
     border-radius: 50%;
 }
 
+
 /*-----------------------------------[Reviews carousel photos]-----------------------------------*/
     .photo--1 {
         background: url(../documentation/images/brooke-cagle-k9XZPpPHDho-unsplash.jpg) no-repeat center center;
@@ -522,7 +523,7 @@ html {
     background-color: #96939B;
 }
 
-/*--------------------------------------[Contact section]--------------------------------------*/
+/*--------------------------------------[Footer]--------------------------------------*/
 
 .footer {
     height: 200px;
@@ -552,8 +553,6 @@ html {
 .footer__location a {
     padding: 1em;
 }
-
-
 
 /*--------------------------------------[Media Query - up to 630px]--------------------------------------*/
 
@@ -751,12 +750,12 @@ html {
         height: 600px;
     }
 
-    .footer__phone-and-email, .footer__location, .footer__copyright {
+    .footer__opening-times, .footer__location, .footer__copyright {
         width: 100%;
         height: 33%;
     }
 
-    .footer__location a, .footer__copyright p {
+    .footer__opening-times, .footer__location a, .footer__copyright p {
         font-size: 3vw;
         letter-spacing: 2px;
     }
@@ -894,7 +893,7 @@ html {
     }
 
 /* Footer */
-    .footer__opening-times p, .footer__location a, .footer__copyright p {
+    .footer__opening-times, .footer__location a, .footer__copyright p {
         font-size: 1.1em;
     }
 }
