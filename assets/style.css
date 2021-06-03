@@ -517,6 +517,18 @@ html {
     color: #F69051;
 }
 
+.reviews--social-media .left h2 {
+    padding: 1em 1em 1em 1em;
+    font-weight: 700;
+    font-size: 1.4em;
+    color: #F69051;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
 /*-----------------------------------[Reviews carousel photos]-----------------------------------*/
     .photo--1 {
         background: url(../documentation/images/brooke-cagle-k9XZPpPHDho-unsplash.jpg) no-repeat center center;
@@ -656,7 +668,7 @@ html {
 /* About section */
 
     .section__about {
-        height: 1000px;
+        height: 1150px;
     }
 
     .about__headings h1 {
@@ -1095,79 +1107,7 @@ html {
 
 /*--------------------------------------Testimonials--------------------------------------*/
 /*
-#testimonials {
-    height: 650px;
-    background: url(../documentation/images/pole-dancer2.jpg) no-repeat center center;
-    background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    background-attachment: fixed;
-}
 
-#test-overlay {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(25, 25, 25, 0.7);
-    display: flex;
-    flex-direction: column;
-}
-
-#testimonials h1 {
-    font-family: 'Poppins', sans-serif;
-    padding: 20px;
-    font-size: 4em;
-    text-transform: uppercase;
-    color: #FFF3B0;
-    letter-spacing: 5px;
-    font-weight: 700;
-    text-align: center;
-}
-
-#test-wrapper {
-    height: 400px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.review {
-    height: 90%;
-    width: 19%;
-    background-color: #191919;
-    color: #FFF3B0;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.icon-wrapper {
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-}
-
-.review span {
-    font-size: 1.2em;
-    color: #9A5526;
-    font-weight: 700;
-    margin: 0 5px;
-}
-
-.review p {
-    color: #FFF3B0;
-    width: 90%;
-    height: 90%;
-}
-
-.name {
-    height: 20%;
-}
 
 
 /*--------------------------------------Footer/contact--------------------------------------*/
