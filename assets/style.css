@@ -458,6 +458,33 @@ html {
     background-color: rgba(25, 25, 25, 0.8);
 }
 
+.section__reviews .review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__reviews .review--text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.7vw;
+    padding: 1.5em 1.5em 0 1.5em;
+    text-align: justify;
+}
+
+.section__reviews .review span {
+    font-weight: 700;
+    color: #F69051;
+}
+
+.review .name {
+    padding: 1em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
 /*--------------------------------------[Testimonials carousel]--------------------------------------*/
 
         .reviews__carousel-cell {
@@ -901,6 +928,14 @@ html {
         font-size: 6vw;
     }
 
+    .section__reviews .review {
+        justify-content: space-evenly;        
+    }
+
+    .section__reviews .review--text {
+        font-size: 2.6vw;
+    }
+
 /* Contact */ 
     .section__contact {
         flex-direction: column;
@@ -1035,6 +1070,11 @@ html {
     .section__classes--extras ul {
         font-size: 1.5vw;
         font-weight: 500;
+    }
+
+/* Testimonials */
+    .section__reviews .review--text {
+        font-size: 1.3vw;
     }
 }
 
