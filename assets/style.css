@@ -574,7 +574,7 @@ html {
 .section__contact .left h2, .section__contact .right h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.3em;
-    padding: 1em 1em 0em 1em;
+    padding: 0em 1em 0em 1em;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -630,8 +630,8 @@ html {
     align-items: center;
 }
 
-.right .phone-number, .right .email {
-    height: 30%;
+.right .phone-number, .right .email, .right .chat {
+    height: 20%;
     margin: 10px;
     width: 80%;
     border-radius: 10px;
@@ -642,14 +642,14 @@ html {
     align-items: center;
 }
 
-.phone-number p, .email p {
-    padding: 1em;
+.phone-number p, .email p, .chat p {
+    padding: 0.5em;
     font-size: 1.4vw;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
 
-.email a {
+.email a, .chat a {
     text-decoration: none;
     color: #191919;
     text-align: center;
@@ -878,6 +878,11 @@ html {
 
 /* Testimonials */
 
+    .section__reviews h1 {
+        font-size: 2.3em;
+        padding: 1em;
+    }
+
     .reviews__carousel-cell {
         width: 50%;
     }
@@ -911,18 +916,18 @@ html {
     }
 
     .section__contact .right {
-        height: 250px;
+        height: 300px;
         width: 100%;
     }
 
-    .right .phone-number, .right .email {
+    .right .phone-number, .right .email, .right .chat {
         width: 100%;
         border-radius: 0px;
         background-color: transparent;
     }
 
-    .phone-number p, .email a {
-        font-size: 3.6vw;
+    .phone-number p, .email a, .chat p {
+        font-size: 3.2vw;
     }
     
 
