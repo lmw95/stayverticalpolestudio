@@ -141,6 +141,6 @@ Final report shows all errors have been fixed.
 
 This report was conducted using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-![](documentation/screenshots-post-update/errors-post-update/W3C-CSS-validation-post-update.png)
+![](/documentation/screenshots-post-update/errors-post-update/W3C-CSS-validation-post-update.png)
 
 The report concluded there are no errors in the CSS, therefore no further action was needed.
