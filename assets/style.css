@@ -1335,3 +1335,100 @@ html {
 }
 
 /*----------------------------------------------------------------------------------------------*/
+
+/*---------------------------------[Gallery.html]----------------------------------------------*/
+
+.section__about--gallery {
+    height: 200px;
+    background-color: #564256;
+    font-family: 'Poppins', sans-serif;
+    color: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__headings--gallery {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__headings--gallery h1,
+.about__headings--gallery h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about__headings--gallery h1 {
+    font-size: 3.9em;
+    padding: 0 0.25em 0 0.25em;
+    font-weight: 500;
+    letter-spacing: 10px;
+}
+
+.about__headings--gallery h2 {
+    font-size: 2vw;
+    font-weight: 300;
+    letter-spacing: 6px;
+    padding: 0 0.25em 0 0.25em;
+}
+
+.gallery__gallery {
+    background-color: #F69051;
+    padding: 1em;
+}
+
+.carousel--gallery {
+    background: url(../documentation/images/poledance-heroimage.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.carousel-image {
+    display: block;
+    height: 500px;
+    min-width: 150px;
+    max-width: 100%;
+    margin-right: 10px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.carousel--gallery.is-fullscreen .carousel-image {
+  height: auto;
+  max-height: 100%;
+}
+
+/*-------------------[Media Query for Gallery]-----------------*/
+@media all and (max-width: 630px) {
+
+/* Gallery page */
+
+    .section__about--gallery {
+        height: 200px;
+    }
+
+    .about__headings--gallery h1 {
+        font-size: 9.3vw;
+        padding: 0 0.5em 0 0.5em;
+    }
+
+    .about__headings--gallery h2 {
+        font-size: 2vw;
+        padding: 0 1.5em 1em 1.5em;
+    }
+
+    .section__about .about__headings--gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 20%;
+    }
+
+    .carousel-image {
+        height: 400px;
+    }
+}
