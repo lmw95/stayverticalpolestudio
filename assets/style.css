@@ -1459,7 +1459,7 @@ html {
         height: 20%;
     }
 
-    .carousel-image {
+    .carousel-cell--gallery {
         height: 400px;
     }
 }
