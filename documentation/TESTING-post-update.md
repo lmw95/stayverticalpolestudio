@@ -106,6 +106,11 @@ This section covers the major issues I encountered during the development and te
 * Solution: I changed the img to a div and set the background as the Favicon which fixed the issue
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/e999c887c9a0db2c4a98d3ae9004dc6ae6b9c8eb)
 
+* Issue: The backgrounds of both the About and Reviews/Testimonies section was too zoomed in 
+* Solution: Changed the background attachment to scroll and the size to auto, this fixed the issue
+> * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/0512be07576b6e3516f9c17f1626eda5b082a134)
+> * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/e7dc91e951864b43b2873bd8a4450e0a5f6e77e7)
+
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING-post-update.md/#testing)
 
 ## Google Lighthouse
