@@ -4,12 +4,11 @@ Image name | Source / credits
 ------------ | -------------
 SV-favicon.png | [Favicon.io](https://favicon.io/)
 favicon-32x32.png | [Favicon.io](https://favicon.io/)
-pole-dancer2.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
+poledance-heroimage [Brigitte on Pixabay](https://pixabay.com/illustrations/pylon-flight-girl-model-dance-3828143/)
 pole-instructor.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
 pole-instructor3.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
 pole-instructor4.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
 pole-instructor6.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
-pole-studio3.jpg | [Pinterest](https://www.pinterest.co.uk/pin/368591550726355016/) & original source [Pole Dance Nashville](https://www.missfitacademy.com/)
 beginner.png | [Clipart Library](http://clipart-library.com/clip-art/pole-dancing-silhouette-15.htm)
 improver.png | [Subpng](https://www.subpng.com/png-ibxtb6/download.html)
 intermediate.png | [Clip Art Max](https://www.clipartmax.com/middle/m2i8G6K9A0b1d3Z5_stickers-pole-dance-sticker-pole-dance/)
