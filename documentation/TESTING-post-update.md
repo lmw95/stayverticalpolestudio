@@ -124,8 +124,21 @@ Post-update, Google Lighthouse returned green across all reports, except perform
 
 This report was conducted using [W3C Markup Validator.](https://validator.w3.org/)
 
-INITIAL report
+INITIAL REPORT
 
 ![](/documentation/screenshots-post-update/errors-post-update/W3C-HTML-errors-post-update.png)
 * Issue: Initial testing found 4 errors all in relation to missing targets in a href tags.
 * Solution: I added 'blank' to each empty target to fix the issue
+> * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/4def8941ce4f2f22f94c9e870943cc777e0830fa)
+
+FINAL REPORT 
+
+![](/documentation/screenshots-post-update/errors-post-update/W3C-HTML-errors-post-update2.png)
+
+Final report shows all errors have been fixed.
+
+### CSS validation
+
+This report was conducted using [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+![]()
