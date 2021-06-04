@@ -32,5 +32,6 @@ Overlapping zooming div issue | [mcmedal001 on Stack Overflow](https://stackover
 White space when on Responsive Viewer | [Nafiu Nawal on Stack Overflow](https://stackoverflow.com/questions/47976439/unable-to-remove-white-space-from-right-in-responsive-design-html-css)
 Fixing 'link has discernable name' error | [Binyamin on Stack Overflow](https://stackoverflow.com/questions/51683761/how-to-fix-lighthouse-links-do-not-have-a-discernible-name)
 How to improve SEO score on Lighthouse Report | [Google DevTools](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools)
+Fix a zoomed in background on mobile screens [Ainz-sama on StackOverflow](https://stackoverflow.com/questions/23838718/fixed-background-cover-becomes-zoomed-in-mobile-view/40414973)
 Building a responsive navigation menu without Bootstrap | [WebDesignVista](https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/)
 Building responsive carousels (ALL CODE) | [Flickity.io](https://flickity.metafizzy.co/)
