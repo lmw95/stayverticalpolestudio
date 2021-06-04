@@ -31,4 +31,4 @@ White space when on Responsive Viewer | [Nafiu Nawal on Stack Overflow](https://
 Fixing 'link has discernable name' error | [Binyamin on Stack Overflow](https://stackoverflow.com/questions/51683761/how-to-fix-lighthouse-links-do-not-have-a-discernible-name)
 How to improve SEO score on Lighthouse Report | [Google DevTools](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools)
 Building a responsive navigation menu without Bootstrap | [WebDesignVista](https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/)
-Building responsive carousels (ALL CODE) [Flickity.io](https://flickity.metafizzy.co/)
+Building responsive carousels (ALL CODE) | [Flickity.io](https://flickity.metafizzy.co/)
