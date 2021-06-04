@@ -1427,7 +1427,7 @@ html {
   height: 100%;
 }
 
-/*-------------------[Media Query for Gallery]-----------------*/
+/*-------------------[Media Query for Gallery - max 630px]-----------------*/
 @media all and (max-width: 630px) {
 
 /* Gallery page */
