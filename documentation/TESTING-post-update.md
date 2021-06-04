@@ -92,7 +92,7 @@ This section covers the major issues I encountered during the development and te
 * Issue: The sections were too large in height, providing extra empty space at the bottom of each section
 * Solution: Removed height attributes entirely
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/3e0ac9a3e3b80063c02c6480dba7e3b466e38775)
-> * [Linkl to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/335d7a02df7c476dc44344082393a8cbc6654831)
+> * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/335d7a02df7c476dc44344082393a8cbc6654831)
 
 ## Issues post-deployment
 * Issue: Post-deployment website did not display background images due to incorrect file paths
@@ -115,7 +115,8 @@ This section covers the major issues I encountered during the development and te
 * Issue: The nav menu would not retract after selecting a link (nav item)
 * Solution: I wrote a little line of code as a function 'toggleNavOff()' which triggered the nav menu to close once link had been seletected
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/037b401d9d21b7554b7cfacb5347052d4a38e5f4)
-__
+
+---
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING-post-update.md/#testing)
 
