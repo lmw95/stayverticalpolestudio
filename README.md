@@ -97,17 +97,23 @@ Due to length restrictions on Mockup Plus Classic, the mobile and tablet wirefra
 ### [Mobile wireframe part 2](https://github.com/lmw95/stayverticalpolestudio/blob/master/wireframes/mobile-wireframe(part2).png)
 
 ### Differences to wireframes:
-* DESKTOP
-    * In the instructors section, the two halves are on opposite sides
-    * There are no buttons in the reviews section, rather just an icon wih a link to TripAdvisor
+* DESKTOP/OVERALL
+    * There is no logo in the navigation menu, rather it sits in the hero image itself
+    * The about section is in two parts only, not three
+    * The 'Get to know us' button is now 'See our classes' and stretches across the whole screen
+    * There is no row of images in the classes section
+    * The classes and reviews sections are in interactive carousels rather than static layouts
+    * The class buttons stretch across the whole screen with a width of 25% each
+    * The instructors section is now in a simple 2x2 grid formation with hoverable/clickable overlays for the profile information
+    * The social media icons now sit in the Reviews/Testimonials section, with the link to TripAdvisor
 
 * TABLET
     * The instructors profiles are in a grid display, rather than in a row
-    * There are no buttons in the reviews section, rather just an icon wih a link to TripAdvisor
+    * Phone and other contact info sits to the side of the form rather than below
 
 * MOBILE
-    * The navbar sits above the header
-    * The instructors certifications are not circular, rather sqaure and take up the whole container
+    * The navbar sits above the header and collapses into a hamburger menu
+    * The instructors certifications appear on the hoverable/clickable profiles
     * The instructors profiles are in a column, not in a grid display
 
 ## Design 
@@ -116,6 +122,10 @@ My colours were chosen to be gender neutral, with a contrast that is both bold y
 
 ![Colour palette](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/screenshots/colour-palette.png)
 
+* #191919 is a nice slightly-off black cthat is used for the text on light backgrounds, the navigation menu and the footer
+* #E8E8E8 is a clean off-white that is used for text on dark backgrounds and the background of some sections (classes and contact)
+* #564256 is a bold purple that is used for the about section main title, the instructors section and used as background colour for the classes carousel and parts of the contact section
+* #FC814A is a bright orange that is used for icons, links and the navigation menu text
 
 ### Icons
 I have used icons sparingly throughout the website, only acting as bullet points in lists or to signify social media. I did this so as not to overclutter the page and distract from the content itself. All the icons I used in the project are from [Font Awesome](https://fontawesome.com/).
