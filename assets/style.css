@@ -859,7 +859,7 @@ html {
     .section__about .about__container {
         flex-direction: column;
         height: 70%;
-        background: url(../documentation/images/poledance-heroimage.jpg) no-repeat fixed center center;
+        background: url(../documentation/images/poledance-heroimage.jpg) no-repeat center center;
         background-size: cover;
     }
 
@@ -974,7 +974,7 @@ html {
 
 /* Testimonials */
     .section__reviews {
-        background: url(../documentation/images/poledance-heroimage.jpg) no-repeat fixed center center;
+        background: url(../documentation/images/poledance-heroimage.jpg) no-repeat center center;
         background-size: cover;
     }
 
