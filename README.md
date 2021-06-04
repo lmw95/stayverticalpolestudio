@@ -249,6 +249,7 @@ FOOTER
 * [W3C HTML Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 * [Am I responsive?](http://ami.responsivedesign.is/)
+* [Responsive Design Checker](https://www.responsivedesignchecker.com/)
 * [PNG Converter](https://cloudconvert.com/png-converter)
 
 ## Workspaces ##
