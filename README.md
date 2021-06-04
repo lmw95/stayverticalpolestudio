@@ -206,11 +206,11 @@ FOOTER
 * Form with validation to allow users to make contact with the business
 * An active 404 error page that redirects users back to the homepage
 * Clickable and hoverable icons to allow users to open social media links into new tabs, whilst retaining navigation on the website
+* Carousel of the class options and testimonials for an enhanced user experience 
 
 ## Features for future implementation
-* Carousel of the testimonials for an enhanced user experience 
 * A working link to a gallery page
-* Working links to menus, gallery, emails and phone numbers which are not currently relevant since this website is for a fictional business.
+* Working links to timetables, booking system, gallery, emails and phone numbers which are not currently relevant since this website is for a fictional business.
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio#stay-vertical-pole-studio)
 
@@ -236,6 +236,7 @@ FOOTER
 * [W3C HTML Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 * [Am I responsive?](http://ami.responsivedesign.is/)
+* [PNG Converter](https://cloudconvert.com/png-converter)
 
 ## Workspaces ##
 * [GitPod](https://www.gitpod.io/)
