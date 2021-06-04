@@ -1377,28 +1377,29 @@ html {
 }
 
 .gallery__gallery {
-    background-color: #F69051;
     padding: 1em;
-}
-
-.carousel--gallery {
     background: url(../documentation/images/poledance-heroimage.jpg) no-repeat center center;
     background-size: cover;
 }
 
+.carousel--gallery {
+    background-color: #F69051;
+}
+
 .carousel-image {
     display: block;
-    height: 500px;
+    height: 300px;
     min-width: 150px;
     max-width: 100%;
     margin-right: 10px;
     top: 50%;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    opacity: 1;
 }
 
 .carousel--gallery.is-fullscreen .carousel-image {
   height: auto;
-  max-height: 100%;
+  max-height: 90%;
 }
 
 /*-------------------[Media Query for Gallery]-----------------*/
