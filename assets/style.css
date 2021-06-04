@@ -860,6 +860,7 @@ html {
         flex-direction: column;
         height: 70%;
         background-attachment: scroll;
+        background-size: auto;
     }
 
     .about__container .half {
@@ -974,6 +975,7 @@ html {
 /* Testimonials */
     .section__reviews {
         background-attachment: scroll;
+        background-size: auto;
     }
 
     .section__reviews h1 {
