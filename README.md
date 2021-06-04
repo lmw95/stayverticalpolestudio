@@ -29,7 +29,7 @@ Based on a fictional business offering pole dancing lessons, this website was bu
 ## Strategy 
 Stay Vertical is a fictional pole studio based in Lowestoft Suffolk which is the only one of its kind in the town, set up by a former adult entertainer who is fully insured, and has high-ranking qualifications in teaching pole dancing and health and safety. 
 
-The studio is relatively new, but is looking to expand their customer base and their local pole community through social media.
+The studio is relatively new, but is looking to expand their customer base and their local pole community through social media, and as a small business they want to get ahead of the curve in terms of responsive design for all devices!
 
 Due to the recent increase in customers, Stay Vertical is looking for a modern, responsive website that boosts their online presence and welcomes users from their very first visit.
 
