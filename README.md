@@ -218,10 +218,10 @@ FOOTER
 * Form with validation to allow users to make contact with the business
 * An active 404 error page that redirects users back to the homepage
 * Clickable and hoverable icons to allow users to open social media links into new tabs, whilst retaining navigation on the website
-* Carousel of the class options and testimonials for an enhanced user experience 
+* Carousel of the class options and testimonials for an enhanced user experience
+* A small scrollable image gallery page 
 
 ## Features for future implementation
-* A working link to a gallery page
 * Working links to timetables, booking system, gallery, emails and phone numbers which are not currently relevant since this website is for a fictional business.
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio#stay-vertical-pole-studio)
