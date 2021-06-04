@@ -142,6 +142,7 @@ All images on the website are to display pole dancing in action and to excite us
 * The images in the classes section is to reflect the different levels of class that the studio offers.
 * The instructor profile images are to show the instructors in action, so that users will feel assured they are in good hands if they decided to use the company's services.
 * The background image of the testimonials section is to provide one last display of pole-dancing before the user exits the page to the footer.
+* The images used in the gallery page represent activity at the studio and what students can look forward to when they join.
 
 Please find all credits for the images used in this project [here](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/CREDITS.md)
 
