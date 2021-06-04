@@ -2,16 +2,23 @@
 ### Media & images
 Image name | Source / credits
 ------------ | -------------
-pole-dancer-doubles.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
-pole-dancer-duo.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
-pole-dancer-flex.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
-pole-dancer-heels.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
-pole-dancer.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
+SV-favicon.png | [Favicon.io](https://favicon.io/)
+favicon-32x32.png | [Favicon.io](https://favicon.io/)
 pole-dancer2.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
 pole-instructor.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
 pole-instructor3.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
 pole-instructor4.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
-pole-studio | [Bobbi's Pole Studio, Perth](https://perth.bobbispolestudio.com.au/wp-content/uploads/sites/5/2014/02/151115-Bobbis_179.jpg)
+pole-instructor6.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
+pole-studio3.jpg | [Pinterest](https://www.pinterest.co.uk/pin/368591550726355016/) & original source [Pole Dance Nashville](https://www.missfitacademy.com/)
+beginner.png | [Clipart Library](http://clipart-library.com/clip-art/pole-dancing-silhouette-15.htm)
+improver.png | [Subpng](https://www.subpng.com/png-ibxtb6/download.html)
+intermediate.png | [Clip Art Max](https://www.clipartmax.com/middle/m2i8G6K9A0b1d3Z5_stickers-pole-dance-sticker-pole-dance/)
+advanced.png | [Pngwing](https://www.pngwing.com/en/free-png-djbud)
+elite.png | [Clip Art Max](https://www.clipartmax.com/middle/m2i8Z5H7d3K9d3H7_pole-dance-silhouette-pole-dancer-silhouette-png-trnasparent/)
+brooke-cagle-k9XZPpPHDho-unsplash.jpg | [Brooke Cagle on Unsplash](https://unsplash.com/photos/k9XZPpPHDho)
+bruno-adam-9n-WKWQZrno-unsplash.jpg | [Bruno Adam on Unsplash](https://unsplash.com/photos/9n-WKWQZrno)
+ben-parker-ym--mSBZ0ro-unsplash.jpg | [Ben Parker on Unsplash](https://unsplash.com/photos/ym--mSBZ0ro)
+shawnee-d-wOe_VGJe3TE-unsplash.jpg | [Shawnee D on Unsplash](https://unsplash.com/photos/wOe_VGJe3TE)
 
 ### Code & solutions
 
@@ -24,3 +31,4 @@ White space when on Responsive Viewer | [Nafiu Nawal on Stack Overflow](https://
 Fixing 'link has discernable name' error | [Binyamin on Stack Overflow](https://stackoverflow.com/questions/51683761/how-to-fix-lighthouse-links-do-not-have-a-discernible-name)
 How to improve SEO score on Lighthouse Report | [Google DevTools](https://web.dev/meta-description/?utm_source=lighthouse&utm_medium=devtools)
 Building a responsive navigation menu without Bootstrap | [WebDesignVista](https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/)
+Building responsive carousels (ALL CODE) [Flickity.io](https://flickity.metafizzy.co/)
