@@ -4,6 +4,8 @@
 # Stay Vertical Pole Studio 
 Based on a fictional business offering pole dancing lessons, this website was built for assignment purposes for Code Insitute's Full Stack Development diploma. This is a fully responsive website that was built with user-centric principles in mind, using HTML and CSS. 
 
+The live website can be found [here.](https://lmw95.github.io/stayverticalpolestudio/)
+
 # Table of contents
 * [UX](https://github.com/lmw95/polestudioproject#ux)
     * [Strategy](https://github.com/lmw95/polestudioproject#strategy)
