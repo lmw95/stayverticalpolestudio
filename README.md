@@ -161,7 +161,7 @@ HERO HEADER SECTION WITH NAVIGATION MENU
 > * As the business owner, I want a to create an online presence that stands out from the competition
 
 INTRODUCTION 
-* This section gives the user background into the company owner and gives a brief overview of the company ethos and commitments to its customers, with a button that takes the user to the instuctor section.
+* This section gives the user background into the company owner and gives a brief overview of the company ethos and commitments to its customers, with a button that takes the user to the classes section.
 > * When visiting the website, the user wants to feel comfortable attending classes without fear of discrimination or self-conscious
 > * By having a new website, the business owner wants to promote inclusivity and accessibility
 > * As a first-time user, I want to feel comfortable that I will be welcome here
@@ -188,14 +188,14 @@ INSTRUCTOR PROFILES
 > * As the business owner, I want to feature my and my instructors' backstories so customers can feel at ease when they first visit 
 
 TESTIMONIALS
-* This section displays review from previous customers and a working link to TripAdvisor should the user want to see more.
+* This section displays review from previous customers and a working link to TripAdvisor should the user want to see more. This section also includes working links to the company's social media pages which open in different tabs.
 > * As a returning user, I want to be able to leave a review on TripAdvisor so I can promote the company 
 > * As a returning user, I want to see reviews so that I can recommend to my friends
 > * As a business owner, I want to provide links to our social media accounts and TripAdvisor reviews to grow my online community and retain returning customers
 > * As the business owner, I want a to create an online presence that stands out from the competition
 
 CONTACT US 
-* This section includes an enquiry form and all of the necessary contact details (phone and phone) of the company, with each of the email links opening Outlook on the user's device for quick contact. This section also includes working links to the comoany's social media pages which open in different tabs.
+* This section includes an enquiry form and all of the necessary contact details (phone and phone) of the company, with each of the email links opening Outlook on the user's device for quick contact.
 > * When visiting the website, the user wants to access the owners contact information
 > * As a first-time user, I want the owners contact details so that I can ask any questions 
 > * As a returning user, I want to be able to submit an enquiry quickly through the website as I am now familiar with the owners
