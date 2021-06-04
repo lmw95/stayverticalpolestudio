@@ -1382,24 +1382,49 @@ html {
     background-size: cover;
 }
 
+/* Gallery carousel (Made with Flickity - https://flickity.metafizzy.co) */
 .carousel--gallery {
     background-color: #F69051;
 }
 
-.carousel-image {
-    display: block;
-    height: 300px;
-    min-width: 150px;
-    max-width: 100%;
-    margin-right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    opacity: 1;
+.carousel-cell--gallery {
+  width: 66%;
+  height: 400px;
+  margin-right: 10px;
+  border-radius: 5px;
 }
 
-.carousel--gallery.is-fullscreen .carousel-image {
-  height: auto;
-  max-height: 100%;
+/* Carousel cell background images */
+        .carousel-cell--gallery:nth-of-type(1) {
+            background: url(../documentation/images/itzel-gonzalez-lara-0UMG5xHkiXU-unsplash.jpg) no-repeat center center;
+            background-size: cover;
+        }
+
+        .carousel-cell--gallery:nth-of-type(2) {
+            background: url(../documentation/images/eric-nopanen-72eYgGJVzQM-unsplash.jpg) no-repeat center center;
+            background-size: cover;
+        }
+
+        .carousel-cell--gallery:nth-of-type(3) {
+            background: url(../documentation/images/obi-onyeador-4vl3XYQ5C3Q-unsplash.jpg) no-repeat center center;
+            background-size: cover;
+        }
+
+        .carousel-cell--gallery:nth-of-type(4) {
+            background: url(../documentation/images/gregoire-bertaud-VE1FT_BAY1M-unsplash.jpg) no-repeat center center;
+            background-size: cover;
+        }
+
+        .carousel-cell--gallery:nth-of-type(5) {
+            background: url(../documentation/images/striptease-4449683_1920.jpg) no-repeat center center;
+            background-size: cover;
+        }
+
+.carousel--gallery.is-fullscreen .carousel-cell { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 /*-------------------[Media Query for Gallery]-----------------*/
