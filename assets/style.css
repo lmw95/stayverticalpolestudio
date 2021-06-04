@@ -1299,11 +1299,34 @@ html {
     .section__reviews .review--text {
         font-size: 1vw;
     }
+    
 /* Contact */
     .phone-number p, .email p, .chat p {
         font-size: 0.9vw;
     }
 }
+
+/*------------[Media Query - 2700 and above]------------*/
+
+@media all and (min-width: 2700px) {
+    .carousel-cell--overlay p {
+        font-size: 1vw;
+    }
+
+    .cell__description--cell p {
+        font-size: 0.9vw;
+    }
+
+    .section__classes--extras h3 {
+        font-size: 1.5vw;
+    }
+
+    .section__classes--extras ul {
+        font-size: 1vw;
+        padding: 0 1.5em 1.5em 1.5em;
+    }
+}
+
 
 /*------------[Error page]------------*/
 
