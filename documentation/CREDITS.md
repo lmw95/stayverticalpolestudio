@@ -1,6 +1,9 @@
 # Credits
 ### Media & images
-Image name | Source / credits
+
+PLEASE NOTE: This project is purely for educational purposes only, no selling playing or promoting has/is taking place.
+
+Image name | Source & credits
 ------------ | -------------
 SV-favicon.png | [Favicon.io](https://favicon.io/)
 favicon-32x32.png | [Favicon.io](https://favicon.io/)
