@@ -341,7 +341,7 @@
                         <input type="email" id="email" required>
                         <label for="message" class="label">Your message</label>
                         <textarea id="message" rows="10" cols="60" required></textarea>
-                        <button type="submit">Send me</button>
+                        <button type="submit" onclick="alertUser()">Send me</button>
                 </form>
         </div>
         <!-- Phone, email and FB messenger -->
@@ -408,6 +408,12 @@
       }
 
       window.addEventListener("resize", windowResizeHandler);
+
+      function alertUser() {
+          let firstName = document.getElementById("fname").value;
+          alert("Thanks, " + (firstName) + "! We will be in touch in 1-2 working days");
+      }
+
     </script>
     
 </body>
