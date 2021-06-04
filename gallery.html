@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A project for Code Institute's Full Stack Software Development Diploma">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon-->
+    <link rel="icon" href="documentation/images/favicon-32x32.png" type="image/png">
+    <!--Flickity-->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!--Hover.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A==" crossorigin="anonymous" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!--style.css-->
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Stay Vertical</title>
+</head>
+<body>
+    
+    <!--Header section-->
+    <header class="header">
+        <!--Collapsable navigation menu-->
+        <!-- Credit: https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/ -->
+        <div class="nav-wrapper">
+            <nav class="navbar">
+                <span id="toggle-nav" onclick="toggleNav()">
+                    <i class="fa fa-bars"><span id="nav-menu">Menu</span></i>
+                </span>
+                <ul id="navlist">
+                    <li class="hvr-grow"><a href="#" aria-label="Home page">Home</a></li>
+                    <li class="hvr-grow"><a href="#classes" aria-label="Classes">Classes</a></li>
+                    <li class="hvr-grow"><a href="#" target="_blank" aria-label="Gallery">Gallery</a></li>
+                    <li class="hvr-grow"><a href="#" aria-label="Shop">Shop</a></li>
+                    <li class="hvr-grow"><a href="#contact" aria-label="Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--Hero image-->
+        <div class="header__background">
+            <!--Company logo (Made with Favicon.io - https://favicon.io/)-->
+            <div class="header__logo"></div>
+        </div>
+    </header>
+
+    <!--About section-->
+    <section class="section__about--gallery">
+            <div class="about__headings--gallery">
+                <h1>Stay Vertical</h1>
+                <h2>Pole dancing studio based in Lowestoft, Suffolk</h2>
+            </div>
+    </section>
+    <!--Carousel for student reviews made with Flickity - https://flickity.metafizzy.co/-->
+    <section class="gallery__gallery">
+        <div class="carousel--gallery" data-flickity='{ "fullscreen": true, "lazyLoad": 2 }'>
+            <img class="carousel-image"
+            data-flickity-lazyload="../documentation/images/obi-onyeador-4vl3XYQ5C3Q-unsplash.jpg" />
+            <img class="carousel-image"
+            data-flickity-lazyload="../documentation/images/itzel-gonzalez-lara-0UMG5xHkiXU-unsplash.jpg" />
+            <img class="carousel-image"
+            data-flickity-lazyload="../documentation/images/eric-nopanen-72eYgGJVzQM-unsplash.jpg" />
+            <img class="carousel-image"
+            data-flickity-lazyload="../documentation/images/gregoire-bertaud-VE1FT_BAY1M-unsplash.jpg" />
+            <img class="carousel-image"
+            data-flickity-lazyload="../documentation/images/striptease-4449683_1920.jpg" />
+            <img class="carousel-image"
+            data-flickity-lazyload="../documentation/images/pexels-roman-davayposmotrim-35987.jpg />
+        </div>
+    </section>
+
+    <!--Footer section-->
+    <footer class="footer">
+        <!--Opening times-->
+        <div class="footer__opening-times">
+            <i class="far fa-clock"></i>
+            <p>Monday - Wednesday: 10:00 - 19:00</p>
+            <p>Thursday - Friday: 10:00 - 17:00</p>
+            <p>Saturday: 9:00 - 13:00</p>
+            <p>Sunday: CLOSED</p>
+        </div>
+        <!--Location with Google Maps link-->
+        <div class="footer__location">
+            <a href="https://www.google.com/maps/place/London+Rd+N,+Lowestoft/@52.4763935,1.7505538,17z/data=!3m1!4b1!4m5!3m4!1s0x47da1af55c8eb1bf:0xc88ab7822fed6d88!8m2!3d52.4763903!4d1.7527425" target="_blank" aria-label="New tab to Google Maps">
+                <i class="fas fa-map-marked-alt"></i>
+                <p>THE OLD CARTHOUSE</p>
+                <p>LONDON ROAD NORTH</p>
+                <p>LOWESTOFT</p>
+                <p>SUFFOLK</p>
+                <p>NR32 1ET</p>
+            </a>
+        </div>
+        <!--Copyright notice-->
+        <div class="footer__copyright">
+            <p>copyright @ Stay Vertical 2021</p>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+
+     <!-- Credit: https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/ -->
+    <script>
+      var nav = document.getElementById("navlist");
+
+      function toggleNav() {
+        if (nav.style.display === "") nav.style.display = "block";
+        else nav.style.display = "";
+      }
+
+      function windowResizeHandler() {
+        if (screen.width > 630) nav.style.display = "";
+      }
+
+      window.addEventListener("resize", windowResizeHandler);
+    </script>
+</body>
+</html>
