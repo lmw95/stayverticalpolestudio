@@ -859,6 +859,8 @@ html {
     .section__about .about__container {
         flex-direction: column;
         height: 70%;
+        background: url(../documentation/images/pole-studio3.jpg) no-repeat center center;
+        background-size: cover;
     }
 
     .about__container .half {
@@ -971,6 +973,12 @@ html {
     }
 
 /* Testimonials */
+
+    .section__reviews {
+        background: url(../documentation/images/pole-dancer2.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
     .section__reviews h1 {
         font-size: 2.3em;
         padding: 1em;
