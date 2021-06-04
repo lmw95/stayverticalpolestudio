@@ -112,6 +112,11 @@ This section covers the major issues I encountered during the development and te
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/0512be07576b6e3516f9c17f1626eda5b082a134)
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/e7dc91e951864b43b2873bd8a4450e0a5f6e77e7)
 
+* Issue: The nav menu would not retract after selecting a link (nav item)
+* Solution: I wrote a little line of code as a function 'toggleNavOff()' which triggered the nav menu to close once link had been seletected
+> * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/037b401d9d21b7554b7cfacb5347052d4a38e5f4)
+__
+
 [Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING-post-update.md/#testing)
 
 ## Google Lighthouse
