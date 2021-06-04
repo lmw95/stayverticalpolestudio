@@ -784,7 +784,7 @@ html {
     }
 
     .header__background {
-        background: url(../documentation/images/pole-instructor4.jpg) no-repeat initial center center;
+        background: url(../documentation/images/pole-instructor4.jpg) no-repeat center center;
         background-size: cover;
     }
 
@@ -974,7 +974,7 @@ html {
 
 /* Testimonials */
     .section__reviews {
-        background: url(../documentation/images/poledance-heroimage.jpg) no-repeat center center;
+        background: url(../documentation/images/poledance-heroimage.jpg) no-repeat initial center center;
         background-size: cover;
     }
 
