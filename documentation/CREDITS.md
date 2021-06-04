@@ -26,6 +26,7 @@ itzel-gonzalez-lara-0UMG5xHkiXU-unsplash.jpg | [Itzel Gonzales Lara](https://uns
 eric-nopanen-72eYgGJVzQM-unsplash.jpg | [Eric Nopanen on Unsplash](https://unsplash.com/photos/72eYgGJVzQM)
 gregoire-bertaud-VE1FT_BAY1M-unsplash.jpg | [Gregoire Bertaud on Unsplash](https://unsplash.com/photos/VE1FT_BAY1M)
 striptease-4449683_1920.jpg | [Victoria Borodinova on Pixabay](https://pixabay.com/photos/striptease-night-club-bar-pylon-4449683/)
+alex-shaw-rraInloQNro-unsplash.jpg [Alex Shaw](https://unsplash.com/photos/rraInloQNro)
 
 ### Code & solutions
 
