@@ -6,7 +6,7 @@ Based on a fictional business offering pole dancing lessons, this website was bu
 
 # Table of contents
 * [UX](https://github.com/lmw95/polestudioproject#ux)
-    * [Strategy](https://github.com/lmw95/polestudioproject#planning)
+    * [Strategy](https://github.com/lmw95/polestudioproject#strategy)
     * [Goals](https://github.com/lmw95/polestudioproject#goals)
     * [User Stories](https://github.com/lmw95/polestudioproject#user-stories)
     * [Expectations](https://github.com/lmw95/polestudioproject#expectations)
@@ -22,7 +22,7 @@ Based on a fictional business offering pole dancing lessons, this website was bu
     * [Workspaces](https://github.com/lmw95/polestudioproject#workspaces)
 * [Testing](https://github.com/lmw95/polestudioproject#testing)
 * [Deployment](https://github.com/lmw95/polestudioproject#deployment)
-* [Credits & Acknowledgements](https://github.com/lmw95/polestudioproject#credits--Acknowledgements)
+* [Credits & Acknowledgements](https://github.com/lmw95/polestudioproject#credits--acknowledgements)
 
 ---
 
