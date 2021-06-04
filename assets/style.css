@@ -1306,7 +1306,7 @@ html {
     }
 }
 
-/*------------[Media Query - 2700 and above]------------*/
+/*------------[Media Query - 2700px and above]------------*/
 
 @media all and (min-width: 2700px) {
     .carousel-cell--overlay p {
@@ -1326,7 +1326,6 @@ html {
         padding: 0 1.5em 1.5em 1.5em;
     }
 }
-
 
 /*------------[Error page]------------*/
 
