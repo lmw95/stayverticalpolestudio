@@ -29,11 +29,11 @@
                     <i class="fa fa-bars"><span id="nav-menu">Menu</span></i>
                 </span>
                 <ul id="navlist">
-                    <li class="hvr-grow"><a href="index.html" aria-label="Home page">Home</a></li>
-                    <li class="hvr-grow"><a href="#" aria-label="Classes">Classes</a></li>
-                    <li class="hvr-grow"><a href="#" aria-label="Gallery">Gallery</a></li>
-                    <li class="hvr-grow"><a href="#" aria-label="Shop">Shop</a></li>
-                    <li class="hvr-grow"><a href="#" aria-label="Contact">Contact</a></li>
+                    <li class="hvr-grow" onclick="toggleNavOff()"><a href="index.html" aria-label="Home page">Home</a></li>
+                    <li class="hvr-grow" onclick="toggleNavOff()"><a href="#" aria-label="Classes">Classes</a></li>
+                    <li class="hvr-grow" onclick="toggleNavOff()"><a href="#" aria-label="Gallery">Gallery</a></li>
+                    <li class="hvr-grow" onclick="toggleNavOff()"><a href="#" aria-label="Shop">Shop</a></li>
+                    <li class="hvr-grow" onclick="toggleNavOff()"><a href="#" aria-label="Contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -97,6 +97,11 @@
       function toggleNav() {
         if (nav.style.display === "") nav.style.display = "block";
         else nav.style.display = "";
+      }
+        
+      function toggleNavOff() {
+         if (nav.style.display === "block") nav.style.display = "";
+         else nav.style.display = "";
       }
 
       function windowResizeHandler() {
