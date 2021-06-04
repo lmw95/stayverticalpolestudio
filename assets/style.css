@@ -1401,7 +1401,7 @@ html {
 
 .carousel-cell--gallery {
   width: 66%;
-  height: 400px;
+  height: 800px;
   margin-right: 10px;
   border-radius: 5px;
 }
@@ -1431,13 +1431,6 @@ html {
             background: url(../documentation/images/striptease-4449683_1920.jpg) no-repeat center center;
             background-size: cover;
         }
-
-.carousel--gallery.is-fullscreen .carousel-cell { 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
 
 /*-------------------[Media Query for Gallery - max 630px]-----------------*/
 @media all and (max-width: 630px) {
