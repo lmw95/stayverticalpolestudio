@@ -3,11 +3,11 @@
 > * This is the updated testing document to include the new components in the website
 
 During the development process, testing has been conducted as an ongoing process, with further testing conducted towards the end of the process:
-* [Testing process](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING(post-update)/#testing-process)
-* [Issues during development](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING(post-update)/#issues--during-development)
-* [Accessibility](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING(post-update)/#accessibility)
-* [Performance](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING(post-update)/#performance)
-* [HTML & CSS validation](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING(post-update)/#html--css-validation)
+* [Testing process](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING-post-update/#testing-process)
+* [Issues during development](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTINGpost-update/#issues--during-development)
+* [Accessibility](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING-post-update/#accessibility)
+* [Performance](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING-post-update/#performance)
+* [HTML & CSS validation](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING-post-update/#html--css-validation)
 
 ## Testing process 
 This section outlines the testing of the interactive components of the website.
@@ -106,7 +106,7 @@ This section covers the major issues I encountered during the development and te
 * Solution: I changed the img to a div and set the background as the Favicon which fixed the issue
 > * [Link to commit & code](https://github.com/lmw95/stayverticalpolestudio/commit/e999c887c9a0db2c4a98d3ae9004dc6ae6b9c8eb)
 
-[Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING(post-update).md/#testing)
+[Back to top](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING-post-update.md/#testing)
 
 ## Google Lighthouse
 ### DESKTOP
