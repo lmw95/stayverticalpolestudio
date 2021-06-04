@@ -18,7 +18,7 @@ html {
     overflow-x: hidden;
 }
 
-/*--------------------------------------[Header]--------------------------------------*/
+/*--------------------------------------[Header & Hero Image]--------------------------------------*/
 
 .header {
     height: 600px;
@@ -26,6 +26,7 @@ html {
     overflow: hidden;
 }
 
+/* Hero Image */
 .header__background {
     height: 100%;
     width: 100%;
@@ -54,6 +55,7 @@ html {
     }
 }
 
+/* Company Logo */
 .header__logo {
     margin-bottom: 90px;
     height: 90px;
@@ -243,6 +245,7 @@ html {
     color: #191919;
 }
 
+/* Carousel for classes (Made with Flickity - https://flickity.metafizzy.co/) */
 .carousel {
     background: rgba(86, 66, 86, 0.5);
     padding: 20px 0;
@@ -284,7 +287,7 @@ html {
     text-align: justify;
 }
 
-/*-----------------------------------[Classes carousel]-----------------------------------*/
+/* Classes carousel images */
 
         .carousel-cell:nth-of-type(1) {
             background: url(../documentation/images/beginner.png) no-repeat center center;
@@ -310,8 +313,6 @@ html {
             background: url(../documentation/images/elite.png) no-repeat center center;
             background-size: contain;
         }
-
-/*------------------------------------------------------------------------------------*/
 
 .carousel-cell:before {
   display: block;
@@ -348,6 +349,7 @@ html {
     padding: 0 1em 0 0.8em;
 }
 
+/* Extra classes */
 .section__classes--extras {
     display: flex;
     flex-direction: column;
@@ -449,41 +451,42 @@ html {
     width: 45%;
 }
 
-.instructors__container .quarter:nth-of-type(1) {
-    background: url(../documentation/images/pole-instructor.jpg) no-repeat center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+/* Instructors profile images */
+        .instructors__container .quarter:nth-of-type(1) {
+            background: url(../documentation/images/pole-instructor.jpg) no-repeat center center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
 
-.instructors__container .quarter:nth-of-type(2) {
-    background: url(../documentation/images/pole-instructor2.jpg) no-repeat center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+        .instructors__container .quarter:nth-of-type(2) {
+            background: url(../documentation/images/pole-instructor2.jpg) no-repeat center center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
 
-.instructors__container .quarter:nth-of-type(3) {
-    background: url(../documentation/images/pole-instructor3.jpg) no-repeat center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+        .instructors__container .quarter:nth-of-type(3) {
+            background: url(../documentation/images/pole-instructor3.jpg) no-repeat center center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
 
-.instructors__container .quarter:nth-of-type(4) {
-    background: url(../documentation/images/pole-instructor6.jpg) no-repeat center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+        .instructors__container .quarter:nth-of-type(4) {
+            background: url(../documentation/images/pole-instructor6.jpg) no-repeat center center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
 
 .quarter .quarter--overlay {
     height: 100%;
@@ -516,7 +519,6 @@ html {
 .quarter .quarter--overlay h3 {
     font-size: 1.6em;
 }
-
 
 /*--------------------------------------[Testimonials section]--------------------------------------*/
 
@@ -573,43 +575,40 @@ html {
     font-weight: 700;
 }
 
-/*--------------------------------------[Testimonials carousel]--------------------------------------*/
+/* Testimonials carousel (Made with Flickity - https://flickity.metafizzy.co) */
+.reviews__carousel-cell {
+    width: 30%;
+    height: 400px;
+    margin-right: 25px;
+    background: #191919;
+    border-radius: 5px;
+}
 
-        .reviews__carousel-cell {
-            width: 30%;
-            height: 400px;
-            margin-right: 25px;
-            background: #191919;
-            border-radius: 5px;
-        }
+.reviews__carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+}
 
-        /* cell number */
-        .reviews__carousel-cell:before {
-            display: block;
-            text-align: center;
-            line-height: 200px;
-        }
+.reviews__carousel-cell .photo {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-        .reviews__carousel-cell .photo {
-            height: 40%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+.reviews__carousel-cell .review {
+    height: 60%;
+    background-color: #E8E8E8;
+}
 
-        .reviews__carousel-cell .review {
-            height: 60%;
-            background-color: #E8E8E8;
-        }
+.photo--img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
 
-        .photo--img {
-            width: 130px;
-            height: 130px;
-            border-radius: 50%;
-        }
-
-/*---------------------------------------------------------------------------------------------*/
-
+/* Social media links */
 .reviews--social-media {
     height: 130px;
     background-color: #191919;
@@ -644,44 +643,42 @@ html {
     text-align: center;
 }
 
+/* Reviews carousel photos */
+        .photo--1 {
+            background: url(../documentation/images/brooke-cagle-k9XZPpPHDho-unsplash.jpg) no-repeat center center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
 
-/*-----------------------------------[Reviews carousel photos]-----------------------------------*/
-    .photo--1 {
-        background: url(../documentation/images/brooke-cagle-k9XZPpPHDho-unsplash.jpg) no-repeat center center;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+        .photo--2 {
+            background: url(../documentation/images/shawnee-d-wOe_VGJe3TE-unsplash.jpg) no-repeat center center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
 
-    .photo--2 {
-        background: url(../documentation/images/shawnee-d-wOe_VGJe3TE-unsplash.jpg) no-repeat center center;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        .photo--3 {
+            background: url(../documentation/images/ben-parker-ym--mSBZ0ro-unsplash.jpg) no-repeat center center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
 
-    }
-
-    .photo--3 {
-        background: url(../documentation/images/ben-parker-ym--mSBZ0ro-unsplash.jpg) no-repeat center center;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-
-    .photo--4 {
-        background: url(../documentation/images/bruno-adam-9n-WKWQZrno-unsplash.jpg) no-repeat center center;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+        .photo--4 {
+            background: url(../documentation/images/bruno-adam-9n-WKWQZrno-unsplash.jpg) no-repeat center center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
 
 /*--------------------------------------[Contact section]--------------------------------------*/
 
@@ -715,6 +712,7 @@ html {
     color: #191919;
 }
 
+/* Contact form with validation */
 .contact__form {
     display: flex;
     flex-direction: column;
@@ -756,6 +754,7 @@ html {
     font-size: 1.1em;
 }
 
+/* Contact information */
 .section__contact .right {
     display: flex;
     flex-direction: column;
@@ -828,6 +827,7 @@ html {
         height: 400px;
     }
 
+/* Hero Image */
     .header__background {
         background: url(../documentation/images/pole-instructor4.jpg) no-repeat center center;
         background-size: cover;
@@ -1087,7 +1087,6 @@ html {
         font-size: 3.2vw;
     }
     
-
 /* Footer */
     .footer {
         flex-direction: column;
@@ -1158,7 +1157,7 @@ html {
         margin-bottom: 80px;
     }
 
-/* About section */
+/* About */
     .section__about {
         height: 900px;
     }
@@ -1286,6 +1285,7 @@ html {
 /*-------------------------------------------[Media Query - 1920px and above]-------------------------------------------------*/
 
 @media all and (min-width: 1920px) {
+/* Reviews */
     .section__reviews .review--text {
         font-size: 1vw;
     }
@@ -1333,3 +1333,5 @@ html {
     cursor: pointer;
     text-align: center;
 }
+
+/*----------------------------------------------------------------------------------------------*/
