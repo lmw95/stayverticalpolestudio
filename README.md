@@ -136,17 +136,18 @@ The fonts I have used are all from [Google Fonts](https://fonts.google.com/). I 
 ### Images 
 All images on the website are to display pole dancing in action and to excite users into booking a class:
 * The hero image is designed to grab the users attention when they first land on the website and show the power of the pole, which tells the user directly what services are offered by the company.
+* The logo in the hero image is to display the branding to the user immediately.
 * The image in the introduction is to show off the studio itself in a colour that matches the palette of the website.
-* The four images in the classes section is to reflect the four purposes of the service provided by the company.
+* The images in the classes section is to reflect the different levels of class that the studio offers.
 * The instructor profile images are to show the instructors in action, so that users will feel assured they are in good hands if they decided to use the company's services.
 * The background image of the testimonials section is to provide one last display of pole-dancing before the user exits the page to the footer.
 
-Please find all credits for the images used in this project [here]()
+Please find all credits for the images used in this project [here](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/CREDITS.md)
 
 ### Structure
 I have chosen [CSS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to structure my website. CSS Flexbox is simple to use and allows
 for easy restructuring for responsive design across screen sizes. This way, I can have assurance that my website will
-work on mobile, tablet and desktop. Below are the current features and which stories/criteria they tick:
+work on mobile, tablet and desktop. Below are the current features and which stories/criteria they cover:
 
 RESPONSIVE DESIGN
 * The website will grow and shrink according to the screen size of the user, for a good cross-device user experience.
@@ -234,6 +235,8 @@ FOOTER
 * [Hover.css](https://ianlunn.github.io/Hover/)
 * [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
+* [Flickity.io](https://flickity.metafizzy.co/)
+* [Favicon.io](https://favicon.io/)
 
 ## Tools ##
 * [Mockup Plus](https://www.mockplus.com/download/mockplus-classic)
