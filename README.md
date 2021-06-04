@@ -211,6 +211,8 @@ FOOTER
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio#stay-vertical-pole-studio)
 
+---
+
 # Features
 ## Current features
 * Responsive design to allow user to browse the website on all devices  
@@ -260,6 +262,8 @@ FOOTER
 
 [Back to top](https://github.com/lmw95/stayverticalpolestudio#stay-vertical-pole-studio)
 
+---
+
 # Testing
 Testing has been an ongoing process throughout the development stage. It has been conducted on the following:
 
@@ -301,6 +305,8 @@ CLONE:
 * Log in to GitHub and locate the GitHub Repository.
 * Under the repository name, click "Clone or download".
 
+---
+
 # Credits 
 ## Media & images
 The entire list of credits can be found [here.](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/CREDITS.md) 
@@ -316,3 +322,5 @@ README.md document inspiration from fellow students [AnoukSmet](https://github.c
 * My mentor Narender Singh for his advice and guidance during this project
 * The slack community for advice and solution to problems that I needed assistance with
 * The wider coding community on [Stack Overflow](https://stackoverflow.com/) for their insights and knowledge which has helped me through this project
+
+[Back to top](https://github.com/lmw95/stayverticalpolestudio#stay-vertical-pole-studio)
