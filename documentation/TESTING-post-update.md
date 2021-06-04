@@ -1,6 +1,6 @@
 # Testing 
 
-> * This is the updated testing document to include the new components in the website
+> * This is the updated testing document to include the new components in the website, including the new Flickity carousels and overall styling of the webpage.
 
 During the development process, testing has been conducted as an ongoing process, with further testing conducted towards the end of the process:
 * [Testing process](https://github.com/lmw95/stayverticalpolestudio/blob/master/documentation/TESTING-post-update/#testing-process)
