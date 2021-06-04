@@ -114,9 +114,18 @@ Post-update, Google Lighthouse returned green across all reports (accessibility,
 
 ![](/documentation/screenshots-post-update/lighthouse-post-update.png)
 
-### mobile
+### MOBILE
 Post-update, Google Lighthouse returned green across all reports, except performance. When I further develop my profiencies, I hope to address this issue further.
 
 ![](/documentation/screenshots-post-update/lighthouse-post-update-mobile.png)
 
 ## HTML & CSS validation
+### HTML validation
+
+This report was conducted using [W3C Markup Validator.](https://validator.w3.org/)
+
+INITIAL report
+
+![](/documentation/screenshots-post-update/errors-post-update/W3C-HTML-errors-post-update.png)
+* Issue: Initial testing found 4 errors all in relation to missing targets in a href tags.
+* Solution: I added 'blank' to each empty target to fix the issue
