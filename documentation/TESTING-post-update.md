@@ -11,6 +11,7 @@ During the development process, testing has been conducted as an ongoing process
 
 ## Testing process 
 This section outlines the testing of the interactive components of the website.
+
 ### Navigation menu
 * Plan: I wanted a navigation menu that was fixed to the top of the user's screen. All the links should take the user to their intended destination, be it on the current page, a different part of the website or another site entirely.
 * Implementation: I created the navigation menu using CSS Flexbox and a block of JavaScript code which I found on [Web/Design/Vista](https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/) which provided me with a responsive navigation menu that stretches the entire width of the user's screen, and the navigation items display neatly in a hamburger menu when viewed on a mobile screen. I styled the navigation in accordance with the colour palette of the website.
@@ -26,7 +27,7 @@ This section outlines the testing of the interactive components of the website.
 * Verdict: PASS
 
 ### Working links
-* Plan: I wanted to have working links that took the user to external sites (such as social media), to another section of the page or opened another app (such as Outlook).
+* Plan: I wanted to have working links that took the user to external sites (such as social media or the gallery page), to another section of the page or opened another app (such as Outlook).
 * Implementation: I left the link hrefs empty at first, then I created a 404 error page, and linked all the relevant pages and sections to each link with their correct targets.
 * Test: I tested the website on Google Chrome, Mozilla Firefox and Microsoft Edge by clicking on all of the links one by one to check they took the user to the correct place.
 * Result: I noticed an incorrect link in some of the buttons, but that was easily added in after testing and fixed the issue. All other links were working perfectly on all browsers.
@@ -48,7 +49,7 @@ This section outlines the testing of the interactive components of the website.
 
 ### Flickity carousels
 * Plan: I wanted to use [Flickity](https://flickity.metafizzy.co/) to create interactive carousels for the Classes and Reviews section so that it saves space on the webpage but also improves the user experience.
-* Implementation: I utilised Flickity's CDN and code to create two carousels and edited them to how best suited the webpage in terms of colour, content and size.
+* Implementation: I utilised Flickity's CDN and code to create three carousels (two in index.html and one in gallery.html) and edited them to how best suited the webpage in terms of colour, content and size.
 * Test: I tested the carousels on all device sizes and browsers to ensure sizing was correct and that the scrolling effect was working.
 * Result: The carousels worked correctly as planned on all devices and browsers.
 * Verdict: PASS
