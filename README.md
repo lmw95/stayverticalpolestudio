@@ -220,7 +220,7 @@ FOOTER
 * Responsive design to allow user to browse the website on all devices  
 * Collapsable navigation menu for easy browsing on mobile screens 
 * A call for action in terms of clickable buttons in each section to encourage users explore other parts of the website
-* Form with validation to allow users to make contact with the business
+* Form with validation to allow users to make contact with the business, and a customised alert using basic JavaScript function
 * An active 404 error page that redirects users back to the homepage
 * Clickable and hoverable icons to allow users to open social media links into new tabs, whilst retaining navigation on the website
 * Carousel of the class options and testimonials for an enhanced user experience
