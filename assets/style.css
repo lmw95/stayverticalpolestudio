@@ -72,7 +72,7 @@ html {
 }
 
 .navbar {
-    background-color: rgba(25, 25, 25, 0.8);
+    background-color: rgba(25, 25, 25, 0.85);
 }
 
 #navlist {
@@ -80,7 +80,6 @@ html {
     display: flex;
     padding: 0;
     margin: 0;
-    background: rgba(25, 25, 25, 0.8);
 }
 
 #navlist li {
