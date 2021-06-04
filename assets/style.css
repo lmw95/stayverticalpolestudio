@@ -60,6 +60,10 @@ html {
     width: 90px;
     background: url(../documentation/images/SV-favicon.png) no-repeat center center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /*--------------------------------------[Navigation Menu]--------------------------------------*/
@@ -146,6 +150,10 @@ html {
     height: 70%;
     margin-top: 30px;
     background: url(../documentation/images/poledance-heroimage.jpg) no-repeat fixed center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -444,20 +452,36 @@ html {
 .instructors__container .quarter:nth-of-type(1) {
     background: url(../documentation/images/pole-instructor.jpg) no-repeat center center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .instructors__container .quarter:nth-of-type(2) {
     background: url(../documentation/images/pole-instructor2.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 .instructors__container .quarter:nth-of-type(3) {
     background: url(../documentation/images/pole-instructor3.jpg) no-repeat center center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .instructors__container .quarter:nth-of-type(4) {
     background: url(../documentation/images/pole-instructor6.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -498,6 +522,10 @@ html {
 
 .section__reviews {
     background: url(../documentation/images/poledance-heroimage.jpg) no-repeat fixed center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -621,20 +649,37 @@ html {
     .photo--1 {
         background: url(../documentation/images/brooke-cagle-k9XZPpPHDho-unsplash.jpg) no-repeat center center;
         background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .photo--2 {
         background: url(../documentation/images/shawnee-d-wOe_VGJe3TE-unsplash.jpg) no-repeat center center;
         background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
     }
 
     .photo--3 {
         background: url(../documentation/images/ben-parker-ym--mSBZ0ro-unsplash.jpg) no-repeat center center;
         background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .photo--4 {
         background: url(../documentation/images/bruno-adam-9n-WKWQZrno-unsplash.jpg) no-repeat center center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
 
@@ -785,6 +830,10 @@ html {
 
     .header__background {
         background: url(../documentation/images/pole-instructor4.jpg) no-repeat center center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
     }
 
