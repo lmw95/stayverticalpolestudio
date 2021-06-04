@@ -40,3 +40,4 @@ How to improve SEO score on Lighthouse Report | [Google DevTools](https://web.de
 Fix a zoomed in background on mobile screens [Ainz-sama on StackOverflow](https://stackoverflow.com/questions/23838718/fixed-background-cover-becomes-zoomed-in-mobile-view/40414973)
 Building a responsive navigation menu without Bootstrap | [WebDesignVista](https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/)
 Building responsive carousels (ALL CAROUSELS) | [Flickity.io](https://flickity.metafizzy.co/)
+Help with basic alert/onclick function | [W3Schools](https://www.w3schools.com/jsref/event_onclick.asp)
