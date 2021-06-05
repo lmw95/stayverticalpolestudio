@@ -41,3 +41,4 @@ Fix a zoomed in background on mobile screens | [Ainz-sama on StackOverflow](http
 Building a responsive navigation menu without Bootstrap | [WebDesignVista](https://www.webdesignvista.com/create-responsive-navbar-without-bootstrap/)
 Building responsive carousels (ALL CAROUSELS) | [Flickity.io](https://flickity.metafizzy.co/)
 Help with basic alert/onclick function | [W3Schools](https://www.w3schools.com/jsref/event_onclick.asp)
+Structure for README.md and repo layout | [AnoukSmet](https://github.com/AnoukSmet/Naturazy) and [lemocla.](https://github.com/lemocla/MS1-Catsitting)
