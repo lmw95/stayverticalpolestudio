@@ -496,6 +496,9 @@ html {
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease-in-out;
+        -webkit-transition: bg-zoom 5s forwards;
+        -moz-transition: bg-zoom 5s forwards;
+        -o-transition: bg-zoom 5s forwards;
     color: transparent;
 }
 
@@ -525,9 +528,9 @@ html {
 .section__reviews {
     background: url(../documentation/images/poledance-heroimage.jpg) no-repeat fixed center center;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
     background-size: cover;
 }
 
