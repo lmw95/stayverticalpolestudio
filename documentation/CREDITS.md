@@ -7,7 +7,7 @@ Image name | Source & credits
 ------------ | -------------
 SV-favicon.png | [Favicon.io](https://favicon.io/)
 favicon-32x32.png | [Favicon.io](https://favicon.io/)
-poledance-heroimage [Brigitte on Pixabay](https://pixabay.com/illustrations/pylon-flight-girl-model-dance-3828143/)
+poledance-heroimage | [Brigitte on Pixabay](https://pixabay.com/illustrations/pylon-flight-girl-model-dance-3828143/)
 pole-instructor.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
 pole-instructor3.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
 pole-instructor4.jpg | [Harpenden Photography](https://harpendenstudios.com/fitography/pole-dance-photography)
